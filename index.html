@@ -479,6 +479,110 @@ body:after{display:none!important}.orb,.italia-word{display:none!important}
   .idea b{font-size:13px!important}
 }
 
+
+
+/* === v49: Cinema Notte · dark premium film theme + fixed passport stamps === */
+:root{
+  --cinema-bg:#08090d;
+  --cinema-bg2:#11131c;
+  --cinema-card:rgba(18,20,30,.62);
+  --cinema-card2:rgba(31,27,25,.42);
+  --cinema-line:rgba(255,231,184,.18);
+  --cinema-gold:#f1c978;
+  --cinema-gold2:#9d7540;
+  --cinema-red:#d65f4f;
+  --cinema-green:#4e9a70;
+  --cinema-ink:#f8efe0;
+  --cinema-muted:rgba(248,239,224,.62);
+  --cinema-shadow:0 32px 110px rgba(0,0,0,.52), inset 0 1px 0 rgba(255,255,255,.08);
+  --cinema-font:"SF Pro Display","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+}
+html,body{background:#08090d!important;color:var(--cinema-ink)!important;font-family:var(--cinema-font)!important;}
+body{
+  background:
+    radial-gradient(circle at 50% -10%,rgba(241,201,120,.25),transparent 30%),
+    radial-gradient(circle at 14% 20%,rgba(78,154,112,.20),transparent 32%),
+    radial-gradient(circle at 92% 18%,rgba(214,95,79,.18),transparent 30%),
+    radial-gradient(circle at 78% 88%,rgba(76,65,143,.22),transparent 36%),
+    linear-gradient(135deg,#06070a 0%,#10121b 42%,#1a1412 100%)!important;
+}
+body:before{
+  opacity:.78!important;mix-blend-mode:screen!important;
+  background:
+    repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 1px,transparent 1px 56px),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 56px),
+    radial-gradient(rgba(255,255,255,.08) .7px,transparent 1.1px)!important;
+  background-size:56px 56px,56px 56px,7px 7px!important;
+}
+body:after{
+  content:""!important;display:block!important;position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.42),transparent 16%,transparent 84%,rgba(0,0,0,.46)),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 2px,transparent 2px 8px,rgba(0,0,0,.10) 8px 14px,transparent 14px 42px),
+    radial-gradient(circle at 50% 34%,rgba(255,255,255,.10),transparent 28%);
+  opacity:.40!important;mix-blend-mode:overlay!important;filter:none!important;
+}
+.app{padding-top:18px!important;position:relative;z-index:1;}
+.topbar,.glass,.panel,.soft-card,.modal-card,.idea,.clip-item,.asset-item,.today-card,.stat-glass,.checkin-hero{
+  background:linear-gradient(135deg,rgba(22,24,35,.72),rgba(18,18,24,.38) 55%,rgba(65,45,28,.16))!important;
+  border:1px solid var(--cinema-line)!important;
+  box-shadow:var(--cinema-shadow)!important;
+  backdrop-filter:blur(26px) saturate(1.22)!important;
+  -webkit-backdrop-filter:blur(26px) saturate(1.22)!important;
+  color:var(--cinema-ink)!important;
+}
+.topbar{border-radius:26px!important;background:linear-gradient(135deg,rgba(10,12,18,.82),rgba(23,22,28,.50))!important;}
+.glass:after,.topbar:after,.panel:after,.soft-card:after,.modal-card:after{
+  background:linear-gradient(130deg,rgba(255,236,194,.13),transparent 25%,rgba(255,255,255,.04) 58%,transparent 78%)!important;opacity:.9!important;
+}
+.logo{background:linear-gradient(135deg,#11151f,#34291d 46%,#f1c978)!important;color:#fff6df!important;border:1px solid rgba(241,201,120,.32)!important;box-shadow:0 18px 44px rgba(0,0,0,.36),0 0 44px rgba(241,201,120,.10)!important;}
+.brand b{color:#fff4d8!important;letter-spacing:.14em!important}.brand span,#saveState{color:var(--cinema-muted)!important;}
+.nav{background:rgba(255,255,255,.035)!important;border-color:rgba(241,201,120,.12)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)!important;}
+.nav button{color:rgba(248,239,224,.68)!important;}
+.nav button.active{background:linear-gradient(135deg,#f1c978,#9d7540 52%,#d65f4f)!important;color:#140e0b!important;box-shadow:0 14px 40px rgba(241,201,120,.20), inset 0 1px 0 rgba(255,255,255,.40)!important;}
+.lang-current,.pill,.task-chip,.auth-choices,.auth-mini,.register-btn,.login-btn{background:rgba(255,255,255,.07)!important;border:1px solid rgba(241,201,120,.18)!important;color:var(--cinema-ink)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)!important;}
+.login-btn,.register-btn{background:linear-gradient(135deg,rgba(241,201,120,.24),rgba(214,95,79,.20))!important;}
+.lang-menu{background:rgba(12,13,19,.92)!important;border-color:rgba(241,201,120,.20)!important;}.lang-menu button{color:var(--cinema-ink)!important}.lang-menu button.active,.lang-menu button:hover{background:rgba(241,201,120,.16)!important;}
+.page-head h1{font-family:Georgia,"Times New Roman",serif!important;font-style:italic!important;font-weight:900!important;color:#fff3d2!important;text-shadow:0 0 28px rgba(241,201,120,.18)!important;letter-spacing:-.04em!important;}
+.page-head h1:before{content:"◖ ";font-size:.72em;color:var(--cinema-gold);}.page-head h1:after{content:" ◗";font-size:.72em;color:var(--cinema-red);}
+.idea{background:linear-gradient(135deg,rgba(255,255,255,.06),rgba(241,201,120,.07))!important;min-height:68px!important;}
+.idea b,.panel-head b,.atlas-book-head b{color:#fff4d8!important}.idea i{filter:drop-shadow(0 0 16px rgba(241,201,120,.20));}
+.stage-card.glass{padding:8px!important;border-radius:30px!important;background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(241,201,120,.07))!important;}
+.screen-wrap{border-radius:24px 24px 0 0!important;background:#030305!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06),0 0 70px rgba(241,201,120,.06)!important;}
+.screen-wrap:before{height:4px!important;left:24px!important;top:18px!important;background:linear-gradient(90deg,var(--cinema-green),var(--cinema-gold),var(--cinema-red))!important;opacity:.72!important;}
+.video-box{background:#030305!important;min-height:min(56vh,610px)!important;}
+.drop-zone{background:radial-gradient(circle at 50% 42%,rgba(241,201,120,.16),transparent 34%),linear-gradient(135deg,#030305,#14151f 54%,#211410)!important;}
+.drop-zone h2{font-family:Georgia,"Times New Roman",serif!important;color:#fff3d2!important;text-shadow:0 0 32px rgba(241,201,120,.22)!important;}
+.file-label,.soft-btn,.mini,.daily-stamp-btn,.share-btn,.share-mini{background:linear-gradient(135deg,#f1c978,#a77b3e 56%,#d65f4f)!important;color:#15100c!important;border:1px solid rgba(255,238,198,.38)!important;box-shadow:0 15px 36px rgba(0,0,0,.26),0 0 30px rgba(241,201,120,.12)!important;}
+.soft-btn.light,.clip-play{background:rgba(255,255,255,.075)!important;color:#fff0d4!important;border:1px solid rgba(241,201,120,.17)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)!important;}
+.controls{background:linear-gradient(180deg,rgba(13,14,20,.98),rgba(4,5,8,.99))!important;border-top:1px solid rgba(241,201,120,.14)!important;}
+.btn,.select,.clip-input,.count-input,.round{background:rgba(255,255,255,.065)!important;border:1px solid rgba(241,201,120,.14)!important;color:#fff1d8!important;}
+.btn.active,#loopBtn.active{background:linear-gradient(135deg,#f1c978,#8f6b3f)!important;color:#16100c!important;}
+.timeline{background:rgba(255,255,255,.12)!important}.track-fill{background:linear-gradient(90deg,#f1c978,#d65f4f)!important}.playhead{background:#fff4d8!important;}
+.clip-index{background:linear-gradient(135deg,#1a1e2a,#f1c978 70%,#d65f4f)!important;color:#130e0c!important}.clip-delete{background:rgba(214,95,79,.12)!important;color:#ffb7ad!important;border-color:rgba(214,95,79,.25)!important}.clip-delete:hover{background:#d65f4f!important;color:#120d0b!important;}
+.empty,.tab-note,.field::placeholder,.session-sub,.stat-glass em,.atlas-book-head p,.atlas-postcard p,.log-row span,.clip-text span{color:var(--cinema-muted)!important;}
+.field,.textarea{background:rgba(255,255,255,.055)!important;border:1px solid rgba(241,201,120,.16)!important;color:#fff4dc!important;}
+.session-time,.checkin-big,.stat-glass b{color:#fff0d4!important;background:none!important;-webkit-text-fill-color:initial!important;text-shadow:0 0 30px rgba(241,201,120,.12)!important;font-family:var(--cinema-font)!important;}
+.progress-mini{background:rgba(255,255,255,.10)!important}.progress-mini span{background:linear-gradient(90deg,#4e9a70,#f1c978,#d65f4f)!important;}
+.ring{background:conic-gradient(#f1c978 var(--p),rgba(255,255,255,.13) 0),linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.04))!important}.ring:before{background:rgba(10,11,16,.80)!important;border-color:rgba(241,201,120,.15)!important}.ring span,.ring-wrap b{color:#fff1d8!important;}
+.calendar-cell{background:rgba(255,255,255,.055)!important;border-color:rgba(241,201,120,.13)!important;color:#fff2d9!important;}.calendar-cell.done{background:linear-gradient(135deg,rgba(78,154,112,.22),rgba(241,201,120,.12))!important}.calendar-cell.today{outline-color:rgba(241,201,120,.75)!important}.calendar-cell.calendar-stamped{background:linear-gradient(135deg,rgba(241,201,120,.22),rgba(214,95,79,.18))!important;}
+/* passport / stamps */
+.stamp-book{min-height:580px!important;background:linear-gradient(135deg,rgba(18,20,30,.74),rgba(47,35,25,.30))!important;position:relative!important;overflow:hidden!important;}
+.stamp-book:before{content:"CINEMA PASSAPORTO"!important;right:26px!important;top:34px!important;font-size:54px!important;color:rgba(241,201,120,.08)!important;letter-spacing:.04em!important;}
+.stamp-book p{color:var(--cinema-muted)!important;}
+.stamp-trail{height:410px!important;margin-top:22px!important;border:1px dashed rgba(241,201,120,.25)!important;background:linear-gradient(135deg,rgba(0,0,0,.16),rgba(255,255,255,.035))!important;border-radius:28px!important;position:relative!important;overflow:hidden!important;}
+.stamp-trail:before{content:"";position:absolute;inset:16px;border-radius:22px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.025) 0 18px,transparent 18px 44px);opacity:.85;pointer-events:none;}
+.stamp-slot{width:88px!important;height:88px!important;border-radius:50%!important;background:rgba(255,255,255,.045)!important;border:1px dashed rgba(241,201,120,.18)!important;color:rgba(255,240,210,.26)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)!important;}
+.stamp-slot .stamp-num{font-weight:900;font-size:12px;letter-spacing:.08em;color:inherit;z-index:2}.stamp-slot .stamp-date{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:10px;color:rgba(255,240,210,.48);font-weight:800;}
+.stamp-slot.filled{background:radial-gradient(circle at 50% 45%,rgba(241,201,120,.18),rgba(214,95,79,.08) 54%,rgba(0,0,0,.18))!important;color:#f1c978!important;border:2px solid rgba(241,201,120,.56)!important;box-shadow:0 18px 50px rgba(0,0,0,.32),0 0 36px rgba(241,201,120,.12),inset 0 0 0 7px rgba(241,201,120,.06)!important;}
+.stamp-slot.filled:before{border-color:currentColor!important;opacity:.72!important}.stamp-slot.filled:after{background:currentColor!important;filter:drop-shadow(0 0 10px rgba(241,201,120,.22));}
+.stamp-status{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;color:var(--cinema-muted);font-weight:850}.stamp-status span{border:1px solid rgba(241,201,120,.14);background:rgba(255,255,255,.05);border-radius:999px;padding:8px 12px;}
+.inspire{background:linear-gradient(135deg,rgba(241,201,120,.20),rgba(214,95,79,.20),rgba(9,10,14,.75))!important;border:1px solid rgba(241,201,120,.18)!important;color:#fff4dc!important;}.inspire b{color:#fff3d2!important;}
+.atlas-postcard,.atlas-big-card{background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(241,201,120,.13),rgba(214,95,79,.10))!important;border-color:rgba(241,201,120,.18)!important;color:#fff4dc!important;}
+.cat,.collection-pill{background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(241,201,120,.09))!important;border:1px solid rgba(241,201,120,.14)!important;color:#fff3d2!important;}.cat .cat-sub{color:var(--cinema-muted)!important;}
+.modal{background:rgba(0,0,0,.56)!important;}.toast{background:rgba(10,10,12,.94)!important;border:1px solid rgba(241,201,120,.22)!important;color:#fff2d8!important;}
+@media(max-width:720px){.stamp-trail{height:520px!important}.stamp-slot{width:78px!important;height:78px!important}.page-head h1:before,.page-head h1:after{display:none!important}}
+
 </style>
 </head>
 <body>
@@ -748,6 +852,85 @@ function renderCheckin(updateCalendar=true){
   setText('checkinMotivation',msg);
   renderStudyLog();if(updateCalendar)renderCalendar();
 }
+
+/* === v49 fix: working stamp book / claim button === */
+function getStampHistory(){
+  let arr=[];
+  try{arr=JSON.parse(localStorage.getItem('ls100_stamp_history')||'[]')||[]}catch(e){arr=[]}
+  if(!Array.isArray(arr))arr=[];
+  const available=Number(localStorage.getItem('ls100_stamps')||stamps||0);
+  if(arr.length===0 && available>0){
+    arr=Array.from({length:available},(_,i)=>({time:Date.now()-((available-i)*60000),source:'migrated'}));
+    localStorage.setItem('ls100_stamp_history',JSON.stringify(arr));
+  }
+  return arr;
+}
+function saveStampHistory(arr){localStorage.setItem('ls100_stamp_history',JSON.stringify(arr||[]));}
+function claimStamp(){
+  const can=Math.floor((Number(sessionSeconds)||0)/600);
+  if(can<1){
+    const left=Math.max(0,600-(Number(sessionSeconds)||0));
+    toast('还差 '+format(left)+' 可以盖 1 枚章');
+    renderStamps();updateTimeUI();renderCheckin(false);
+    return;
+  }
+  const count=can;
+  stamps=Number(stamps||0)+count;
+  sessionSeconds=Number(sessionSeconds||0)-count*600;
+  localStorage.setItem('ls100_stamps',String(stamps));
+  localStorage.setItem('ls100_session_seconds',String(sessionSeconds));
+  const hist=getStampHistory();
+  for(let i=0;i<count;i++) hist.push({time:Date.now()+i,source:'study'});
+  saveStampHistory(hist);
+  const pop=$('stampPop');
+  if(pop){pop.classList.remove('show');void pop.offsetWidth;pop.classList.add('show')}
+  toast(count>1?'已领取 '+count+' 枚印章':'盖章成功 ✨');
+  renderStamps();updateTimeUI();renderCheckin();renderCats();
+  if(typeof saveCloudStatsNow==='function') saveCloudStatsNow();
+}
+function renderStamps(){
+  const trail=$('stampTrail'); if(!trail)return;
+  const hist=getStampHistory();
+  const totalClaimed=hist.length;
+  const visible=Math.max(18,Math.min(36,Math.ceil((totalClaimed+6)/6)*6));
+  const cols=6;
+  const rows=Math.ceil(visible/cols);
+  const topPad=38, leftPad=42;
+  const gapX=15, gapY=34;
+  trail.innerHTML='';
+  for(let i=0;i<visible;i++){
+    const row=Math.floor(i/cols), col=i%cols;
+    const filled=i<totalClaimed;
+    const item=hist[i]||{};
+    const slot=document.createElement('div');
+    slot.className='stamp-slot'+(filled?' filled':'');
+    const x=leftPad+col*(88+gapX)+(row%2?20:0);
+    const y=topPad+row*(88+gapY)+(col%2?8:0);
+    const r=[-12,8,-5,14,-9,6][i%6];
+    slot.style.left=x+'px';
+    slot.style.top=y+'px';
+    slot.style.setProperty('--r',r+'deg');
+    if(filled){
+      const date=new Date(item.time||Date.now());
+      slot.innerHTML='<span class="stamp-num">#'+String(i+1).padStart(2,'0')+'</span><span class="stamp-date">'+(date.getMonth()+1)+'/'+date.getDate()+'</span>';
+      slot.title='第 '+(i+1)+' 枚章 · '+date.toLocaleString();
+    }else{
+      slot.innerHTML='<span class="stamp-num">◎</span>';
+    }
+    trail.appendChild(slot);
+  }
+  const book=$('stampTrail')?.parentElement;
+  let status=$('stampBookStatus');
+  if(book&&!status){
+    status=document.createElement('div');status.id='stampBookStatus';status.className='stamp-status';book.appendChild(status);
+  }
+  if(status){
+    status.innerHTML='<span>已盖 '+totalClaimed+' 枚</span><span>可用 '+Number(stamps||0)+' 枚</span><span>下一枚 '+format(stampProgress())+' / 10:00</span>';
+  }
+  const claim=$('claimStamp'); if(claim){claim.disabled=Number(sessionSeconds||0)<600; claim.textContent=Number(sessionSeconds||0)>=600?'领取印章':'还差 '+format(Math.max(0,600-Number(sessionSeconds||0)));}
+  const claim2=$('claimStamp2'); if(claim2){claim2.disabled=Number(sessionSeconds||0)<600; claim2.textContent=Number(sessionSeconds||0)>=600?'领取印章':'还差 '+format(Math.max(0,600-Number(sessionSeconds||0)));}
+}
+
 window.addEventListener('beforeunload',endStudy);$('claimStamp').onclick=claimStamp;$('claimStamp2').onclick=claimStamp;if($('goStampBook'))$('goStampBook').onclick=()=>showView('stamps');
 $('audioInput').onchange=e=>{if(e.target.files[0])loadFile(e.target.files[0],'audio')};function setAudioClip(){const r=parseRange($('audioRange').value);if(!r){toast('时间格式：00:00-00:06');return}audioClip=r;audioClipActive=true;if(audio.src){audio.currentTime=audioClip.start;audio.play().catch(()=>{});beginStudy('audio')}}$('audioSet').onclick=setAudioClip;$('audioLoop').onclick=()=>{audioClipActive=!audioClipActive;$('audioLoop').textContent=audioClipActive?I18N[lang].loopInf:'循环关闭'};$('audioSpeed').onchange=e=>audio.playbackRate=Number(e.target.value);audio.addEventListener('play',()=>beginStudy('audio'));audio.addEventListener('pause',endStudy);audio.addEventListener('ended',endStudy);audio.addEventListener('timeupdate',()=>{if(audioClipActive&&audioClip.end&&audio.currentTime>=audioClip.end-.05){audio.currentTime=audioClip.start;audio.play().catch(()=>{})}});
 let db=null;function openDB(){return new Promise((res,rej)=>{if(db)return res(db);const req=indexedDB.open('ls100_assets_v40',1);req.onupgradeneeded=()=>req.result.createObjectStore('assets',{keyPath:'id'});req.onsuccess=()=>{db=req.result;res(db)};req.onerror=()=>rej(req.error)})}async function putAsset(file,kind,name){const d=await openDB();return new Promise((res,rej)=>{const tx=d.transaction('assets','readwrite');tx.objectStore('assets').put({id:Date.now()+'_'+Math.random().toString(16).slice(2),name,originalName:file.name,type:file.type,kind,created:Date.now(),blob:file});tx.oncomplete=res;tx.onerror=()=>rej(tx.error)})}async function getAssets(){const d=await openDB();return new Promise((res,rej)=>{const tx=d.transaction('assets','readonly');const req=tx.objectStore('assets').getAll();req.onsuccess=()=>res(req.result||[]);req.onerror=()=>rej(req.error)})}async function getAsset(id){const d=await openDB();return new Promise((res,rej)=>{const tx=d.transaction('assets','readonly');const req=tx.objectStore('assets').get(id);req.onsuccess=()=>res(req.result);req.onerror=()=>rej(req.error)})}function askSave(file,kind){if(!file){toast('先导入素材');return}currentSaveFile=file;currentSaveKind=kind;$('assetNameInput').value=file.name.replace(/\.[^.]+$/,'');$('saveAssetModal').classList.add('show')}$('saveAssetBtn').onclick=()=>askSave(currentAsset,'video');$('saveAudioBtn').onclick=()=>askSave(audioFile,'audio');$('cancelAssetSave').onclick=()=>$('saveAssetModal').classList.remove('show');$('confirmAssetSave').onclick=async()=>{if(!currentSaveFile)return;await putAsset(currentSaveFile,currentSaveKind,$('assetNameInput').value||currentSaveFile.name);$('saveAssetModal').classList.remove('show');renderAssets();toast('素材已保存到本地库')};$('refreshAssets').onclick=renderAssets;async function renderAssets(){const list=$('assetList');if(!list)return;list.innerHTML='<div class="empty">Loading...</div>';try{const assets=await getAssets();if(!assets.length){list.innerHTML='<div class="empty">素材库还是空的，保存一次视频或音频后会出现在这里。</div>';return}list.innerHTML='';assets.slice().reverse().forEach(a=>{const el=document.createElement('div');el.className='asset-item';el.innerHTML=`<div><b>${a.name}</b><span>${a.kind==='video'?'视频':'音频'} · ${new Date(a.created).toLocaleString()}</span></div><button class="soft-btn light">打开</button>`;el.querySelector('button').onclick=async()=>{const item=await getAsset(a.id);const file=new File([item.blob],item.originalName||item.name,{type:item.type});loadFile(file,item.kind)};list.appendChild(el)})}catch(e){list.innerHTML='<div class="empty">IndexedDB 不可用。</div>'}}
