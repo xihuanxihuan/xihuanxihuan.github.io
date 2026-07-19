@@ -1,0 +1,1400 @@
+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',pos:'center',accent:'#c99d68',accent2:'#776f63'}
+    ];
+    let timeBasis = localStorage.getItem('gelato-time-basis-v7') || 'Europe/Rome';
+    let selectedClockBasis = localStorage.getItem('gelato-clock-basis-v8') || (timeBasis === 'manual' ? 'Europe/Rome' : timeBasis);
+    let pendingTimeBasis = null;
+    let sceneIndex = Number(localStorage.getItem('gelato-scene-v7'));
+    let sceneQuality = localStorage.getItem('gelato-scene-quality-v9') || 'crisp';
+    let sceneBlur = Math.max(0,Math.min(18,Number(localStorage.getItem('gelato-scene-blur-v9') || 4)));
+    let customSceneImage = localStorage.getItem('gelato-custom-wallpaper-v9') || '';
+    if (!Number.isInteger(sceneIndex) || sceneIndex < 0 || sceneIndex >= scenes.length) sceneIndex = scenes.findIndex(scene => {
+      const hour = new Date().getHours();
+      return hour >= scene.hours[0] && hour <= scene.hours[1];
+    });
+    if (sceneIndex < 0) sceneIndex = 0;
+
+    function zonedParts(timeZone,date) {
+      const parts = new Intl.DateTimeFormat('en-GB',{timeZone:timeZone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(date || new Date());
+      return {hour:Number(parts.find(part => part.type === 'hour').value),minute:Number(parts.find(part => part.type === 'minute').value)};
+    }
+    function partsForBasis(basis) {
+      if (basis === 'custom') {
+        const value = ($('#customSceneTime') && $('#customSceneTime').value) || '18:30';
+        const bits = value.split(':').map(Number);
+        return {hour:bits[0] || 0,minute:bits[1] || 0};
+      }
+      try { return zonedParts(basis); } catch (error) { return zonedParts('Europe/Rome'); }
+    }
+    function basisParts() {
+      return partsForBasis(timeBasis === 'manual' ? selectedClockBasis : timeBasis);
+    }
+    function sceneForHour(hour) {
+      const found = scenes.findIndex(scene => hour >= scene.hours[0] && hour <= scene.hours[1]);
+      return found < 0 ? 0 : found;
+    }
+    function applySceneTheme() {
+      const scene = scenes[sceneIndex];
+      const image = customSceneImage || scene.img;
+      document.documentElement.style.setProperty('--scene-accent',scene.accent);
+      document.documentElement.style.setProperty('--scene-accent-2',scene.accent2);
+      document.documentElement.style.setProperty('--scene-line','color-mix(in srgb,' + scene.accent + ' 38%,rgba(255,255,255,.16))');
+      document.documentElement.style.setProperty('--scene-image','url("' + image + '")');
+      document.documentElement.style.setProperty('--wall-blur',(sceneQuality === 'soft' ? Math.max(8,sceneBlur) : sceneBlur) + 'px');
+      document.documentElement.style.setProperty('--wall-clarity',sceneQuality === 'soft' ? '.78' : '.94');
+      setBackdrop(image,customSceneImage ? 'center' : scene.pos);
+      if ($('#scenePreviewDot')) $('#scenePreviewDot').style.backgroundImage = 'url("' + image + '")';
+      if ($('#sceneBlur')) $('#sceneBlur').value = String(sceneBlur);
+      $$('.scene-quality button').forEach(button => button.classList.toggle('on',button.dataset.sceneQuality === sceneQuality));
+      localized($('#homeSceneName'),scene.city + ' · ' + scene.it,scene.city + ' · ' + scene.en);
+    }
+    function storeCustomWallpaper(file) {
+      if (!file || !file.type.startsWith('image/')) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        const source = new Image();
+        source.onload = () => {
+          const scale = Math.min(1,1600/source.width,1100/source.height);
+          const canvas = document.createElement('canvas');
+          canvas.width = Math.max(1,Math.round(source.width*scale));
+          canvas.height = Math.max(1,Math.round(source.height*scale));
+          canvas.getContext('2d').drawImage(source,0,0,canvas.width,canvas.height);
+          customSceneImage = canvas.toDataURL('image/jpeg',.78);
+          try { localStorage.setItem('gelato-custom-wallpaper-v9',customSceneImage); } catch (error) { showToast(textFor('L’immagine è troppo grande per essere ricordata.','The image is too large to remember.')); }
+          applySceneTheme();
+        };
+        source.src = String(reader.result);
+      };
+      reader.readAsDataURL(file);
+    }
+
+    let media = null;
+    let current = null;
+    let objectUrl = '';
+    let pendingFile = null;
+    let renameTarget = null;
+    let duration = 0;
+    let clipA = 0;
+    let clipB = 0;
+    let loops = 5;
+    let loopIndex = 0;
+    let repetitions = 0;
+    let learningStep = 0;
+    let learningModeActive = false;
+    let focusRequired = false;
+    let timer = null;
+    let sessionSeconds = 0;
+    let studySeconds = Number(localStorage.getItem('gelato-study') || 0);
+    const localDateKey = date => {
+      const value = date || new Date();
+      return value.getFullYear() + '-' + String(value.getMonth()+1).padStart(2,'0') + '-' + String(value.getDate()).padStart(2,'0');
+    };
+    const todayKey = localDateKey(new Date());
+    let dayRecord;
+    try { dayRecord = JSON.parse(localStorage.getItem('gelato-study-day') || 'null'); } catch (error) { dayRecord = null; }
+    let todaySeconds = dayRecord && dayRecord.date === todayKey ? Number(dayRecord.seconds || 0) : (dayRecord ? 0 : studySeconds);
+    let studyLog = [];
+    try { studyLog = JSON.parse(localStorage.getItem('gelato-study-log-v7') || '[]'); } catch (error) { studyLog = []; }
+    let activeLogRow = null;
+    let recordMediaFilter = 'all';
+    let recordRange = 'week';
+
+    const learningSteps = [
+      {it:'Ascolta il contesto',en:'Listen to the context',stageIt:'ASCOLTA',stageEn:'LISTEN'},
+      {it:'Ascolta soltanto',en:'Listen only',stageIt:'ASCOLTA',stageEn:'LISTEN'},
+      {it:'Comprendi la frase',en:'Understand the phrase',stageIt:'COMPRENDI',stageEn:'UNDERSTAND'},
+      {it:'Ripeti ad alta voce',en:'Repeat aloud',stageIt:'RIPETI',stageEn:'REPEAT'},
+      {it:'Ricorda senza audio',en:'Remember without audio',stageIt:'RICORDA',stageEn:'REMEMBER'},
+      {it:'Controllo naturale',en:'Natural check',stageIt:'STABILE',stageEn:'STABLE'}
+    ];
+    const curveMilestones = [
+      {step:0,x:'7%',y:'78%',ly:'84%',it:'Ascolta',en:'Listen'},
+      {step:1,x:'31%',y:'66%',ly:'72%',it:'Riascolta',en:'Replay'},
+      {step:3,x:'55%',y:'49%',ly:'55%',it:'Ripeti',en:'Repeat'},
+      {step:4,x:'80%',y:'27%',ly:'33%',it:'Ricorda',en:'Remember'},
+      {step:5,x:'95%',y:'10%',ly:'16%',it:'Stabile',en:'Stable'}
+    ];
+
+    function formatTime(value, decimal) {
+      value = Number.isFinite(value) ? Math.max(0,value) : 0;
+      const minutes = Math.floor(value/60);
+      const seconds = value%60;
+      const tail = decimal ? seconds.toFixed(1).padStart(4,'0') : String(Math.floor(seconds)).padStart(2,'0');
+      return String(minutes).padStart(2,'0') + ':' + tail;
+    }
+    function formatLong(value) {
+      value = Math.max(0,Math.floor(value));
+      const hours = Math.floor(value/3600);
+      const minutes = Math.ceil((value%3600)/60);
+      return hours ? hours + 'h ' + minutes + 'm' : minutes + ' min';
+    }
+    function parseTimeInput(value) {
+      const text = String(value || '').trim().replace(',', '.');
+      if (!text) return NaN;
+      const parts = text.split(':').map(Number);
+      if (parts.some(part => !Number.isFinite(part))) return NaN;
+      if (parts.length === 1) return parts[0];
+      if (parts.length === 2) return parts[0]*60+parts[1];
+      return parts[0]*3600+parts[1]*60+parts[2];
+    }
+    function showToast(message) {
+      const el = $('#toast');
+      el.textContent = message;
+      el.style.display = 'block';
+      clearTimeout(el._hide);
+      el._hide = setTimeout(() => { el.style.display = 'none'; },2600);
+    }
+    function switchView(view, silent) {
+      if (view === 'player' && !current) {
+        if (!silent) showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+        view = 'home';
+      }
+      currentView = view;
+      document.body.dataset.view = view;
+      if (view !== 'scenes') $('#sceneVisualPanel').classList.remove('open');
+      $$('.view').forEach(el => el.classList.toggle('open',el.id === view + 'View'));
+      $$('.nav-button').forEach(el => el.classList.toggle('on',el.dataset.view === view));
+      applySceneTheme();
+      if (view === 'progress') renderProgress();
+      if (view === 'time') renderTime();
+      if (view === 'scenes') renderScenes();
+      if (view === 'album') renderAlbum(true);
+      if (view === 'journey') renderJourney();
+      if (view === 'culture') renderCulture();
+      // The album is intentionally a long, scrollable archive. Always return to
+      // the beginning when changing rooms so the next page never appears empty.
+      window.scrollTo({top:0,left:0,behavior:'auto'});
+    }
+
+    function openDb() {
+      return new Promise((resolve,reject) => {
+        const request = indexedDB.open('gelato-player-v2',1);
+        request.onupgradeneeded = () => {
+          if (!request.result.objectStoreNames.contains('media')) request.result.createObjectStore('media',{keyPath:'id'});
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function saveMedia(row) {
+      const db = await openDb();
+      return new Promise((resolve,reject) => {
+        const request = db.transaction('media','readwrite').objectStore('media').put(row);
+        request.onsuccess = resolve;
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function getAllMedia() {
+      const db = await openDb();
+      return new Promise((resolve,reject) => {
+        const request = db.transaction('media').objectStore('media').getAll();
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function removeMedia(id) {
+      const db = await openDb();
+      await new Promise((resolve,reject) => {
+        const request = db.transaction('media','readwrite').objectStore('media').delete(id);
+        request.onsuccess = resolve;
+        request.onerror = () => reject(request.error);
+      });
+      if (current && current.id === id) {
+        current = null;
+        if (media) { media.pause(); media.remove(); }
+        media = null;
+        switchView('home',true);
+      }
+      renderLibrary();
+    }
+    function cleanFileName(name) {
+      return name.replace(/\.[^.]+$/,'').replace(/[._]+/g,' ').replace(/\s+/g,' ').trim().slice(0,80);
+    }
+    function mediaSupported(file) {
+      return file.type.startsWith('audio/') || file.type.startsWith('video/') || /\.(mp3|m4a|wav|aac|ogg|flac|mp4|m4v|mov|webm)$/i.test(file.name);
+    }
+    function openRenameForFile(file) {
+      pendingFile = file;
+      renameTarget = null;
+      $('#originalFileName').textContent = file.name;
+      $('#renameInput').value = cleanFileName(file.name) || textFor('Senza titolo','Untitled');
+      $('#renameModal').classList.add('open');
+      setTimeout(() => { $('#renameInput').focus(); $('#renameInput').select(); },250);
+    }
+    function openRenameForRow(row) {
+      pendingFile = null;
+      renameTarget = row;
+      $('#originalFileName').textContent = row.originalName || row.name;
+      $('#renameInput').value = cleanFileName(row.name);
+      $('#renameModal').classList.add('open');
+      setTimeout(() => { $('#renameInput').focus(); $('#renameInput').select(); },250);
+    }
+    function closeRename(reset) {
+      $('#renameModal').classList.remove('open');
+      if (reset !== false) {
+        pendingFile = null;
+        renameTarget = null;
+        $('#fileInput').value = '';
+      }
+    }
+    async function confirmRename() {
+      const name = $('#renameInput').value.trim().replace(/\s+/g,' ').slice(0,80);
+      if (!name) return showToast(textFor(I18N.it.nameRequired,I18N.en.nameRequired));
+      if (pendingFile) {
+        const file = pendingFile;
+        const row = {
+          id:crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + '-' + String(Math.random()),
+          name:name,
+          originalName:file.name,
+          type:file.type || (/video/i.test(file.name) ? 'video/*' : 'audio/*'),
+          blob:file,
+          savedAt:Date.now()
+        };
+        try {
+          await saveMedia(row);
+          showToast(textFor(I18N.it.savedLocal,I18N.en.savedLocal));
+        } catch (error) {
+          showToast(textFor(I18N.it.storageError,I18N.en.storageError));
+        }
+        closeRename();
+        openMedia(row,true);
+      } else if (renameTarget) {
+        renameTarget.name = name;
+        try { await saveMedia(renameTarget); } catch (error) {}
+        if (current && current.id === renameTarget.id) {
+          current.name = name;
+          $('#mediaTitle').textContent = name;
+        }
+        closeRename();
+        renderLibrary();
+      }
+    }
+    async function renderLibrary() {
+      let rows = [];
+      try { rows = await getAllMedia(); } catch (error) {}
+      const wrap = $('#libraryItems');
+      wrap.replaceChildren();
+      if (!rows.length) {
+        const empty = document.createElement('p');
+        empty.className = 'empty-library';
+        localizedKey(empty,'noMedia');
+        wrap.append(empty);
+        return;
+      }
+      rows.sort((a,b) => b.savedAt-a.savedAt).forEach(row => {
+        const item = document.createElement('div');
+        item.className = 'library-item';
+        const isVideo = (row.type && row.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(row.originalName || '');
+        const listening = studyLog.filter(entry => entry.mediaId === row.id).reduce((total,entry) => total + Number(entry.seconds || 0),0);
+        const latest = studyLog.filter(entry => entry.mediaId === row.id).sort((a,b) => Number(b.startedAt || 0)-Number(a.startedAt || 0))[0];
+        const date = new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT',{day:'2-digit',month:'short',year:'numeric'}).format(new Date((latest && latest.startedAt) || row.savedAt || Date.now()));
+        const kind = document.createElement('span');
+        kind.className = 'library-kind';
+        kind.textContent = isVideo ? '▷' : '♪';
+        const open = document.createElement('button');
+        open.className = 'library-open';
+        const title = document.createElement('strong');
+        title.textContent = cleanFileName(row.name);
+        const meta = document.createElement('small');
+        const typeLabel = document.createElement('span');
+        localized(typeLabel,isVideo ? 'VIDEO' : 'AUDIO',isVideo ? 'VIDEO' : 'AUDIO');
+        const dot = document.createElement('i');
+        const dateLabel = document.createElement('span');
+        dateLabel.textContent = date;
+        const listenLabel = document.createElement('span');
+        localized(listenLabel,listening ? formatLong(listening) + ' ascoltati' : 'non ancora ascoltato',listening ? formatLong(listening) + ' listened' : 'not listened yet');
+        meta.append(typeLabel,dot,dateLabel,listenLabel);
+        const line = document.createElement('span');
+        line.className = 'library-listen-line';
+        line.style.setProperty('--listened',Math.min(100,listening/1800*100) + '%');
+        line.innerHTML = '<b></b>';
+        open.append(title,meta,line);
+        open.onclick = () => { openMedia(row); closeDrawer(); };
+        const edit = document.createElement('button');
+        edit.className = 'library-edit';
+        edit.textContent = '✎';
+        edit.title = tr('edit');
+        edit.onclick = () => openRenameForRow(row);
+        const remove = document.createElement('button');
+        remove.className = 'library-remove';
+        remove.textContent = '×';
+        remove.title = tr('remove');
+        remove.onclick = () => removeMedia(row.id);
+        const resume = document.createElement('button');
+        resume.className = 'library-resume';
+        resume.textContent = '↗';
+        resume.setAttribute('aria-label',textFor('Apri il file','Open file'));
+        resume.onclick = () => { openMedia(row); closeDrawer(); };
+        const actions = document.createElement('div');
+        actions.className = 'library-actions';
+        actions.append(resume,edit,remove);
+        item.append(kind,open,actions);
+        wrap.append(item);
+      });
+    }
+    function openDrawer() {
+      $('#drawer').classList.add('open');
+      $('#scrim').classList.add('open');
+      renderLibrary();
+    }
+    function closeDrawer() {
+      $('#drawer').classList.remove('open');
+      $('#scrim').classList.remove('open');
+    }
+
+    function openMedia(row,requireFocus) {
+      current = row;
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+      objectUrl = URL.createObjectURL(row.blob);
+      if (media) {
+        media.pause();
+        media.remove();
+      }
+      const isVideo = (row.type && row.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(row.originalName || '');
+      media = document.createElement(isVideo ? 'video' : 'audio');
+      media.src = objectUrl;
+      media.playsInline = true;
+      media.preload = 'metadata';
+      media.dataset.paused = 'true';
+      $('#stage').prepend(media);
+      $('#playerView').classList.toggle('audio-mode',!isVideo);
+      $('#playerView').classList.toggle('video-mode',isVideo);
+      $('#audioCover').hidden = isVideo;
+      $('#maskBtn').hidden = !isVideo;
+      $('#captionMask').classList.remove('on');
+      $('#maskPanel').classList.remove('open');
+      $('#mediaTitle').textContent = cleanFileName(row.name);
+      $('#audioNowTitle').textContent = cleanFileName(row.name);
+      $('#mindClearBtn').classList.add('ready');
+      focusRequired = Boolean(requireFocus);
+      $('#focusRitual').classList.toggle('required',focusRequired);
+      $('#sourceText').value = row.transcript || '';
+      $('#sourcePane').classList.add('concealed');
+      $('#dictationText').value = '';
+      $('#dictationResult').replaceChildren();
+      sessionSeconds = 0;
+      localized($('#mediaKind'),isVideo ? I18N.it.mediaVideo : I18N.it.mediaAudio,isVideo ? I18N.en.mediaVideo : I18N.en.mediaAudio);
+      media.addEventListener('loadedmetadata',() => {
+        duration = Number.isFinite(media.duration) ? media.duration : 0;
+        clipA = 0;
+        clipB = Math.min(8,duration);
+        ['#seek','#startRange','#endRange'].forEach(selector => { $(selector).max = duration || 1; });
+        $('#endRange').value = clipB;
+        updateTimeline();
+      });
+      media.addEventListener('timeupdate',handleTimeUpdate);
+      media.addEventListener('play',() => { delete media.dataset.paused; updatePlayIcons(); startStudyTimer(); });
+      media.addEventListener('pause',() => { media.dataset.paused = 'true'; updatePlayIcons(); stopStudyTimer(); });
+      media.addEventListener('error',() => showToast(textFor('Questo formato non può essere riprodotto dal browser.','This format cannot be played by the browser.')));
+      closeDrawer();
+      switchView('player',true);
+      if (focusRequired) setTimeout(openFocusRitual,360);
+    }
+    function updatePlayIcons() {
+      const playing = media && !media.paused;
+      $('#playBtn').textContent = playing ? 'Ⅱ' : '▶';
+      $('#centerBtn').textContent = playing ? 'Ⅱ' : '▶';
+    }
+    function togglePlay() {
+      if (!media) return showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+      if (focusRequired) return openFocusRitual();
+      if (media.paused) {
+        if (learningModeActive && (media.currentTime < clipA || media.currentTime >= clipB)) media.currentTime = clipA;
+        media.play().catch(() => {});
+      } else {
+        media.pause();
+      }
+    }
+    function seekTo(value) {
+      if (!media) return;
+      media.currentTime = Math.max(0,Math.min(duration,value));
+      $('#currentTime').textContent = formatTime(media.currentTime);
+    }
+    function updateTimeline() {
+      const gap = Math.min(.1,duration || .1);
+      clipA = Math.max(0,Math.min(clipA,Math.max(0,duration-gap)));
+      clipB = Math.max(clipA+gap,Math.min(clipB,duration || gap));
+      $('#aTime').textContent = formatTime(clipA,true);
+      $('#bTime').textContent = formatTime(clipB,true);
+      $('#clipAInput').value = formatTime(clipA,true);
+      $('#clipBInput').value = formatTime(clipB,true);
+      $('#segmentLength').textContent = Math.max(0,clipB-clipA).toFixed(1) + ' SEC';
+      $('#startRange').value = clipA;
+      $('#endRange').value = clipB;
+      $('#selection').style.left = (duration ? clipA/duration*100 : 0) + '%';
+      $('#selection').style.width = (duration ? (clipB-clipA)/duration*100 : 0) + '%';
+      $('#mediaDuration').textContent = formatTime(duration);
+      $('#totalTime').textContent = formatTime(duration);
+    }
+    function handleTimeUpdate() {
+      if (!media) return;
+      const time = media.currentTime;
+      $('#currentTime').textContent = formatTime(time);
+      $('#seek').value = time;
+      $('#gelatoCursor').style.left = (duration ? time/duration*100 : 0) + '%';
+      if (learningModeActive && clipB > clipA && time >= clipB) {
+        loopIndex++;
+        repetitions++;
+        $('#loopNow').textContent = loopIndex;
+        if (loops && loopIndex >= loops) {
+          media.pause();
+          media.currentTime = clipA;
+          loopIndex = 0;
+        } else {
+          media.currentTime = clipA;
+          media.play().catch(() => {});
+        }
+        renderProgress();
+      }
+    }
+    function nudge(code) {
+      if (code === 'a-') clipA -= .1;
+      if (code === 'a+') clipA += .1;
+      if (code === 'b-') clipB -= .1;
+      if (code === 'b+') clipB += .1;
+      updateTimeline();
+    }
+    function startStudyTimer() {
+      if (timer) return;
+      if (!activeLogRow) {
+        const isVideo = current && ((current.type && current.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(current.originalName || ''));
+        activeLogRow = {id:String(Date.now()) + '-' + String(Math.random()).slice(2,7),date:localDateKey(new Date()),startedAt:Date.now(),type:isVideo ? 'video' : 'audio',mediaId:current ? current.id : '',name:current ? current.name : '',seconds:0};
+        studyLog.push(activeLogRow);
+      }
+      timer = setInterval(() => {
+        studySeconds++;
+        todaySeconds++;
+        sessionSeconds++;
+        activeLogRow.seconds++;
+        localStorage.setItem('gelato-study',studySeconds);
+        localStorage.setItem('gelato-study-day',JSON.stringify({date:todayKey,seconds:todaySeconds}));
+        if (activeLogRow.seconds%5 === 0) localStorage.setItem('gelato-study-log-v7',JSON.stringify(studyLog.slice(-600)));
+        renderStudy();
+      },1000);
+    }
+    function stopStudyTimer() {
+      clearInterval(timer);
+      timer = null;
+      if (activeLogRow) localStorage.setItem('gelato-study-log-v7',JSON.stringify(studyLog.slice(-600)));
+      activeLogRow = null;
+    }
+    function renderStudy() {
+      renderTime();
+      renderAlbum(false);
+      if (currentView === 'journey') renderJourney();
+      if (currentView === 'culture') renderCulture();
+      if (currentView === 'progress') renderProgress();
+    }
+
+    function setClipFromInput(side,input) {
+      const value = parseTimeInput(input.value);
+      if (!Number.isFinite(value)) {
+        input.classList.add('invalid');
+        return updateTimeline();
+      }
+      input.classList.remove('invalid');
+      const previousLength = Math.max(.1,clipB-clipA);
+      if (side === 'a') {
+        clipA = Math.max(0,Math.min(value,Math.max(0,(duration || value+.1)-.1)));
+        if (clipA >= clipB) clipB = Math.min(duration || clipA+previousLength,clipA+previousLength);
+        if (clipB <= clipA) clipA = Math.max(0,clipB-.1);
+      } else {
+        clipB = Math.max(.1,Math.min(value,duration || value));
+        if (clipB <= clipA) clipA = Math.max(0,clipB-previousLength);
+        if (clipB <= clipA) clipB = Math.min(duration || clipA+.1,clipA+.1);
+      }
+      if (media) media.currentTime = side === 'a' ? clipA : Math.min(media.currentTime,clipB);
+      updateTimeline();
+    }
+    function tidyTranscript(value) {
+      return String(value || '')
+        .replace(/^WEBVTT[^\n]*\n/i,'')
+        .replace(/^\d+\s*$/gm,'')
+        .replace(/^\s*\d{1,2}:\d{2}(?::\d{2})?[,.]\d{3}\s*-->.*$/gm,'')
+        .replace(/<[^>]+>/g,'')
+        .replace(/\n{3,}/g,'\n\n')
+        .trim();
+    }
+    function normalizedWords(value) {
+      return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it')
+        .replace(/[^a-z0-9àèéìòù'’]+/gi,' ').trim().split(/\s+/).filter(Boolean);
+    }
+    function checkDictation() {
+      const source = normalizedWords($('#sourceText').value);
+      const answer = normalizedWords($('#dictationText').value);
+      const result = $('#dictationResult');
+      result.replaceChildren();
+      if (!source.length) {
+        localized(result,'Aggiungi prima il testo originale.','Add the source text first.');
+        return;
+      }
+      const width = Math.max(source.length,answer.length,1);
+      let same = 0;
+      for (let index=0;index<Math.min(source.length,answer.length);index++) if (source[index] === answer[index]) same++;
+      const score = Math.max(0,Math.round(same/width*100));
+      const strong = document.createElement('strong');
+      strong.textContent = score + '%';
+      const copy = document.createElement('span');
+      localized(copy,score >= 85 ? ' Molto vicino. Riascolta soltanto i piccoli vuoti.' : ' Confronta con calma: ogni parola trovata conta.',score >= 85 ? ' Very close. Replay only the small gaps.' : ' Compare calmly: every word you found counts.');
+      result.append(strong,copy);
+    }
+    let focusTimerId = null;
+    let focusCountdownId = null;
+    let focusRemaining = 180;
+    function closeFocusRitual(force) {
+      if (focusRequired && !force) {
+        showToast(textFor('Scrivi almeno una riga prima di iniziare.','Write at least one line before you begin.'));
+        $('#mindText').focus();
+        return;
+      }
+      clearInterval(focusTimerId);
+      clearInterval(focusCountdownId);
+      focusTimerId = null;
+      focusCountdownId = null;
+      $('#mindText').value = '';
+      $('#focusRitual').classList.remove('open');
+      $('#focusRitual').classList.remove('required');
+      $('#focusWrite').style.display = '';
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.remove('open');
+      $('#particleField').replaceChildren();
+    }
+    function openFocusRitual() {
+      if (!current) return showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+      if (media && !media.paused) media.pause();
+      clearInterval(focusTimerId);
+      clearInterval(focusCountdownId);
+      focusRemaining = 180;
+      $('#focusTimer').textContent = '03:00';
+      $('#mindText').value = '';
+      $('#focusWrite').style.display = '';
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.remove('open');
+      $('#particleField').replaceChildren();
+      $('#focusRitual').classList.add('open');
+      $('#focusRitual').classList.toggle('required',focusRequired);
+      localized($('#focusRequirement'),focusRequired ? 'SCRIVI ALMENO UNA RIGA · QUESTO PASSAGGIO PROTEGGE IL TUO TEMPO' : 'SCRIVI LIBERAMENTE · QUESTO TESTO NON VIENE SALVATO',focusRequired ? 'WRITE AT LEAST ONE LINE · THIS STEP PROTECTS YOUR STUDY TIME' : 'WRITE FREELY · THIS TEXT IS NOT SAVED');
+      setTimeout(() => $('#mindText').focus(),80);
+      focusTimerId = setInterval(() => {
+        focusRemaining = Math.max(0,focusRemaining-1);
+        $('#focusTimer').textContent = formatTime(focusRemaining);
+        if (!focusRemaining) finishFocusRitual();
+      },1000);
+    }
+    function finishFocusRitual() {
+      if (!$('#focusRitual').classList.contains('open') || $('#focusRelease').classList.contains('open')) return;
+      if (!$('#mindText').value.trim()) {
+        showToast(textFor('Prima lascia qui almeno una riga.','First, leave at least one line here.'));
+        $('#mindText').focus();
+        return;
+      }
+      clearInterval(focusTimerId);
+      focusTimerId = null;
+      $('#mindText').value = '';
+      $('#focusWrite').style.display = 'none';
+      $('#focusRelease').classList.add('open');
+      localized($('#releaseLine'),'Fai spazio. Respira. Ora comincia.','Make space. Breathe. Begin.');
+      const field = $('#particleField');
+      field.replaceChildren();
+      for (let index=0;index<54;index++) {
+        const particle = document.createElement('i');
+        particle.className = 'thought-particle';
+        const angle = Math.PI*2*index/54 + (index%5)*.13;
+        const distance = 120+(index%9)*34;
+        particle.style.setProperty('--px',Math.cos(angle)*distance + 'px');
+        particle.style.setProperty('--py',Math.sin(angle)*distance + 'px');
+        particle.style.animationDelay = (index%8)*.035 + 's';
+        field.append(particle);
+      }
+    }
+    function beginFocusCountdown() {
+      clearInterval(focusCountdownId);
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.add('open');
+      let number = 3;
+      $('#countdownNumber').textContent = String(number);
+      focusCountdownId = setInterval(() => {
+        number--;
+        if (number > 0) {
+          $('#countdownNumber').textContent = String(number);
+          $('#countdownNumber').style.animation = 'none';
+          requestAnimationFrame(() => { $('#countdownNumber').style.animation = ''; });
+          return;
+        }
+        clearInterval(focusCountdownId);
+        focusCountdownId = null;
+        focusRequired = false;
+        closeFocusRitual(true);
+        if (media) {
+          if (learningModeActive && (media.currentTime < clipA || media.currentTime >= clipB)) media.currentTime = clipA;
+          media.play().catch(() => $('#playBtn').focus());
+        }
+      },1000);
+    }
+
+    function renderLearning() {
+      $('#stepDots').innerHTML = learningSteps.map((step,index) => '<i class="' + (index <= learningStep ? 'on' : '') + '"></i>').join('');
+      const step = learningSteps[learningStep];
+      localized($('#stepTitle'),step.it,step.en);
+      const input = $('#learningInput');
+      input.replaceChildren();
+      if (learningStep === 2) {
+        const original = document.createElement('input');
+        const meaning = document.createElement('input');
+        original.placeholder = textFor('Testo originale (opzionale)','Original text (optional)');
+        meaning.placeholder = textFor('Significato o nota (opzionale)','Meaning or note (optional)');
+        input.append(original,meaning);
+      } else if (learningStep === 4) {
+        const memory = document.createElement('input');
+        memory.placeholder = textFor('Scrivi la frase a memoria…','Write the phrase from memory…');
+        input.append(memory);
+      }
+      localized($('#nextStep'),learningStep === 5 ? I18N.it.complete : I18N.it.next,learningStep === 5 ? I18N.en.complete : I18N.en.next);
+      renderProgress();
+    }
+    function recordBounds() {
+      const now = new Date();
+      const start = new Date(now);start.setHours(0,0,0,0);
+      const end = new Date(now);end.setHours(23,59,59,999);
+      if (recordRange === 'day') return {start:start,end:end,hourly:true};
+      if (recordRange === 'week') { start.setDate(start.getDate()-6); return {start:start,end:end}; }
+      if (recordRange === 'month') { start.setDate(1); return {start:start,end:end}; }
+      const from = $('#recordStartDate').value ? new Date($('#recordStartDate').value + 'T00:00:00') : start;
+      const to = $('#recordEndDate').value ? new Date($('#recordEndDate').value + 'T23:59:59') : end;
+      return {start:from,end:to};
+    }
+    function shortDate(date) {
+      return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT',{day:'2-digit',month:'short'}).format(date).replace('.','');
+    }
+    function renderProgress() {
+      if (!$('#recordChart')) return;
+      const bounds = recordBounds();
+      const startKey = localDateKey(bounds.start);
+      const endKey = localDateKey(bounds.end);
+      const rows = studyLog.filter(row => (recordMediaFilter === 'all' || row.type === recordMediaFilter) && row.date >= startKey && row.date <= endKey);
+      if (!studyLog.length && studySeconds > 0 && recordMediaFilter === 'all' && todayKey >= startKey && todayKey <= endKey) rows.push({id:'legacy',date:todayKey,startedAt:Date.now(),type:'legacy',seconds:studySeconds});
+      const buckets = [];
+      if (bounds.hourly) {
+        for (let hour=0;hour<24;hour+=4) buckets.push({key:String(hour),label:String(hour).padStart(2,'0') + ':00',seconds:0});
+        rows.forEach(row => { const hour = new Date(row.startedAt || Date.now()).getHours(); buckets[Math.min(5,Math.floor(hour/4))].seconds += Number(row.seconds || 0); });
+      } else {
+        const cursor = new Date(bounds.start);cursor.setHours(0,0,0,0);
+        let guard = 0;
+        while (cursor <= bounds.end && guard < 370) {
+          buckets.push({key:localDateKey(cursor),label:shortDate(cursor),seconds:0});
+          cursor.setDate(cursor.getDate()+1);guard++;
+        }
+        const byKey = new Map(buckets.map(bucket => [bucket.key,bucket]));
+        rows.forEach(row => { if (byKey.has(row.date)) byKey.get(row.date).seconds += Number(row.seconds || 0); });
+      }
+      const total = rows.reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const latest = rows.slice().sort((a,b) => Number(b.startedAt || 0)-Number(a.startedAt || 0))[0];
+      const resume = $('#recordResume');
+      resume.classList.toggle('available',Boolean(latest && latest.mediaId));
+      localized($('#recordResumeKind'),latest ? (latest.type === 'video' ? 'ULTIMO FILM' : 'ULTIMO ASCOLTO') : 'NESSUN ASCOLTO',latest ? (latest.type === 'video' ? 'LAST FILM' : 'LAST LISTENING') : 'NO LISTENING');
+      $('#recordResumeTitle').textContent = latest ? (latest.name || textFor('Senza titolo','Untitled')).replace(/\.[^/.]+$/,'') : textFor('Il prossimo viaggio','Your next journey');
+      $('#recordResumeMeta').textContent = latest ? shortDate(new Date(latest.startedAt || Date.now())) + ' · ' + formatLong(latest.seconds || 0) : textFor('Importa un file per iniziare','Import a file to begin');
+      resume.onclick = async () => {
+        if (!latest || !latest.mediaId) return;
+        const saved = (await getAllMedia()).find(item => item.id === latest.mediaId);
+        if (saved) openMedia(saved,false); else showToast(textFor('Questo file non è più nella libreria locale.','This file is no longer in the local library.'));
+      };
+      $('#recordTotal').textContent = formatLong(total);
+      $('#recordSessions').textContent = String(rows.length);
+      $('#recordDays').textContent = String(new Set(rows.filter(row => row.seconds > 0).map(row => row.date)).size);
+      const rangeIt = bounds.hourly ? 'OGGI · ' + shortDate(bounds.start) : shortDate(bounds.start) + ' — ' + shortDate(bounds.end);
+      const rangeEn = bounds.hourly ? 'TODAY · ' + shortDate(bounds.start) : shortDate(bounds.start) + ' — ' + shortDate(bounds.end);
+      localized($('#recordRangeLabel'),rangeIt,rangeEn);
+
+      const videoSeconds = rows.filter(row => row.type === 'video').reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const audioSeconds = rows.filter(row => row.type === 'audio').reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const known = videoSeconds+audioSeconds;
+      const videoShare = known ? Math.round(videoSeconds/known*100) : 0;
+      $('#balanceText').textContent = known ? 'V ' + videoShare + '%' : '—';
+      $('#balanceRing').style.background = known ? 'conic-gradient(var(--scene-accent) 0 ' + videoShare + '%,var(--scene-accent-2) ' + videoShare + '% 100%)' : 'transparent';
+      localized($('#balanceNote'),known ? 'Video ' + videoShare + '% · Audio ' + (100-videoShare) + '%' : 'Ancora nessun confronto',known ? 'Video ' + videoShare + '% · Audio ' + (100-videoShare) + '%' : 'No comparison yet');
+
+      const line = $('#recordLine');
+      const shadow = $('#recordLineShadow');
+      const area = $('#recordArea');
+      const dots = $('#recordDots');
+      const axis = $('#recordAxis');
+      dots.replaceChildren();axis.replaceChildren();
+      const max = Math.max(60,...buckets.map(bucket => bucket.seconds));
+      const span = Math.max(1,buckets.length-1);
+      const points = buckets.map((bucket,index) => ({x:64+896*(index/span),y:340-270*(bucket.seconds/max),value:bucket.seconds,label:bucket.label}));
+      let path = '';
+      points.forEach((point,index) => {
+        if (!index) path = 'M' + point.x.toFixed(1) + ' ' + point.y.toFixed(1);
+        else {
+          const previous = points[index-1];
+          const middle = (previous.x+point.x)/2;
+          path += ' C' + middle.toFixed(1) + ' ' + previous.y.toFixed(1) + ' ' + middle.toFixed(1) + ' ' + point.y.toFixed(1) + ' ' + point.x.toFixed(1) + ' ' + point.y.toFixed(1);
+        }
+      });
+      line.setAttribute('d',total ? path : '');shadow.setAttribute('d',total ? path : '');
+      area.setAttribute('d',total && points.length ? path + ' L' + points[points.length-1].x + ' 365 L' + points[0].x + ' 365 Z' : '');
+      const namespace = 'http://www.w3.org/2000/svg';
+      points.forEach((point,index) => {
+        if (point.value > 0) {
+          const halo = document.createElementNS(namespace,'circle');halo.setAttribute('class','record-dot-halo');halo.setAttribute('cx',point.x);halo.setAttribute('cy',point.y);halo.setAttribute('r','8');
+          const dot = document.createElementNS(namespace,'circle');dot.setAttribute('class','record-dot');dot.setAttribute('cx',point.x);dot.setAttribute('cy',point.y);dot.setAttribute('r','4');
+          const title = document.createElementNS(namespace,'title');title.textContent = point.label + ' · ' + formatLong(point.value);dot.append(title);dots.append(halo,dot);
+        }
+        const step = Math.max(1,Math.ceil(points.length/7));
+        if (index%step === 0 || index === points.length-1) { const text = document.createElementNS(namespace,'text');text.setAttribute('x',point.x);text.setAttribute('y','389');text.setAttribute('text-anchor','middle');text.textContent = point.label;axis.append(text); }
+      });
+      $('#recordEmpty').classList.toggle('open',!total);
+    }
+
+    function setArc(el,radius,fraction) {
+      const circumference = 2*Math.PI*radius;
+      el.style.strokeDasharray = circumference;
+      el.style.strokeDashoffset = circumference*(1-Math.max(0,Math.min(1,fraction)));
+    }
+    function dayPart() {
+      const hour = basisParts().hour;
+      if (hour < 5) return {it:'notte quieta',en:'quiet night'};
+      if (hour < 12) return {it:'mattina chiara',en:'clear morning'};
+      if (hour < 18) return {it:'pomeriggio lento',en:'slow afternoon'};
+      return {it:'sera dorata',en:'golden evening'};
+    }
+    function timeQuote() {
+      const hour = basisParts().hour;
+      if (hour < 5) return {it:'Anche una città addormentata conserva una voce.',en:'Even a sleeping city keeps a voice.'};
+      if (hour < 12) return {it:'Una frase alla volta, come luce sulle persiane.',en:'One phrase at a time, like light on the shutters.'};
+      if (hour < 18) return {it:'Il tempo ascoltato non corre: si deposita.',en:'Listening time does not rush: it settles.'};
+      return {it:'La sera raccoglie le parole che hai ripetuto.',en:'Evening gathers the words you repeated.'};
+    }
+    function renderTime() {
+      const remainder = studySeconds%600 === 0 ? 600 : 600-studySeconds%600;
+      $('#studyTime').textContent = formatTime(studySeconds);
+      $('#todayTime').textContent = formatTime(todaySeconds);
+      $('#sessionTime').textContent = formatTime(sessionSeconds);
+      $('#stampCountdown').textContent = formatTime(remainder);
+      const part = dayPart();
+      const quote = timeQuote();
+      localized($('#timeOfDay'),part.it,part.en);
+      localized($('#timeQuote'),quote.it,quote.en);
+      const collected = unlockedStamps.length;
+      const choices = availableStampChoices();
+      const itReward = 'Hai raccolto ' + collected + ' ' + (collected === 1 ? 'francobollo' : 'francobolli') + (choices ? ' e hai ' + choices + ' scelta pronta.' : '. Ancora ' + formatLong(remainder) + ' per scegliere un nuovo ricordo.');
+      const enReward = 'You have collected ' + collected + ' ' + (collected === 1 ? 'stamp' : 'stamps') + (choices ? ' and have ' + choices + ' choice ready.' : '. In ' + formatLong(remainder) + ', you can choose a new memory.');
+      localized($('#timeReward'),itReward,enReward);
+      setArc($('#todayArc'),174,(todaySeconds%(60*60))/(60*60));
+      setArc($('#sessionArc'),146,(sessionSeconds%(30*60))/(30*60));
+      setArc($('#rewardArc'),118,(studySeconds%600)/600);
+      renderWindowRewards();
+    }
+    function renderWindowRewards() {
+      const row = $('#windowRow');
+      if (!row) return;
+      const cities = [
+        ['A','Roma','FINESTRA SERLIANA','CLASSICAL ARCH'],
+        ['B','Venezia','BIFORA GOTICA','GOTHIC BIFORA'],
+        ['C','Firenze','BIFORA RINASCIMENTALE','RENAISSANCE BIFORA'],
+        ['D','Bologna','FINESTRA CON SCURI','WOODEN SHUTTERS'],
+        ['E','Sicilia','FINESTRA BAROCCA','BAROQUE BALCONY']
+      ];
+      const completed = Math.floor(studySeconds/1800);
+      const floor = completed && completed%5 === 0 ? completed/5 : Math.floor(completed/5)+1;
+      const lit = completed === 0 ? 0 : (completed%5 === 0 ? 5 : completed%5);
+      row.replaceChildren();
+      cities.forEach((city,index) => {
+        const window = document.createElement('article');
+        window.className = 'study-window w' + (index+1) + (index < lit ? ' unlocked' : '');
+        const state = index < lit ? textFor('SBLOCCATA · ILLUMINATA','UNLOCKED · LIT') : (index+1)*30 + ' MIN';
+        window.innerHTML = '<span class="window-kicker">' + city[0] + ' · ' + city[1].toUpperCase() + '</span><b>' + city[1] + '</b><em>' + textFor(city[2],city[3]) + '</em><div class="window-light" aria-hidden="true"></div><small>' + state + '</small>';
+        row.append(window);
+      });
+      localized($('#windowFloor'),'PIANO ' + floor + ' · PALAZZO DEL TEMPO','FLOOR ' + floor + ' · PALACE OF TIME');
+      $('#palazzoReveal').classList.toggle('open',completed >= 5);
+    }
+
+    function applyScene(index,scroll,fromClock) {
+      sceneIndex = Math.max(0,Math.min(scenes.length-1,Number(index) || 0));
+      if (!fromClock) {
+        timeBasis = 'manual';
+        localStorage.setItem('gelato-time-basis-v7',timeBasis);
+      }
+      localStorage.setItem('gelato-scene-v7',String(sceneIndex));
+      const scene = scenes[sceneIndex];
+      applySceneTheme();
+      localized($('#sceneTitle'),scene.city + ' · ' + scene.it,scene.city + ' · ' + scene.en);
+      $$('.scene-card').forEach((card,cardIndex) => card.classList.toggle('on',cardIndex === sceneIndex));
+      $$('#timeBasisButtons button').forEach(button => button.classList.toggle('on',button.dataset.timeBasis === selectedClockBasis));
+      $('#customSceneTime').classList.toggle('open',selectedClockBasis === 'custom');
+      if (scroll !== false) {
+        const active = $('.scene-card[data-scene="' + sceneIndex + '"]');
+        if (active) active.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+      }
+      positionPocketWatch(basisParts());
+    }
+    function renderScenes() {
+      const track = $('#sceneTrack');
+      track.replaceChildren();
+      scenes.forEach((scene,index) => {
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'scene-card ' + (index === sceneIndex ? 'on' : '');
+        card.dataset.scene = index;
+        card.style.setProperty('--i',index);
+        const image = document.createElement('img');
+        image.src = scene.img;
+        image.alt = scene.city;
+        image.loading = 'lazy';
+        const time = document.createElement('small');
+        time.textContent = scene.time;
+        const city = document.createElement('b');
+        city.textContent = scene.city;
+        const period = document.createElement('small');
+        localized(period,scene.it,scene.en);
+        card.append(image,time,city,period);
+        card.onclick = () => {
+          customSceneImage = '';
+          localStorage.removeItem('gelato-custom-wallpaper-v9');
+          applyScene(index,true,false);
+        };
+        track.append(card);
+      });
+      applyScene(sceneIndex,false,timeBasis !== 'manual');
+    }
+    function openSceneModePrompt(basis) {
+      pendingTimeBasis = basis;
+      const names = {'Europe/Rome':['l’ora italiana','Italian time'],'Asia/Shanghai':['l’ora di Pechino','Beijing time'],'Asia/Bangkok':['l’ora di Chiang Mai','Chiang Mai time'],custom:['l’ora scelta da te','your chosen time']};
+      const name = names[basis] || names['Europe/Rome'];
+      localized($('#sceneModeTitle'),'Come deve vivere lo sfondo?','How should the background move?');
+      localized($('#sceneModeCopy'),'Hai scelto ' + name[0] + '. Vuoi far cambiare automaticamente il paesaggio oppure tenere la scena che hai scelto a mano?','You chose ' + name[1] + '. Should the landscape change automatically, or keep the scene you selected by hand?');
+      localized($('#sceneKeepChoice'),'TIENI QUESTA SCENA','KEEP THIS SCENE');
+      localized($('#sceneFollowChoice'),'SEGUI QUEST’ORA','FOLLOW THIS CLOCK');
+      $('#sceneModeModal').classList.add('open');
+    }
+    function positionPocketWatch(parts) {
+      const watch = $('#pocketWatch');
+      if (!watch) return;
+      watch.style.left = '50%';
+      watch.style.top = '50%';
+    }
+    function updateClock() {
+      const now = new Date();
+      const parts = basisParts();
+      const hours = parts.hour%12;
+      const minutes = parts.minute;
+      const rome = zonedParts('Europe/Rome',now);
+      const local = {hour:now.getHours(),minute:now.getMinutes()};
+      const two = value => String(value).padStart(2,'0');
+      $('#watchHour').style.transform = 'rotate(' + (hours*30+minutes*.5) + 'deg)';
+      $('#watchMinute').style.transform = 'rotate(' + (minutes*6) + 'deg)';
+      $('#sceneTime').textContent = two(parts.hour) + ':' + two(minutes);
+      $('#romeTime').textContent = two(rome.hour) + ':' + two(rome.minute);
+      $('#localTime').textContent = two(local.hour) + ':' + two(local.minute);
+      updateHomeGreeting(rome.hour,rome.minute);
+      positionPocketWatch(parts);
+      if (timeBasis !== 'manual') {
+        const automatic = sceneForHour(parts.hour);
+        if (automatic !== sceneIndex) applyScene(automatic,false,true);
+      }
+      if (currentView === 'culture') renderGreeting();
+    }
+    function updateHomeGreeting(hour,minute) {
+      const greeting = hour < 5 ? ['Buonanotte','Una piccola pausa nella notte'] : hour < 12 ? ['Buongiorno','Cominciamo con calma'] : hour < 18 ? ['Buon pomeriggio','Una frase alla volta'] : hour < 23 ? ['Buonasera','Lascia fuori il rumore'] : ['Buonanotte','Ancora un ascolto, poi riposo'];
+      localized($('#homeGreeting'),greeting[0],hour < 5 || hour >= 23 ? 'Good night' : hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening');
+      const two = value => String(value).padStart(2,'0');
+      localized($('#homeGreetingTime'),two(hour) + ':' + two(minute) + ' · ' + greeting[1],two(hour) + ':' + two(minute) + ' · Rome time');
+    }
+
+    const curatedStamps = [
+      {year:'1863',title:'Vittorio Emanuele II',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Vittorio_Emanuele_II_-_1863.jpg',it:'Questo francobollo mostra Vittorio Emanuele II, il primo re d’Italia. Fu emesso nel 1863 e valeva cinque centesimi.',en:'This stamp shows Victor Emmanuel II, the first king of Italy. It was issued in 1863 and was worth five cents.'},
+      {year:'1901',title:'Aquila di Savoia',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1901_MiNr0075_pm_B002.jpg',it:'Un’aquila appare dentro una cornice di fiori. Il francobollo appartiene alla prima serie del regno di Vittorio Emanuele III.',en:'An eagle appears inside a floral frame. The stamp belongs to the first series from the reign of Victor Emmanuel III.'},
+      {year:'1930',title:'Italia turrita',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1930_MiNr0331_pm_B002.jpg',it:'La figura femminile rappresenta l’Italia. La corona con le torri è un simbolo antico del Paese.',en:'The female figure represents Italy. Her crown with towers is an old symbol of the country.'},
+      {year:'1931',title:'Amerigo Vespucci',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1931_MiNr0370_pm_B002.jpg',it:'Qui vediamo la nave Amerigo Vespucci. Il francobollo ricorda i cinquant’anni dell’Accademia Navale di Livorno.',en:'Here we see the Amerigo Vespucci ship. The stamp marks fifty years of the Naval Academy in Livorno.'},
+      {year:'1932',title:'Garibaldi e Nino Bixio',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1932_MiNr0393_pm_B002.jpg',it:'Il francobollo ricorda Giuseppe Garibaldi e Nino Bixio e una parte della storia dell’unità d’Italia.',en:'The stamp remembers Giuseppe Garibaldi and Nino Bixio and part of the story of Italian unification.'},
+      {year:'1932',title:'Ugo Foscolo',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Serie_società_pro-DanteAlighieri_-_francobolli_del_Regno_d%27Italia_-_1932_-_Ugo_foscolo.jpg',it:'Ugo Foscolo era un poeta e scrittore italiano. Scriveva di memoria, patria e vita umana.',en:'Ugo Foscolo was an Italian poet and writer. He wrote about memory, homeland and human life.'},
+      {year:'1935',title:'Leonardo da Vinci',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1935_MiNr0531_pm_B002.jpg',it:'Leonardo appare sotto un cielo con aeroplani. L’immagine collega le sue idee sul volo alla tecnologia moderna.',en:'Leonardo appears below a sky with aeroplanes. The image links his ideas about flight with modern technology.'},
+      {year:'1937',title:'Gaspare Spontini',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1937_MiNr0591_pm_B002.jpg',it:'Gaspare Spontini era un compositore italiano. Questo francobollo appartiene a una serie dedicata a italiani famosi.',en:'Gaspare Spontini was an Italian composer. This stamp belongs to a series about famous Italians.'},
+      {year:'1945',title:'Dante Alighieri',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1945_MiNr0721_mt_B002a.jpg',it:'Dante Alighieri è uno dei poeti italiani più famosi. La sua opera ha avuto un ruolo importante nella lingua italiana.',en:'Dante Alighieri is one of Italy’s most famous poets. His work played an important role in the Italian language.'},
+      {year:'1945',title:'Galileo Galilei',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1945_MiNr0722_mt_B002.jpg',it:'Galileo osservava il cielo e studiava la natura. Il francobollo lo presenta come uno dei grandi italiani.',en:'Galileo observed the sky and studied nature. The stamp presents him as one of the great Italians.'}
+    ];
+    const TOTAL_STAMPS = 110;
+    const stampShapes = ['portrait','landscape','square','tall','portrait','landscape','square','portrait','tall'];
+    const stamps = curatedStamps.slice();
+    while (stamps.length < TOTAL_STAMPS) {
+      const number = stamps.length+1;
+      stamps.push({
+        year:'—',
+        title:'Archivio ' + String(number).padStart(3,'0'),
+        img:null,
+        it:I18N.it.stampGeneric,
+        en:I18N.en.stampGeneric,
+        loading:true
+      });
+    }
+    let unlockedStamps = [];
+    try { unlockedStamps = JSON.parse(localStorage.getItem('gelato-unlocked-stamps-v7') || '[]'); } catch (error) { unlockedStamps = []; }
+    unlockedStamps = Array.from(new Set(unlockedStamps.map(Number).filter(index => Number.isInteger(index) && index >= 0 && index < TOTAL_STAMPS)));
+    let currentStampIndex = 0;
+    let wallPreviewTimer = null;
+    const commonsCategories = [
+      'Category:Stamps_of_the_Kingdom_of_Italy',
+      'Category:Overprints_on_stamps_of_Italy',
+      'Category:Postage_due_stamps_of_Italy',
+      'Category:Express_and_special_delivery_stamps_of_Italy',
+      'Category:Airmail_stamps_of_Italy',
+      'Category:Parcel_stamps_of_Italy'
+    ];
+    function stampPlaceholder(index) {
+      const hue = [94,35,185,12][index%4];
+      const svg =
+        '<svg xmlns="http://www.w3.org/2000/svg" width="360" height="430" viewBox="0 0 360 430">' +
+        '<rect width="360" height="430" fill="hsl(' + hue + ' 18% 76%)"/>' +
+        '<rect x="22" y="22" width="316" height="386" rx="2" fill="none" stroke="hsl(' + hue + ' 23% 35%)" stroke-width="3"/>' +
+        '<ellipse cx="180" cy="178" rx="82" ry="104" fill="none" stroke="hsl(' + hue + ' 22% 42%)" stroke-width="4"/>' +
+        '<path d="M94 302h172M112 324h136" stroke="hsl(' + hue + ' 22% 42%)" stroke-width="3"/>' +
+        '<text x="180" y="365" text-anchor="middle" font-family="serif" font-size="24" fill="hsl(' + hue + ' 25% 32%)">ITALIA · ' +
+        String(index+1).padStart(3,'0') + '</text></svg>';
+      return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+    }
+    async function loadStampArchive() {
+      const seen = new Set();
+      curatedStamps.forEach(stamp => seen.add(decodeURIComponent(stamp.img).toLowerCase()));
+      const titles = [];
+      for (const category of commonsCategories) {
+        if (titles.length >= 100) break;
+        try {
+          const url = new URL('https://commons.wikimedia.org/w/api.php');
+          url.search = new URLSearchParams({
+            action:'query',list:'categorymembers',cmtitle:category,cmtype:'file',
+            cmlimit:'100',format:'json',origin:'*'
+          }).toString();
+          const data = await fetch(url).then(response => response.ok ? response.json() : Promise.reject(new Error('archive')));
+          const members = data.query && data.query.categorymembers ? data.query.categorymembers : [];
+          for (const item of members) {
+            const file = item.title.replace(/^File:/,'');
+            if (!/\.(jpe?g|png|webp|tiff?)$/i.test(file)) continue;
+            const fileYear = file.match(/\b(18\d{2}|19\d{2}|20\d{2})\b/);
+            if (!fileYear || Number(fileYear[0]) > 1945) continue;
+            const key = file.toLowerCase();
+            if (seen.has(key) || /cover|postcard|forger|booklet/i.test(file)) continue;
+            seen.add(key);
+            titles.push({file:file,category:category});
+            if (titles.length >= 100) break;
+          }
+        } catch (error) {}
+      }
+      titles.slice(0,100).forEach((entry,itemIndex) => {
+        const index = 10+itemIndex;
+        if (index >= TOTAL_STAMPS) return;
+        const clean = entry.file
+          .replace(/\.[^.]+$/,'')
+          .replace(/[_-]+/g,' ')
+          .replace(/\b(?:MiNr|B00\d|pm|mt)\b/gi,' ')
+          .replace(/\s+/g,' ')
+          .trim();
+        const yearMatch = clean.match(/\b(18|19|20)\d{2}\b/);
+        stamps[index] = {
+          year:yearMatch ? yearMatch[0] : '—',
+          title:clean.slice(0,70) || 'Archivio ' + String(index+1),
+          img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/' + encodeURIComponent(entry.file).replace(/%2F/g,'/'),
+          it:I18N.it.stampGeneric,
+          en:I18N.en.stampGeneric,
+          source:entry.category.replace('Category:','').replace(/_/g,' '),
+          loading:false
+        };
+      });
+      renderAlbum(true);
+    }
+    function earnedStampChoices() {
+      return Math.min(TOTAL_STAMPS,Math.floor(studySeconds/600));
+    }
+    function availableStampChoices() {
+      return Math.max(0,earnedStampChoices()-unlockedStamps.length);
+    }
+    function stampSize(index) {
+      const shape = stampShapes[index%stampShapes.length];
+      if (shape === 'landscape') return [82,58];
+      if (shape === 'square') return [66,66];
+      if (shape === 'tall') return [54,82];
+      return [61,78];
+    }
+    function stampButton(stamp,index) {
+      const slot = document.createElement('article');
+      slot.className = 'stamp-slot';
+      const unlocked = unlockedStamps.includes(index);
+      const size = stampSize(index);
+      const shape = stampShapes[index%stampShapes.length];
+      const position = index%10;
+      const band = Math.floor(index/10);
+      const layout = [
+        {column:8,row:2,cs:5,rs:8,z:132,scale:1.3,blur:0,rot:-1},
+        {column:1,row:4,cs:4,rs:7,z:45,scale:1.02,blur:.08,rot:-4},
+        {column:16,row:5,cs:4,rs:7,z:54,scale:1.06,blur:0,rot:4},
+        {column:3,row:0,cs:3,rs:5,z:-62,scale:.72,blur:1.6,rot:-7},
+        {column:12,row:0,cs:3,rs:5,z:-45,scale:.79,blur:1.1,rot:6},
+        {column:18,row:1,cs:2,rs:4,z:-76,scale:.64,blur:2.1,rot:8},
+        {column:5,row:8,cs:3,rs:5,z:-18,scale:.86,blur:.6,rot:5},
+        {column:13,row:8,cs:3,rs:5,z:24,scale:.94,blur:.24,rot:-5},
+        {column:1,row:11,cs:3,rs:5,z:-78,scale:.67,blur:1.8,rot:7},
+        {column:17,row:11,cs:3,rs:5,z:-54,scale:.74,blur:1.25,rot:-6}
+      ][position];
+      const mirrored = band%2 === 1;
+      const columnStart = mirrored ? Math.max(1,21 - layout.column - layout.cs) : layout.column;
+      const rowStart = 1 + band*13 + layout.row;
+      const columnSpan = layout.cs;
+      const rowSpan = layout.rs;
+      if (position === 0) {
+        slot.classList.add('focal-stamp');
+        slot.dataset.callout = unlocked ? textFor('TOCCA IL FRANCOBOLLO','TOUCH THE STAMP') : textFor('RICORDO VELATO','VEILED MEMORY');
+      }
+      slot.style.setProperty('--cs',columnSpan);
+      slot.style.setProperty('--rs',rowSpan);
+      slot.style.setProperty('--col',columnStart);
+      slot.style.setProperty('--row',rowStart);
+      slot.style.setProperty('--sw',size[0] + 'px');
+      slot.style.setProperty('--sh',size[1] + 'px');
+      slot.style.setProperty('--dx',(((index*37)%13)-6) + 'px');
+      slot.style.setProperty('--dy',(((index*23)%15)-7) + 'px');
+      slot.style.setProperty('--rot',(mirrored ? -layout.rot : layout.rot) + 'deg');
+      slot.style.setProperty('--z',layout.z + 'px');
+      slot.style.setProperty('--depth-scale',layout.scale);
+      slot.style.setProperty('--depth-blur',layout.blur + 'px');
+      slot.style.setProperty('--float',((index*7)%4) + 's');
+      slot.style.setProperty('--delay',((index*11)%7) + 's');
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'stamp-card ' + stampShapes[index%stampShapes.length] + ' ' + (unlocked ? '' : 'locked') + ' ' + (stamp.loading ? 'loading' : '');
+      button.dataset.lock = '';
+      const image = document.createElement('img');
+      image.src = stamp.img || stampPlaceholder(index);
+      image.alt = stamp.title;
+      image.loading = 'lazy';
+      image.onerror = () => {
+        image.onerror = null;
+        image.src = stampPlaceholder(index);
+      };
+      const caption = document.createElement('span');
+      caption.className = 'stamp-caption';
+      caption.textContent = stamp.year + ' · ' + stamp.title;
+      button.append(image);
+      button.onclick = () => {
+        if (!unlocked) {
+          if (availableStampChoices()) openStampChoices();
+          else {
+            const remaining = studySeconds%600 === 0 ? 600 : 600-studySeconds%600;
+            showToast(textFor('Ascolta ancora ' + formatLong(remaining) + ' per scegliere un nuovo ricordo.','Listen for ' + formatLong(remaining) + ' more to choose a new memory.'));
+          }
+          return;
+        }
+        openStampPreview(index);
+      };
+      slot.append(button,caption);
+      return slot;
+    }
+    let stampWallStyle = localStorage.getItem('gelato-stamp-style-v9') || 'tissue';
+    function renderAlbum(force) {
+      const signature = unlockedStamps.join(',') + '|' + stamps.filter(stamp => !stamp.loading).length + '|' + stampWallStyle;
+      $('#albumProgress').textContent = unlockedStamps.length + ' / ' + TOTAL_STAMPS;
+      $('#choiceCount').textContent = String(availableStampChoices());
+      $('#chooseStampBtn').disabled = availableStampChoices() < 1;
+      if (!force && renderAlbum.signature === signature) return;
+      renderAlbum.signature = signature;
+      const wall = $('#stampWall');
+      wall.className = 'album-wall style-' + stampWallStyle;
+      $('#stampStyle').value = stampWallStyle;
+      wall.replaceChildren();
+      stamps.forEach((stamp,index) => wall.append(stampButton(stamp,index)));
+    }
+    function choiceCandidates() {
+      const locked = stamps.map((stamp,index) => index).filter(index => !unlockedStamps.includes(index));
+      if (!locked.length) return [];
+      const start = (earnedStampChoices()*7 + unlockedStamps.length*11)%locked.length;
+      return [0,1,2].map(offset => locked[(start+offset*17)%locked.length]).filter((value,index,array) => array.indexOf(value) === index);
+    }
+    function openStampChoices() {
+      if (!availableStampChoices()) return;
+      const choices = $('#stampChoices');
+      choices.replaceChildren();
+      choiceCandidates().forEach((stampIndex,choiceIndex) => {
+        const stamp = stamps[stampIndex];
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'stamp-choice';
+        const image = document.createElement('img');
+        image.src = stamp.img || stampPlaceholder(stampIndex);
+        image.alt = '';
+        image.onerror = () => { image.onerror = null; image.src = stampPlaceholder(stampIndex); };
+        const label = document.createElement('b');
+        label.textContent = ['I','II','III'][choiceIndex] || String(choiceIndex+1);
+        const note = document.createElement('small');
+        localized(note,'RICORDO VELATO','VEILED MEMORY');
+        button.append(image,label,note);
+        button.onclick = () => unlockStamp(stampIndex);
+        choices.append(button);
+      });
+      $('#stampChoiceModal').classList.add('open');
+    }
+    function unlockStamp(index) {
+      if (!availableStampChoices() || unlockedStamps.includes(index)) return;
+      unlockedStamps.push(index);
+      localStorage.setItem('gelato-unlocked-stamps-v7',JSON.stringify(unlockedStamps));
+      $('#stampChoiceModal').classList.remove('open');
+      renderAlbum(true);
+      setTimeout(() => openStampPreview(index),420);
+    }
+    function previewCompleteWall() {
+      const wall = $('#stampWall');
+      clearTimeout(wallPreviewTimer);
+      wall.classList.add('demo');
+      $('#albumView').classList.add('previewing');
+      $('#wallPreviewLabel').classList.add('open');
+      wallPreviewTimer = setTimeout(closeCompleteWallPreview,12000);
+    }
+    function closeCompleteWallPreview() {
+      clearTimeout(wallPreviewTimer);
+      $('#stampWall').classList.remove('demo');
+      $('#wallPreviewLabel').classList.remove('open');
+      $('#albumView').classList.remove('previewing');
+    }
+    function openStampPreview(index,force) {
+      const unlocked = unlockedStamps.includes(index);
+      if (!unlocked && !force) return;
+      currentStampIndex = index;
+      const stamp = stamps[index];
+      const source = stamp.img || stampPlaceholder(index);
+      $('#previewStampImage').src = source;
+      $('#previewStampImage').alt = stamp.title;
+      $('#previewYear').textContent = stamp.year;
+      $('#previewTitle').textContent = stamp.title;
+      localized($('#previewDescription'),'Guarda: ' + stamp.it + ' È un piccolo pezzo di storia che oggi possiamo leggere insieme.','Look: ' + stamp.en + ' It is a small piece of history we can read together today.');
+      const meta = $('#previewMeta');
+      meta.replaceChildren();
+      const archiveTag = document.createElement('span');
+      localizedKey(archiveTag,'sourceArchive');
+      meta.append(archiveTag);
+      ['WIKIMEDIA COMMONS','№ ' + String(index+1).padStart(3,'0')].forEach(value => {
+        const tag = document.createElement('span');
+        tag.textContent = value;
+        meta.append(tag);
+      });
+      renderStampWords(index);
+      $('#stampWords').classList.remove('open');
+      $('#stampPreview').classList.add('open');
+    }
+    function wordsForStamp(index) {
+      return [
+        {lemma:'francobollo',form:'il francobollo',syll:'fran-co-ból-lo',it:'piccola carta per la posta',en:'stamp',hint:'Pensa a una piccola finestra sulla busta.'},
+        {lemma:'guardare',form:'guarda',syll:'guar-dà-re',it:'usare gli occhi con attenzione',en:'to look',hint:'Guarda: è un invito molto comune.'},
+        {lemma:'mostrare',form:'mostra',syll:'mo-strà-re',it:'far vedere',en:'to show',hint:'Una mostra fa vedere opere.'},
+        {lemma:'storia',form:'la storia',syll:'stò-ria',it:'racconto del passato',en:'history / story',hint:'Storia può essere history o story.'},
+        {lemma:'italiano',form:'italiano',syll:'i-ta-lià-no',it:'dell’Italia',en:'Italian',hint:'Italia → italiano.'},
+        {lemma:'osservare',form:'osserva',syll:'os-ser-và-re',it:'guardare con calma',en:'to observe',hint:'È guardare più attentamente.'},
+        {lemma:'immagine',form:'l’immagine',syll:'im-mà-gi-ne',it:'figura o fotografia',en:'image',hint:'Immagina una immagine.'},
+        {lemma:'nome',form:'il nome',syll:'nó-me',it:'come si chiama qualcosa',en:'name',hint:'Come ti chiami? Il mio nome…'},
+        {lemma:'anno',form:'l’anno',syll:'àn-no',it:'dodici mesi',en:'year',hint:'Due enne: an-no.'},
+        {lemma:'valore',form:'il valore',syll:'va-ló-re',it:'quanto vale qualcosa',en:'value',hint:'Valere → valore.'}
+      ];
+    }
+    function speakItalian(text) {
+      if (!('speechSynthesis' in window)) return showToast(textFor('La voce non è disponibile su questo dispositivo.','Voice is not available on this device.'));
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'it-IT'; utterance.rate = .82;
+      const voice = speechSynthesis.getVoices().find(item => /^it(-|_)/i.test(item.lang));
+      if (voice) utterance.voice = voice;
+      speechSynthesis.speak(utterance);
+    }
+    function renderStampWords(index) {
+      const list = $('#stampWords');
+      list.replaceChildren();
+      const tools = document.createElement('header'); tools.className = 'word-tools';
+      const title = document.createElement('b'); title.textContent = textFor('10 PAROLE DA PORTARE CON TE','10 WORDS TO TAKE WITH YOU');
+      const memory = document.createElement('button'); memory.type = 'button'; memory.textContent = textFor('AIUTI MEMORIA','MEMORY HINTS');
+      memory.onclick = () => list.classList.toggle('show-hints'); tools.append(title,memory); list.append(tools);
+      wordsForStamp(index).forEach(word => {
+        const row = document.createElement('div');
+        row.className = 'word-row';
+        const left = document.createElement('b');
+        left.textContent = word.lemma + ' → ' + word.form + ' · ' + word.syll;
+        const right = document.createElement('span');
+        localized(right,word.it,word.en);
+        const play = document.createElement('button'); play.type='button'; play.className='word-audio'; play.textContent='▶'; play.onclick=()=>speakItalian(word.form);
+        const hint = document.createElement('small'); hint.className='word-hint'; hint.textContent=word.hint;
+        row.append(left,right,play,hint);
+        list.append(row);
+      });
+    }
+    function openImmersive() {
+      const stamp = stamps[currentStampIndex];
+      const source = stamp.img || stampPlaceholder(currentStampIndex);
+      $('#immersiveImage').src = source;
+      $('#immersiveImage').alt = stamp.title;
+      $('#magnifier').style.backgroundImage = 'url("' + source + '")';
+      $('#stampPreview').classList.remove('open');
+      $('#stampImmersive').classList.add('open');
+    }
+    function moveMagnifier(event) {
+      const image = $('#immersiveImage');
+      const lens = $('#magnifier');
+      const stage = $('#immersiveStage');
+      const imageRect = image.getBoundingClientRect();
+      const stageRect = stage.getBoundingClientRect();
+      const inside = event.clientX >= imageRect.left && event.clientX <= imageRect.right &&
+        event.clientY >= imageRect.top && event.clientY <= imageRect.bottom;
+      if (!inside) {
+        lens.style.display = 'none';
+        image.style.filter = 'drop-shadow(0 35px 38px rgba(0,0,0,.55)) brightness(.55)';
+        return;
+      }
+      lens.style.display = 'block';
+      image.style.filter = 'drop-shadow(0 35px 38px rgba(0,0,0,.55)) brightness(.7)';
+      const radius = lens.offsetWidth/2;
+      const x = event.clientX-imageRect.left;
+      const y = event.clientY-imageRect.top;
+      const zoom = 2.5;
+      lens.style.left = String(event.clientX-stageRect.left-radius) + 'px';
+      lens.style.top = String(event.clientY-stageRect.top-radius) + 'px';
+      lens.style.backgroundSize = String(imageRect.width*zoom) + 'px ' + String(imageRect.height*zoom) + 'px';
+      lens.style.backgroundPosition = String(radius-x*zoom) + 'px ' + String(radius-y*zoom) + 'px';
+    }
+
+    const cities = [
+      {name:'Roma',region:'Lazio',lat:41.9028,lon:12.4964,symbol:'⛲',effectIt:'Gocce di luce come una fontana.',effectEn:'Drops of light like a fountain.',it:'Roma è la tua prima luce. Ogni dieci minuti scegli un francobollo; ogni tre francobolli accendono una nuova città.',en:'Rome is your first light. Every ten minutes you choose a stamp; every three stamps light a new city.'},
+      {name:'Firenze',region:'Toscana',lat:43.7696,lon:11.2558,symbol:'✿',effectIt:'Petali di carta dal Rinascimento.',effectEn:'Paper petals from the Renaissance.',it:'Firenze si apre come un quaderno d’arte: una parola nuova diventa un piccolo disegno.',en:'Florence opens like an art notebook: a new word becomes a small drawing.'},
+      {name:'Venezia',region:'Veneto',lat:45.4408,lon:12.3155,symbol:'≈',effectIt:'Riflessi d’acqua tra i canali.',effectEn:'Water reflections between the canals.',it:'A Venezia la luce cammina sull’acqua. Ascolta il ritmo lento delle parole.',en:'In Venice, light walks on water. Listen to the slow rhythm of the words.'},
+      {name:'Bologna',region:'Emilia-Romagna',lat:44.4949,lon:11.3426,symbol:'⌒',effectIt:'Archi morbidi come i portici.',effectEn:'Soft arches like the porticoes.',it:'Bologna ti invita sotto i portici. Una frase breve può accompagnarti per tutta la strada.',en:'Bologna invites you under its porticoes. A short phrase can follow you along the whole street.'},
+      {name:'Milano',region:'Lombardia',lat:45.4642,lon:9.19,symbol:'◇',effectIt:'Linee luminose di design.',effectEn:'Bright lines of design.',it:'Milano unisce storia e design. Guarda le forme e impara parole precise.',en:'Milan joins history and design. Look at the shapes and learn precise words.'},
+      {name:'Napoli',region:'Campania',lat:40.8518,lon:14.2681,symbol:'☀',effectIt:'Un sole caldo sopra il golfo.',effectEn:'A warm sun over the gulf.',it:'Napoli parla con energia. Qui ascolti il suono vivo della città e del mare.',en:'Naples speaks with energy. Here you hear the lively sound of the city and sea.'},
+      {name:'Torino',region:'Piemonte',lat:45.0703,lon:7.6869,symbol:'◉',effectIt:'Un piccolo fotogramma di cinema.',effectEn:'A small cinema frame.',it:'Torino sembra elegante e calma. Accende una piccola scena di cinema.',en:'Turin feels elegant and calm. It lights a small cinema scene.'},
+      {name:'Bari',region:'Puglia',lat:41.1171,lon:16.8719,symbol:'〰',effectIt:'Onde chiare dell’Adriatico.',effectEn:'Clear waves of the Adriatic.',it:'Bari guarda il mare Adriatico. Impara una frase semplice per salutare sul lungomare.',en:'Bari looks over the Adriatic Sea. Learn a simple phrase for greeting someone by the sea.'},
+      {name:'Palermo',region:'Sicilia',lat:38.1157,lon:13.3615,symbol:'❋',effectIt:'Scintille color agrume.',effectEn:'Citrus-coloured sparks.',it:'Palermo mescola molte storie e molti colori. Ogni parola ha un profumo diverso.',en:'Palermo mixes many stories and colours. Every word has a different scent.'},
+      {name:'Cagliari',region:'Sardegna',lat:39.2238,lon:9.1217,symbol:'⌁',effectIt:'Una piuma rosa sul mare.',effectEn:'A pink feather over the sea.',it:'Cagliari chiude il primo viaggio. La Sardegna ti regala vento, mare e una nuova pagina.',en:'Cagliari closes the first journey. Sardinia gives you wind, sea and a new page.'}
+    ];
+    let activeCity = 0;
+    let mapLoaded = false;
+    function unlockedCityCount() {
+      return Math.min(cities.length,1+Math.floor(unlockedStamps.length/3));
+    }
+    function projectPoint(longitude,latitude) {
+      return [(longitude-6.1)/13.1*390,(47.35-latitude)/11.7*520];
+    }
+    function ringPath(ring) {
+      return ring.map((point,index) => {
+        const projected = projectPoint(point[0],point[1]);
+        return (index ? 'L' : 'M') + projected[0].toFixed(2) + ',' + projected[1].toFixed(2);
+      }).join('') + 'Z';
+    }
+    function topoArc(topology,index) {
+      const reverse = index < 0;
+      const arc = topology.arcs[reverse ? ~index : index];
+      let x = 0;
+      let y = 0;
+      const scale = topology.transform.scale;
+      const translate = topology.transform.translate;
+      const points = arc.map(delta => {
+        x += delta[0];
+        y += delta[1];
+        return [x*scale[0]+translate[0],y*scale[1]+translate[1]];
+      });
+      return reverse ? points.reverse() : points;
+    }
+    function topoRing(topology,ids) {
+      const output = [];
+      ids.forEach((id,index) => {
+        const arc = topoArc(topology,id);
+        if (index) arc.shift();
+        output.push.apply(output,arc);
+      });
+      return output;
+    }
+    function topoPath(topology,geometry) {
+      const polygons = geometry.type === 'Polygon' ? [geometry.arcs] : geometry.arcs;
+      return polygons.map(polygon => polygon.map(ring => ringPath(topoRing(topology,ring))).join('')).join('');
+    }
+    async function loadItalyMap() {
+      const svg = $('#italyMap');
+      try {
+        const response = await fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/refs/heads/master/topojson/limits_IT_regions.topo.json');
+        if (!response.ok) throw new Error('map');
+        const data = await response.json();
+        const features = data.objects.regions.geometries;
+        svg.innerHTML = features.map(feature =>
+          '<path class="region" data-region="' + feature.properties.reg_name + '" d="' + topoPath(data,feature) + '"></path>'
+        ).join('') +
+          '<text id="mapTyrrhenian" x="39" y="220" fill="#8fa9a7" opacity=".55" font-size="8">MAR TIRRENO</text>' +
+          '<text id="mapAdriatic" x="322" y="255" fill="#8fa9a7" opacity=".55" font-size="8" transform="rotate(67 322 255)">MARE ADRIATICO</text>';
+      } catch (error) {
+        svg.innerHTML = '<path class="region unlocked focus" data-region="Lazio" d="M210 34 C150 55 138 108 170 142 C131 173 155 229 207 247 C184 285 214 326 254 341 C235 378 264 428 303 473 C318 489 335 481 329 459 C315 414 294 378 303 337 C312 298 287 269 261 245 C296 199 275 154 241 127 C267 83 253 49 210 34 Z"></path><text id="mapOffline" x="200" y="520" text-anchor="middle" fill="#b8afa2" font-size="10">ITALIA · OFFLINE</text>';
+      }
+      mapLoaded = true;
+      renderMapLanguage();
+      renderJourney();
+    }
+    function renderMapLanguage() {
+      if ($('#mapTyrrhenian')) $('#mapTyrrhenian').textContent = textFor('MAR TIRRENO','TYRRHENIAN SEA');
+      if ($('#mapAdriatic')) $('#mapAdriatic').textContent = textFor('MARE ADRIATICO','ADRIATIC SEA');
+      if ($('#mapOffline')) $('#mapOffline').textContent = textFor('ITALIA · OFFLINE','ITALY · OFFLINE');
+    }
+    function renderCityPoints() {
+      const svg = $('#italyMap');
+      svg.querySelectorAll('.city-point').forEach(point => point.remove());
+      const unlocked = unlockedCityCount();
+      cities.forEach((city,index) => {
+        const projected = projectPoint(city.lon,city.lat);
+        const group = document.createElementNS('http://www.w3.org/2000/svg','g');
+        group.setAttribute('class','city-point ' + (index >= unlocked ? 'locked' : ''));
+        group.setAttribute('transform','translate(' + projected[0] + ' ' + projected[1] + ')');
+        group.innerHTML =
+          '<circle class="pulse" r="4"></circle><circle class="core" r="4"></circle>' +
+          '<text x="7" y="3">' + city.name + '</text>';
+        group.onclick = () => {
+          if (index >= unlocked) {
+            const remaining = 3-unlockedStamps.length%3;
+            showToast(textFor('Servono ancora ' + remaining + ' francobolli per accendere ' + city.name + '.',remaining + ' more stamps will light ' + city.name + '.'));
+            return;
+          }
+          activeCity = index;
+          renderJourney();
+        };
+        svg.append(group);
+      });
+    }
+    function renderJourney() {
+      if (!mapLoaded) return;
+      const unlocked = unlockedCityCount();
+      activeCity = Math.min(activeCity,unlocked-1);
+      const city = cities[activeCity];
+      $$('.region').forEach(region => {
+        const cityIndex = cities.findIndex(item => item.region === region.dataset.region);
+        region.classList.toggle('unlocked',cityIndex >= 0 && cityIndex < unlocked);
+        region.classList.toggle('focus',region.dataset.region === city.region);
+      });
+      renderCityPoints();
+      localized(
+        $('#cityRegion'),
+        city.region.toUpperCase() + ' · ' + (activeCity === 0 ? 'BENVENUTO' : 'CITTÀ ' + String(activeCity+1)),
+        city.region.toUpperCase() + ' · ' + (activeCity === 0 ? 'WELCOME' : 'CITY ' + String(activeCity+1))
+      );
+      $('#cityTitle').textContent = city.name;
+      localized($('#cityCopy'),city.it,city.en);
+      $('#cityEffect').dataset.symbol = city.symbol;
+      localized($('#cityEffect'),city.effectIt,city.effectEn);
+      $('#journeyFill').style.setProperty('--p',String(unlocked/cities.length*100) + '%');
+      localized($('#journeyText'),String(unlocked) + ' di ' + String(cities.length) + ' città illuminate',String(unlocked) + ' of ' + String(cities.length) + ' cities lit');
+      const off = $('#mapWrap').classList.contains('lights-off');
+      localized($('#lampLabel'),off ? I18N.it.lightOff : I18N.it.lightOn,off ? I18N.en.lightOff : I18N.en.lightOn);
+    }
+
+    const cultureItems = [
+      {city:0,cat:'art',title:'La Fontana di Trevi',titleEn:'The Trevi Fountain',img:scenes[4].img,it:'Guarda l’acqua! La fontana è grande e piena di statue. A Roma una piazza può diventare un teatro.',en:'Look at the water! The fountain is large and full of statues. In Rome, a square can become a theatre.',youIt:'È bellissima. L’acqua fa molto rumore?',youEn:'It is beautiful. Does the water make a lot of noise?',words:['la fontana','l’acqua','la piazza']},
+      {city:1,cat:'garden',title:'I Giardini di Boboli',titleEn:'The Boboli Gardens',img:scenes[1].img,it:'Camminiamo piano. Qui ci sono alberi, statue e piccoli sentieri. È un giardino storico di Firenze.',en:'Let us walk slowly. There are trees, statues and small paths here. It is a historic garden in Florence.',youIt:'Mi piace questo sentiero verde.',youEn:'I like this green path.',words:['il giardino','l’albero','il sentiero']},
+      {city:2,cat:'city',title:'L’acqua di Venezia',titleEn:'The water of Venice',img:scenes[5].img,it:'A Venezia molte strade sono canali. La barca piccola si chiama gondola.',en:'In Venice many streets are canals. The small boat is called a gondola.',youIt:'Andiamo in gondola?',youEn:'Shall we go in a gondola?',words:['il canale','la gondola','il ponte']},
+      {city:3,cat:'life',title:'Sotto i portici',titleEn:'Under the porticoes',img:scenes[0].img,it:'A Bologna puoi camminare sotto lunghi portici. Quando piove, sono molto utili.',en:'In Bologna you can walk under long porticoes. When it rains, they are very useful.',youIt:'Oggi piove, ma siamo al coperto.',youEn:'Today it is raining, but we are under cover.',words:['il portico','la pioggia','camminare']},
+      {city:4,cat:'gelato',title:'Un gusto curioso',titleEn:'A curious flavour',img:scenes[2].img,it:'In gelateria puoi chiedere: “Che gusto mi consiglia?” Prova due gusti, uno classico e uno nuovo.',en:'In a gelato shop you can ask: “Which flavour do you recommend?” Try two flavours, one classic and one new.',youIt:'Per me pistacchio e limone, grazie.',youEn:'Pistachio and lemon for me, thank you.',words:['il gusto','il cono','per me']},
+      {city:5,cat:'city',title:'Il golfo di Napoli',titleEn:'The Gulf of Naples',img:scenes[3].img,it:'Da Napoli vedi il mare e il Vesuvio. La città ha una voce forte e allegra.',en:'From Naples you see the sea and Vesuvius. The city has a strong and cheerful voice.',youIt:'Che bella vista sul mare!',youEn:'What a beautiful sea view!',words:['il golfo','il mare','la vista']},
+      {city:6,cat:'art',title:'Torino e il cinema',titleEn:'Turin and cinema',img:scenes[0].img,it:'Torino ha un museo del cinema dentro la Mole Antonelliana. Una città può raccontare storie con le immagini.',en:'Turin has a cinema museum inside the Mole Antonelliana. A city can tell stories with images.',youIt:'Mi piacciono i film italiani.',youEn:'I like Italian films.',words:['il cinema','il film','l’immagine']},
+      {city:7,cat:'life',title:'Buongiorno, Bari',titleEn:'Good morning, Bari',img:scenes[3].img,it:'Sul lungomare diciamo “Buongiorno!” e guardiamo le barche. Una parola semplice apre una conversazione.',en:'By the sea we say “Good morning!” and look at the boats. A simple word opens a conversation.',youIt:'Buongiorno! Come va oggi?',youEn:'Good morning! How are you today?',words:['buongiorno','come va?','la barca']},
+      {city:8,cat:'gelato',title:'Limone di Sicilia',titleEn:'Sicilian lemon',img:scenes[3].img,it:'In Sicilia trovi gusti freschi come limone e mandorla. Assaggia lentamente e descrivi il sapore.',en:'In Sicily you find fresh flavours such as lemon and almond. Taste slowly and describe the flavour.',youIt:'È fresco, dolce e un po’ aspro.',youEn:'It is fresh, sweet and a little sour.',words:['il limone','la mandorla','dolce']},
+      {city:9,cat:'city',title:'Il vento di Cagliari',titleEn:'The wind of Cagliari',img:scenes[5].img,it:'A Cagliari il vento arriva dal mare. Fermati, ascolta e scegli tre parole per il paesaggio.',en:'In Cagliari the wind comes from the sea. Stop, listen and choose three words for the landscape.',youIt:'Vedo il cielo, il mare e la luce.',youEn:'I see the sky, the sea and the light.',words:['il vento','il cielo','la luce']}
+    ];
+    let cultureFilter = 'all';
+    let activeCulture = null;
+    function greeting() {
+      const hour = basisPart
