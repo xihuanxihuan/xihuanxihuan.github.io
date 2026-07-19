@@ -1,0 +1,400 @@
+s().hour;
+      if (hour < 5) return {it:'Buonanotte! Studiamo con calma, sotto le luci della città.',en:'Good night! Let us study calmly under the city lights.'};
+      if (hour < 12) return {it:'Buongiorno! Oggi scegliamo una piccola storia e tre parole nuove.',en:'Good morning! Today we choose a small story and three new words.'};
+      if (hour < 18) return {it:'Buon pomeriggio! Facciamo una piccola passeggiata insieme.',en:'Good afternoon! Let us take a small walk together.'};
+      return {it:'Buonasera! Accendiamo una città e ascoltiamo la sua storia.',en:'Good evening! Let us light a city and listen to its story.'};
+    }
+    function renderGreeting() {
+      const copy = greeting();
+      localized($('#guideGreeting'),copy.it,copy.en);
+    }
+    function renderCulture() {
+      renderGreeting();
+      const unlocked = unlockedCityCount();
+      const items = cultureItems.filter(item => cultureFilter === 'all' || item.cat === cultureFilter);
+      const path = $('#culturePath');
+      path.replaceChildren();
+      items.forEach((item,index) => {
+        const itemIndex = cultureItems.indexOf(item);
+        const locked = item.city >= unlocked;
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'culture-card ' + (locked ? 'locked' : '');
+        card.style.setProperty('--i',index);
+        const image = document.createElement('img');
+        image.src = item.img;
+        image.alt = item.title;
+        image.loading = 'lazy';
+        const copy = document.createElement('div');
+        const small = document.createElement('small');
+        const title = document.createElement('b');
+        localized(small,cities[item.city].name + ' · ' + I18N.it[item.cat],cities[item.city].name + ' · ' + I18N.en[item.cat]);
+        localized(title,item.title,item.titleEn);
+        copy.append(small,title);
+        card.append(image,copy);
+        card.onclick = () => {
+          if (locked) return showToast(textFor('Prima accendi ' + cities[item.city].name + '.','Light ' + cities[item.city].name + ' first.'));
+          openCulture(itemIndex);
+        };
+        path.append(card);
+      });
+    }
+    function openCulture(index) {
+      activeCulture = index;
+      const item = cultureItems[index];
+      const city = cities[item.city];
+      $('#dialogCity').textContent = city.name.toUpperCase() + ' · ' + city.region.toUpperCase();
+      localized($('#dialogTitle'),item.title,item.titleEn);
+      localized($('#dialogGuide'),item.it,item.en);
+      localized($('#dialogYou'),item.youIt,item.youEn);
+      $('#dialogWords').innerHTML = item.words.map(word => '<span>' + word + '</span>').join('');
+      $('#cultureDialog').classList.add('open');
+    }
+
+    function applyLanguage() {
+      document.documentElement.lang = lang === 'en' ? 'en' : 'it';
+      document.body.dataset.lang = lang;
+      document.body.classList.toggle('bilingual',lang === 'bi');
+      $$('[data-lang]').forEach(button => button.classList.toggle('on',button.dataset.lang === lang));
+      $$('[data-i18n]').forEach(element => localizedKey(element,element.dataset.i18n));
+      $$('[data-it][data-en]').forEach(element => localized(element,element.dataset.it,element.dataset.en));
+      const styleLabels = lang === 'en' ? ['ARCHIVE MIST','DARKROOM','TISSUE PAPER'] : ['NEBBIA D’ARCHIVIO','CAMERA OSCURA','CARTA VELINA'];
+      $$('#stampStyle option').forEach((option,index) => { option.textContent = styleLabels[index]; });
+      const categoryKeys = ['all','city','art','garden','gelato','life'];
+      $$('#cultureCats button').forEach((button,index) => localizedKey(button,categoryKeys[index]));
+      $('#homeBtn').setAttribute('aria-label',textFor('Torna alla pagina iniziale','Return to home'));
+      $('#addBtn').setAttribute('aria-label',textFor('Importa un file','Import a file'));
+      $('#importBtn').setAttribute('aria-label',textFor('Importa audio o video','Import audio or video'));
+      $('#italyMap').setAttribute('aria-label',textFor('Mappa delle regioni d’Italia','Map of the regions of Italy'));
+      if (current) {
+        const isVideo = (current.type && current.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(current.originalName || '');
+        localized($('#mediaKind'),isVideo ? I18N.it.mediaVideo : I18N.it.mediaAudio,isVideo ? I18N.en.mediaVideo : I18N.en.mediaAudio);
+      }
+      renderLearning();
+      renderTime();
+      renderScenes();
+      renderAlbum(true);
+      renderJourney();
+      renderCulture();
+      renderLibrary();
+      renderMapLanguage();
+      updateClock();
+      if ($('#sceneModeModal').classList.contains('open') && pendingTimeBasis) openSceneModePrompt(pendingTimeBasis);
+      localStorage.setItem('gelato-language-v6',lang);
+    }
+
+    $('#homeBtn').onclick = () => switchView('home');
+    $('#albumExitBtn').onclick = () => switchView(current ? 'player' : 'home');
+    $('#libraryBtn').onclick = openDrawer;
+    $('#closeDrawer').onclick = closeDrawer;
+    $('#scrim').onclick = closeDrawer;
+    $$('.nav-button').forEach(button => {
+      button.onclick = () => switchView(button.dataset.view);
+    });
+    $$('#languageSwitch button').forEach(button => {
+      button.onclick = () => {
+        lang = button.dataset.lang;
+        applyLanguage();
+      };
+    });
+    $('#addBtn').onclick = () => $('#fileInput').click();
+    $('#importBtn').onclick = () => $('#fileInput').click();
+    $('#fileInput').onchange = () => {
+      const file = $('#fileInput').files[0];
+      if (!file) return;
+      if (!mediaSupported(file)) {
+        showToast(textFor(I18N.it.invalidMedia,I18N.en.invalidMedia));
+        $('#fileInput').value = '';
+        return;
+      }
+      openRenameForFile(file);
+    };
+    $('#renameClose').onclick = () => closeRename();
+    $('#renameCancel').onclick = () => closeRename();
+    $('#renameConfirm').onclick = confirmRename;
+    $('#renameInput').addEventListener('keydown',event => {
+      if (event.key === 'Enter') confirmRename();
+    });
+    $('#renameCurrentBtn').onclick = () => {
+      if (current) openRenameForRow(current);
+    };
+    $('#centerBtn').onclick = togglePlay;
+    $('#playBtn').onclick = togglePlay;
+    $('#backBtn').onclick = () => {
+      if (media) seekTo(media.currentTime-3);
+    };
+    $('#forwardBtn').onclick = () => {
+      if (media) seekTo(media.currentTime+3);
+    };
+    $('#seek').oninput = event => seekTo(+event.target.value);
+    $('#startRange').oninput = event => {
+      clipA = Math.min(+event.target.value,clipB-.1);
+      updateTimeline();
+    };
+    $('#endRange').oninput = event => {
+      clipB = Math.max(+event.target.value,clipA+.1);
+      updateTimeline();
+    };
+    $('#clipAInput').addEventListener('change',event => setClipFromInput('a',event.currentTarget));
+    $('#clipBInput').addEventListener('change',event => setClipFromInput('b',event.currentTarget));
+    [$('#clipAInput'),$('#clipBInput')].forEach((input,index) => input.addEventListener('keydown',event => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        setClipFromInput(index ? 'b' : 'a',event.currentTarget);
+        event.currentTarget.blur();
+      }
+    }));
+    $$('[data-nudge]').forEach(button => {
+      button.onclick = () => nudge(button.dataset.nudge);
+    });
+    $('#speed').onchange = event => {
+      if (media) media.playbackRate = +event.target.value;
+    };
+    $('#toggleSourceBtn').onclick = () => $('#sourcePane').classList.toggle('concealed');
+    $('#importTranscriptBtn').onclick = () => $('#transcriptInput').click();
+    $('#transcriptInput').onchange = async event => {
+      const file = event.currentTarget.files[0];
+      if (!file) return;
+      $('#sourceText').value = tidyTranscript(await file.text());
+      $('#sourcePane').classList.remove('concealed');
+      if (current) {
+        current.transcript = $('#sourceText').value;
+        saveMedia(current).catch(() => {});
+      }
+      event.currentTarget.value = '';
+    };
+    $('#sourceText').addEventListener('change',() => {
+      if (!current) return;
+      current.transcript = $('#sourceText').value;
+      saveMedia(current).catch(() => {});
+    });
+    $('#checkDictationBtn').onclick = checkDictation;
+    $('#mindClearBtn').onclick = openFocusRitual;
+    $('#focusFinish').onclick = finishFocusRitual;
+    $('#readyButton').onclick = beginFocusCountdown;
+    $('#focusClose').onclick = closeFocusRitual;
+    $('#loopButtons').onclick = event => {
+      const button = event.target.closest('[data-loop]');
+      if (!button) return;
+      loops = +button.dataset.loop;
+      loopIndex = 0;
+      $$('[data-loop]').forEach(item => item.classList.toggle('on',item === button));
+      $('#loopAll').textContent = loops || '∞';
+      $('#loopNow').textContent = '0';
+    };
+    $('#freeMode').onclick = () => {
+      learningModeActive = false;
+      loopIndex = 0;
+      $('#freeMode').classList.add('on');
+      $('#learnMode').classList.remove('on');
+      $('#learningPanel').classList.remove('open');
+    };
+    $('#learnMode').onclick = () => {
+      learningModeActive = true;
+      loopIndex = 0;
+      $('#learnMode').classList.add('on');
+      $('#freeMode').classList.remove('on');
+      $('#learningPanel').classList.add('open');
+      renderLearning();
+    };
+    $('#previousStep').onclick = () => {
+      learningStep = Math.max(0,learningStep-1);
+      renderLearning();
+    };
+    $('#nextStep').onclick = () => {
+      if (learningStep < 5) {
+        learningStep++;
+        renderLearning();
+      } else {
+        showToast(textFor(I18N.it.sessionComplete,I18N.en.sessionComplete));
+      }
+    };
+    $('#saveClip').onclick = () => {
+      if (!current) return;
+      let clips = [];
+      try { clips = JSON.parse(localStorage.getItem('gelato-clips-v2') || '[]'); } catch (error) {}
+      clips.push({mediaId:current.id,a:clipA,b:clipB,createdAt:Date.now()});
+      localStorage.setItem('gelato-clips-v2',JSON.stringify(clips));
+      showToast(textFor(I18N.it.clipSaved,I18N.en.clipSaved));
+    };
+    $('#maskBtn').onclick = () => {
+      const on = $('#captionMask').classList.toggle('on');
+      $('#maskBtn').classList.toggle('on',on);
+      $('#maskPanel').classList.toggle('open',on);
+    };
+    $('#maskWidth').oninput = event => {
+      $('#captionMask').style.width = event.target.value + '%';
+    };
+    $('#maskHeight').oninput = event => {
+      $('#captionMask').style.height = event.target.value + '%';
+    };
+    $('#maskLevel').oninput = event => {
+      $('#captionMask').style.bottom = event.target.value + '%';
+    };
+    $('#theaterBtn').onclick = async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen();
+        else await $('#stage').requestFullscreen();
+      } catch (error) {}
+    };
+    document.addEventListener('fullscreenchange',() => {
+      $('#theaterBtn').classList.toggle('on',Boolean(document.fullscreenElement));
+    });
+    document.addEventListener('keydown',event => {
+      if (['INPUT','TEXTAREA','SELECT'].includes(event.target.tagName)) return;
+      if (event.code === 'Space') {
+        event.preventDefault();
+        togglePlay();
+      }
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        if (media) seekTo(media.currentTime-3);
+      }
+      if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        if (media) seekTo(media.currentTime+3);
+      }
+      if (event.key === 'Escape') {
+        $$('.modal.open').forEach(modal => modal.classList.remove('open'));
+        $('#stampImmersive').classList.remove('open');
+        if ($('#focusRitual').classList.contains('open')) closeFocusRitual();
+      }
+    });
+    $('#mediaRecordFilter').onclick = event => {
+      const button = event.target.closest('[data-media-record]');
+      if (!button) return;
+      recordMediaFilter = button.dataset.mediaRecord;
+      $$('#mediaRecordFilter button').forEach(item => item.classList.toggle('on',item === button));
+      renderProgress();
+    };
+    $('#rangeRecordFilter').onclick = event => {
+      const button = event.target.closest('[data-range-record]');
+      if (!button) return;
+      recordRange = button.dataset.rangeRecord;
+      $$('#rangeRecordFilter button').forEach(item => item.classList.toggle('on',item === button));
+      $('#customDates').classList.toggle('open',recordRange === 'custom');
+      renderProgress();
+    };
+    $('#recordStartDate').onchange = renderProgress;
+    $('#recordEndDate').onchange = renderProgress;
+    $('#timeBasisButtons').onclick = event => {
+      const button = event.target.closest('[data-time-basis]');
+      if (!button) return;
+      selectedClockBasis = button.dataset.timeBasis;
+      localStorage.setItem('gelato-clock-basis-v8',selectedClockBasis);
+      $$('#timeBasisButtons button').forEach(item => item.classList.toggle('on',item === button));
+      $('#customSceneTime').classList.toggle('open',selectedClockBasis === 'custom');
+      openSceneModePrompt(selectedClockBasis);
+    };
+    $('#customSceneTime').oninput = () => {
+      if (selectedClockBasis !== 'custom') return;
+      if (timeBasis === 'custom') applyScene(sceneForHour(basisParts().hour),true,true);
+      updateClock();
+    };
+    $('#sceneVisualBtn').onclick = () => $('#sceneVisualPanel').classList.toggle('open');
+    $$('.scene-quality button').forEach(button => button.onclick = () => {
+      sceneQuality = button.dataset.sceneQuality;
+      localStorage.setItem('gelato-scene-quality-v9',sceneQuality);
+      applySceneTheme();
+    });
+    $('#sceneBlur').oninput = event => {
+      sceneBlur = Number(event.target.value);
+      localStorage.setItem('gelato-scene-blur-v9',String(sceneBlur));
+      applySceneTheme();
+    };
+    $('#customWallpaperBtn').onclick = () => $('#customWallpaperInput').click();
+    $('#customWallpaperInput').onchange = event => {
+      storeCustomWallpaper(event.currentTarget.files[0]);
+      event.currentTarget.value = '';
+    };
+    $('#sceneModeClose').onclick = () => $('#sceneModeModal').classList.remove('open');
+    $('#sceneModeModal').onclick = event => { if (event.target.id === 'sceneModeModal') event.currentTarget.classList.remove('open'); };
+    $('#sceneFollowChoice').onclick = () => {
+      if (!pendingTimeBasis) return;
+      timeBasis = pendingTimeBasis;
+      localStorage.setItem('gelato-time-basis-v7',timeBasis);
+      $('#sceneModeModal').classList.remove('open');
+      applyScene(sceneForHour(basisParts().hour),true,true);
+      updateClock();
+    };
+    $('#sceneKeepChoice').onclick = () => {
+      timeBasis = 'manual';
+      localStorage.setItem('gelato-time-basis-v7',timeBasis);
+      $('#sceneModeModal').classList.remove('open');
+      applyScene(sceneIndex,false,true);
+      updateClock();
+    };
+    $('#pocketWatch').onclick = () => {
+      $('#timeBasisButtons').scrollIntoView({behavior:'smooth',block:'center'});
+      $('#pocketWatch').classList.add('touched');
+      setTimeout(() => $('#pocketWatch').classList.remove('touched'),700);
+    };
+    $('#sampleStampBtn').onclick = () => openStampPreview(0,true);
+    $('#fullWallBtn').onclick = previewCompleteWall;
+    $('#closeWallPreview').onclick = closeCompleteWallPreview;
+    $('#stampStyle').onchange = event => {
+      stampWallStyle = event.target.value;
+      localStorage.setItem('gelato-stamp-style-v9',stampWallStyle);
+      renderAlbum(true);
+    };
+    $('#chooseStampBtn').onclick = openStampChoices;
+    $('#stampChoiceClose').onclick = () => $('#stampChoiceModal').classList.remove('open');
+    $('#stampChoiceModal').onclick = event => {
+      if (event.target.id === 'stampChoiceModal') event.currentTarget.classList.remove('open');
+    };
+    $('#previewClose').onclick = () => $('#stampPreview').classList.remove('open');
+    $('#stampPreview').onclick = event => {
+      if (event.target.id === 'stampPreview') event.currentTarget.classList.remove('open');
+    };
+    $('#stampWordsBtn').onclick = () => $('#stampWords').classList.toggle('open');
+    $('#openImmersive').onclick = openImmersive;
+    $('#immersiveClose').onclick = () => $('#stampImmersive').classList.remove('open');
+    $('#immersiveStage').addEventListener('pointermove',moveMagnifier);
+    $('#immersiveStage').addEventListener('pointerleave',() => {
+      $('#magnifier').style.display = 'none';
+      $('#immersiveImage').style.filter = 'drop-shadow(0 35px 38px rgba(0,0,0,.55))';
+    });
+    $('#mapLamp').onclick = () => {
+      $('#mapWrap').classList.toggle('lights-off');
+      renderJourney();
+    };
+    $('#cultureCats').onclick = event => {
+      const button = event.target.closest('[data-cat]');
+      if (!button) return;
+      cultureFilter = button.dataset.cat;
+      $$('#cultureCats button').forEach(item => item.classList.toggle('on',item === button));
+      renderCulture();
+    };
+    $('#closeCulture').onclick = () => $('#cultureDialog').classList.remove('open');
+    $('#cultureDialog').onclick = event => {
+      if (event.target.id === 'cultureDialog') event.currentTarget.classList.remove('open');
+    };
+    $('#dialogDone').onclick = () => {
+      if (activeCulture === null) return;
+      let done = [];
+      try { done = JSON.parse(localStorage.getItem('gelato-culture-done') || '[]'); } catch (error) {}
+      if (!done.includes(activeCulture)) done.push(activeCulture);
+      localStorage.setItem('gelato-culture-done',JSON.stringify(done));
+      $('#cultureDialog').classList.remove('open');
+      showToast(textFor('Una nuova luce sulla mappa!','A new light on the map!'));
+      renderJourney();
+    };
+    const initialDate = new Date();
+    const initialStart = new Date(initialDate);initialStart.setDate(initialStart.getDate()-6);
+    $('#recordStartDate').value = localDateKey(initialStart);
+    $('#recordEndDate').value = localDateKey(initialDate);
+    renderScenes();
+    renderLearning();
+    renderTime();
+    renderAlbum(true);
+    renderLibrary();
+    updateClock();
+    setInterval(updateClock,30000);
+    loadItalyMap();
+    loadStampArchive();
+    applyLanguage();
+    switchView('home',true);
+  })();
+  </script>
+</body>
+</html>
