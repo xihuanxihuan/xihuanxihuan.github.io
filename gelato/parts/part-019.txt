@@ -1,4 +1,2370 @@
-s().hour;
+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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8n/grI7vbuR5pG60AAAAASUVORK5CYII=") center/500% 100% no-repeat;filter:sepia(.1) brightness(1.05) drop-shadow(0 0 15px rgba(225,177,86,.2))}.palazzo-reveal small{display:block;color:#8e826d;font-size:6px;letter-spacing:.19em}.palazzo-reveal strong{display:block;margin-top:5px;color:#d8bd87;font:400 17px var(--serif)}
+    .dial-center strong,.time-stat strong{font-weight:200!important;font-variation-settings:"wght" 260;letter-spacing:-.075em!important}.time-page .time-layout{gap:clamp(34px,5vw,80px)!important}.time-page .time-dial{max-width:560px!important}.time-page .time-journal{background:linear-gradient(145deg,rgba(10,9,8,.18),rgba(255,255,255,.02))!important;border:1px solid rgba(214,180,112,.13)!important}
+
+    @media(max-width:1100px){body[data-view="album"] .album-head{grid-template-columns:1fr}.album-collection-bar{grid-template-columns:44px repeat(3,auto) 1fr auto}.album-wall{grid-template-columns:repeat(14,minmax(0,1fr))!important}.scene-header{grid-template-columns:1fr!important}.scene-header-tools{justify-self:start!important;width:min(520px,100%)!important;grid-template-columns:1fr 116px!important}.scene-visual-panel{left:0!important;right:auto!important}.window-row{overflow-x:auto!important;grid-template-columns:repeat(5,170px)!important}}
+    @media(max-width:720px){body[data-view="album"] .album-page{padding:13px 11px 60px}.album-collection-bar{grid-template-columns:38px 1fr auto}.album-tab:not(.active){display:none}.album-exit{grid-column:3;padding:0 4px}.album-exit span{display:none}body[data-view="album"] .album-head{padding:0 10px;margin-top:24px}.album-wall{grid-template-columns:repeat(8,minmax(0,1fr))!important;padding-inline:18px!important}.scene-header-tools{width:100%!important}.world-clocks{min-height:72px!important}.scene-visual-panel{width:min(92vw,520px)!important;grid-template-columns:43px 1fr!important}.scene-visual-panel label,.scene-visual-panel .custom-wallpaper{grid-column:1/3!important}.scene-gallery{height:700px!important}.scene-card:nth-child(1),.scene-card:nth-child(7){--w:132px}.scene-card:nth-child(2),.scene-card:nth-child(6){--w:112px}.scene-card:nth-child(3),.scene-card:nth-child(5){--w:125px}.pocket-watch.watch-orbit{width:120px;height:120px}.window-rewards{padding-inline:14px!important}}
+
+    /* V11 · exact visual-contract correction */
+    @media(min-width:1101px){
+      /* Keep the three Italian water rings and the five architectural rewards in one composed view. */
+      .time-page{padding:34px clamp(38px,4.2vw,68px) 38px!important}
+      .time-page>.micro{position:relative;z-index:2}.time-page>.page-title{position:relative;z-index:2;margin:8px 0 0!important;font-size:clamp(45px,4.1vw,64px)!important;font-weight:300!important;letter-spacing:-.045em!important}
+      .time-page .time-layout{grid-template-columns:minmax(360px,.86fr) minmax(470px,1.14fr)!important;gap:clamp(35px,5vw,78px)!important;min-height:350px!important;margin-top:-8px!important}
+      .time-page .time-dial{width:min(385px,88%)!important;max-width:385px!important}
+      .time-page .dial-center strong{font-size:clamp(49px,4.8vw,70px)!important}
+      .time-page .time-journal{display:grid!important;grid-template-columns:1.25fr 1fr!important;column-gap:30px!important;align-content:center!important;padding:18px 0 18px 38px!important}
+      .time-page .time-quote{grid-column:1/3!important;margin:0 0 10px!important;font-size:clamp(22px,2.05vw,31px)!important}
+      .time-page .time-stat{padding:12px 0!important}.time-page .time-stat:nth-of-type(1){grid-column:1}.time-page .time-stat:nth-of-type(2){grid-column:2}.time-page .time-stat:nth-of-type(3){grid-column:1/3}
+      .time-page .time-stat strong{font-size:clamp(27px,2.4vw,38px)!important;font-weight:200!important}
+      .time-page .time-reward{grid-column:1/3!important;margin-top:9px!important;padding:11px 15px!important}
+      .time-page .window-rewards{margin-top:3px!important;padding:14px 25px 13px!important}
+      .time-page .window-rewards header{padding-bottom:7px!important}.time-page .window-row{margin-top:9px!important;gap:20px!important;align-items:start!important}
+      .time-page .study-window{min-height:210px!important;padding-bottom:25px!important;opacity:.58!important;filter:saturate(.62) brightness(.72)}
+      .time-page .study-window.unlocked{opacity:1!important;filter:saturate(.95) brightness(1)}
+      .time-page .study-window .window-light{width:84px!important;height:158px!important;margin:0 auto!important;background-size:500% 100%!important}
+      .time-page .study-window>small{bottom:0!important}.time-page .study-window>b{font-size:13px!important}.time-page .study-window>em{font-size:5.5px!important}
+    }
+
+    /* 7C is a single luminous journey, not two closed eye-shaped loops. */
+    @media(min-width:1101px){
+      .scene-header{grid-template-columns:minmax(0,1fr) 480px!important;gap:54px!important}
+      .scene-header-tools{grid-template-columns:334px 132px!important;grid-template-rows:82px!important;width:480px!important;gap:14px!important}
+      .world-clocks{grid-column:1!important;grid-row:1!important;min-height:82px!important}
+      .scene-visual-button{grid-column:2!important;grid-row:1!important;width:132px!important;height:82px!important;border-radius:28px!important;flex-direction:column!important;gap:12px!important}
+      .scene-visual-panel{top:96px!important;width:620px!important}
+    }
+    .scene-gallery{background:radial-gradient(circle at 49% 52%,rgba(211,177,108,.035),transparent 24%),linear-gradient(145deg,rgba(5,5,4,.035),rgba(28,23,18,.045))!important}
+    .scene-curve{opacity:.82!important}.scene-curve path:first-child{stroke:rgba(236,214,172,.085)!important;stroke-width:7!important;filter:blur(2.4px)!important}.scene-curve path:last-child{stroke-width:1.05!important;stroke-dasharray:none!important;filter:drop-shadow(0 0 8px rgba(228,197,136,.33))!important;animation:sceneSilkThread 7s ease-in-out infinite!important}
+    @keyframes sceneSilkThread{50%{opacity:.58;filter:drop-shadow(0 0 13px rgba(228,197,136,.48))}}
+    .scene-card{opacity:.5!important;filter:saturate(.72) brightness(.76)!important}
+    .scene-card:hover{opacity:.78!important;filter:saturate(.88) brightness(.92)!important}
+    .scene-card:nth-child(1){--w:190px;--ih:156px;--rot:-3deg;left:2.5%!important;top:43%!important}
+    .scene-card:nth-child(2){--w:158px;--ih:119px;--rot:2.5deg;left:15%!important;top:10%!important}
+    .scene-card:nth-child(3){--w:184px;--ih:148px;--rot:-1.8deg;left:29%!important;bottom:4%!important}
+    .scene-card:nth-child(4){--w:158px;--ih:117px;--rot:2deg;left:49%!important;top:7%!important}
+    .scene-card:nth-child(5){--w:184px;--ih:148px;--rot:2.2deg;right:27%!important;bottom:5%!important}
+    .scene-card:nth-child(6){--w:158px;--ih:119px;--rot:-2.5deg;right:13%!important;top:12%!important}
+    .scene-card:nth-child(7){--w:190px;--ih:156px;--rot:3deg;right:2%!important;top:38%!important}
+    .pocket-watch.watch-orbit{width:142px!important;height:142px!important;box-shadow:0 0 0 24px rgba(219,181,108,.018),0 0 0 58px rgba(219,181,108,.008)!important}
+
+    /* A scrollable spatial archive: foreground tissue, mid-ground stamps and distant mist. */
+    .album-wall{grid-template-columns:repeat(20,minmax(0,1fr))!important;grid-template-rows:repeat(150,28px)!important;grid-auto-rows:28px!important;grid-auto-flow:initial!important;min-height:4300px!important;padding:72px 5vw 160px!important;perspective:1050px!important}
+    .album-wall .stamp-slot{grid-column:var(--col,1) / span var(--cs,3)!important;grid-row:var(--row,1) / span var(--rs,5)!important;transform:translate3d(var(--dx,0),var(--dy,0),var(--z,0px)) rotate(var(--rot,0deg)) scale(var(--depth-scale,1))!important;filter:blur(var(--depth-blur,0px));animation:none!important;content-visibility:auto;contain-intrinsic-size:160px 190px;will-change:transform,filter}
+    .album-wall .stamp-slot:nth-child(10n+1),.album-wall .stamp-slot:nth-child(10n+2),.album-wall .stamp-slot:nth-child(10n+3){animation:archiveDrift calc(8s + var(--float,0s)) ease-in-out infinite alternate!important;animation-delay:calc(var(--delay,0s) * -1)!important}
+    .album-wall .stamp-slot:has(.stamp-card:not(.locked)){z-index:12!important;filter:none;--depth-scale:1.08}
+    .album-wall .stamp-slot:before{inset:-34% -48%!important;opacity:.58!important;clip-path:polygon(7% 11%,25% 3%,52% 8%,77% 1%,96% 14%,91% 42%,100% 69%,84% 94%,52% 88%,26% 99%,3% 83%,10% 53%,0 29%)!important}
+    .album-wall .stamp-slot:nth-child(even):before{clip-path:polygon(2% 18%,26% 2%,56% 9%,87% 4%,98% 30%,90% 58%,100% 84%,72% 97%,43% 88%,15% 99%,4% 72%,11% 44%)!important}
+    .album-wall .stamp-slot:nth-child(5n):before{clip-path:polygon(12% 2%,42% 9%,67% 1%,96% 18%,88% 46%,100% 76%,77% 96%,49% 87%,19% 99%,1% 73%,9% 38%)!important}
+    .album-wall .stamp-card{width:78%!important;height:78%!important;max-width:158px!important;max-height:196px!important}
+    .album-wall .stamp-slot.focal-stamp{z-index:18!important}
+    .album-wall .stamp-slot.focal-stamp .stamp-card{width:90%!important;height:88%!important;max-width:242px!important;max-height:302px!important;box-shadow:0 32px 58px rgba(0,0,0,.4)!important}
+    .album-wall .stamp-slot.focal-stamp:before{inset:-31% -42%!important;opacity:.73!important;filter:sepia(.22) brightness(.82) drop-shadow(0 30px 38px rgba(0,0,0,.42))!important}
+    .album-wall .stamp-slot.focal-stamp:after{content:attr(data-callout);position:absolute;z-index:20;left:93%;top:54%;width:150px;padding-left:58px;color:#d9bf8c;font:500 6px var(--sans);letter-spacing:.18em;white-space:nowrap;background:linear-gradient(90deg,rgba(218,184,118,.72),rgba(218,184,118,0)) left 8px/52px 1px no-repeat;opacity:.72}
+    .album-wall .stamp-card.locked{opacity:.34!important;filter:grayscale(.82) blur(1.45px) sepia(.62) brightness(.8)!important}
+    .album-wall .stamp-slot:has(.stamp-card.locked):before{opacity:.47!important;filter:sepia(.32) brightness(.68) blur(.35px) drop-shadow(0 20px 27px rgba(0,0,0,.34))!important}
+    .album-wall.style-fog .stamp-card.locked{opacity:.24!important}.album-wall.style-fog .stamp-slot:before{opacity:.26!important}
+    .album-wall.style-darkroom .stamp-card.locked{opacity:.4!important}.album-wall.style-darkroom .stamp-slot:before{opacity:.38!important}
+    .album-wall.style-tissue .stamp-card.locked{opacity:.37!important}
+    .album-wall.demo .stamp-slot{filter:none!important;opacity:1!important}.album-wall.demo .stamp-card{opacity:1!important}
+
+    /* V12 · final visual parity: visible tricolore water rings and a legible archive focal plane. */
+    .time-page .dial-track{stroke-width:1.05!important;stroke-linecap:round;filter:drop-shadow(0 0 7px rgba(255,255,255,.08))}
+    .time-page .dial-track:nth-of-type(1){stroke:url(#todayWave)!important;opacity:.42;animation:ringBaseGreen 7s ease-in-out infinite}
+    .time-page .dial-track:nth-of-type(2){stroke:url(#sessionWave)!important;opacity:.35;animation:ringBaseIvory 9.5s ease-in-out infinite}
+    .time-page .dial-track:nth-of-type(3){stroke:url(#rewardWave)!important;opacity:.38;animation:ringBaseRed 12s ease-in-out infinite}
+    .time-page .dial-arc{filter:drop-shadow(0 0 10px currentColor)!important}
+    .time-page .dial-arc.today{stroke-width:1.55!important}.time-page .dial-arc.session{stroke-width:1.25!important}.time-page .dial-arc.reward{stroke-width:1.05!important}
+    @keyframes ringBaseGreen{0%,100%{opacity:.23;transform:scale(.994)}48%{opacity:.5;transform:scale(1.006)}72%{opacity:.35;transform:scale(1)}}
+    @keyframes ringBaseIvory{0%,100%{opacity:.2;transform:scale(1.006)}44%{opacity:.43;transform:scale(.992)}76%{opacity:.28;transform:scale(1)}}
+    @keyframes ringBaseRed{0%,100%{opacity:.21;transform:scale(.99)}53%{opacity:.46;transform:scale(1.009)}81%{opacity:.3;transform:scale(1.002)}}
+    .time-page .time-dial svg{overflow:visible}.time-page .dial-center{padding:28px;border-radius:50%;background:radial-gradient(circle,rgba(12,11,9,.14),transparent 68%)}
+
+    .album-wall .stamp-slot.focal-stamp .stamp-card.locked{opacity:.56!important;filter:grayscale(.7) blur(.7px) sepia(.6) brightness(.86)!important}
+    .album-wall .stamp-slot.focal-stamp:has(.stamp-card.locked):before{opacity:.76!important;filter:sepia(.2) brightness(.78) blur(.12px) drop-shadow(0 32px 42px rgba(0,0,0,.46))!important}
+    .album-wall .stamp-slot.focal-stamp{filter:none!important;--depth-scale:1.34!important}
+    .album-wall .stamp-slot.focal-stamp .stamp-card{max-width:270px!important;max-height:330px!important}
+    .album-wall .stamp-slot:nth-child(10n+4),.album-wall .stamp-slot:nth-child(10n+6),.album-wall .stamp-slot:nth-child(10n+9){opacity:.5}
+    .album-wall .stamp-slot:nth-child(10n+5),.album-wall .stamp-slot:nth-child(10n+10){opacity:.68}
+    .album-wall.style-tissue .stamp-slot.focal-stamp:before{background-size:112% 108%;mix-blend-mode:screen}
+    .album-wall.style-tissue .stamp-slot:not(.focal-stamp):before{mix-blend-mode:screen}
+    .album-wall .stamp-slot.focal-stamp:after{left:100%!important;top:56%!important;opacity:.86!important}
+
+    @media(prefers-reduced-motion:reduce){
+      *,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+    }
+    /* V12 · fidelity repair against the approved 7C / Palazzo / archive-wall boards */
+    /* 7C: a light constellation of scenes. No filled lobes, no black "eye" mass. */
+    .scenes-page .scene-gallery{
+      height:min(64vh,620px)!important;min-height:570px!important;
+      background:linear-gradient(135deg,rgba(18,15,12,.085),rgba(255,255,255,.018))!important;
+      border-color:rgba(225,196,139,.18)!important;isolation:isolate
+    }
+    .scenes-page .scene-gallery:before,.scenes-page .scene-gallery:after{display:none!important}
+    .scenes-page .scene-curve{z-index:1!important;opacity:.74!important;pointer-events:none}
+    .scenes-page .scene-curve path{fill:none!important;stroke-linecap:round!important}
+    .scenes-page .scene-curve path:first-child{stroke:rgba(238,216,174,.12)!important;stroke-width:1.2!important;filter:blur(.25px)!important}
+    .scenes-page .scene-curve path:last-child{stroke:url(#sceneLine)!important;stroke-width:1.15!important;stroke-dasharray:1 13!important;filter:drop-shadow(0 0 7px rgba(228,197,136,.38))!important;animation:sceneSilkThread 7s ease-in-out infinite!important}
+    .scenes-page .scene-track{z-index:3!important}
+    .scenes-page .pocket-watch.watch-orbit{z-index:7!important;width:132px!important;height:132px!important;background:transparent!important;box-shadow:none!important}
+    .scenes-page .scene-card{opacity:.4!important;background:linear-gradient(155deg,rgba(18,15,12,.28),rgba(255,255,255,.025))!important}
+    .scenes-page .scene-card.on{opacity:1!important;filter:none!important;transform:rotate(0) scale(1.16)!important}
+    .scenes-page .scene-card:nth-child(4).on{transform:translateX(-50%) rotate(0) scale(1.16)!important}
+    @media(min-width:1101px){
+      .scenes-page .scene-header{grid-template-columns:minmax(0,1fr) 440px!important;gap:44px!important}
+      .scenes-page .scene-header-tools{display:grid!important;grid-template-columns:286px 140px!important;grid-template-rows:76px!important;width:440px!important;gap:14px!important}
+      .scenes-page .world-clocks{grid-column:1!important;min-height:76px!important;border-radius:25px!important}
+      .scenes-page .scene-visual-button{grid-column:2!important;width:140px!important;height:76px!important;border-radius:25px!important;flex-direction:column!important;justify-content:center!important;gap:9px!important}
+      .scenes-page .scene-visual-panel{top:90px!important;right:0!important;width:590px!important}
+    }
+
+    /* Palazzo del tempo: five genuinely different Italian architectural windows. */
+    .time-page .window-rewards{background:linear-gradient(140deg,rgba(14,11,8,.3),rgba(61,45,27,.08))!important}
+    .time-page .window-row{grid-template-columns:repeat(5,minmax(145px,1fr))!important;gap:clamp(12px,1.8vw,28px)!important}
+    .time-page .study-window{min-height:245px!important;padding-inline:4px!important}
+    .time-page .study-window .window-light{width:min(150px,100%)!important;height:172px!important;background-size:500% 100%!important;filter:sepia(.32) saturate(.62) brightness(.5) drop-shadow(0 13px 16px rgba(0,0,0,.34))!important}
+    .time-page .study-window.unlocked .window-light{filter:sepia(.08) saturate(.92) brightness(1.08) drop-shadow(0 0 22px rgba(238,183,87,.28))!important}
+    .time-page .study-window .window-light:after{inset:25% 24% 18%!important;background:radial-gradient(ellipse,rgba(255,212,129,.78),rgba(224,143,62,.28) 48%,transparent 74%)!important}
+    .time-page .study-window .window-kicker{font-size:7px!important}.time-page .study-window>b{font-size:16px!important;font-weight:300!important}.time-page .study-window>em{font-size:6px!important}
+
+    /* Album: each ten-stamp chapter is a full spatial room, not a collapsing grid column. */
+    body[data-view="album"] .album-page{background:linear-gradient(90deg,rgba(8,7,6,.58),rgba(30,24,18,.18) 48%,rgba(8,7,6,.58))!important}
+    .album-wall{
+      position:relative!important;display:block!important;width:100%!important;
+      min-height:5900px!important;height:5900px!important;max-height:none!important;
+      padding:0!important;margin:20px 0 0!important;overflow:visible!important;
+      perspective:1350px!important;transform-style:preserve-3d!important;
+      background:linear-gradient(rgba(10,8,6,.35),rgba(10,8,6,.54)),var(--scene-image)!important;
+      background-size:cover!important;background-position:center top!important;background-attachment:fixed!important
+    }
+    .album-wall:before{position:absolute!important;inset:0!important;background:radial-gradient(circle at 50% 6%,rgba(229,195,126,.12),transparent 19%),linear-gradient(90deg,rgba(4,4,3,.3),transparent 48%,rgba(4,4,3,.34))!important;opacity:1!important}
+    .album-wall .stamp-slot{
+      position:absolute!important;left:var(--wall-x)!important;top:var(--wall-y)!important;
+      width:var(--wall-w)!important;height:var(--wall-h)!important;
+      display:grid!important;place-items:center!important;grid-column:auto!important;grid-row:auto!important;
+      transform:translate3d(-50%,-50%,var(--z,0px)) rotate(var(--rot,0deg)) scale(var(--depth-scale,1))!important;
+      filter:blur(var(--depth-blur,0px));animation:archiveDrift calc(8s + var(--float,0s)) ease-in-out infinite alternate!important;
+      isolation:isolate;overflow:visible!important;contain:none!important;content-visibility:visible!important
+    }
+    .album-wall .stamp-slot:before{inset:-30% -38%!important;opacity:.5!important}
+    .album-wall .stamp-card{width:68%!important;height:70%!important;max-width:none!important;max-height:none!important}
+    .album-wall .stamp-slot.focal-stamp{z-index:18!important}
+    .album-wall .stamp-slot.focal-stamp .stamp-card{width:78%!important;height:80%!important;max-width:none!important;max-height:none!important}
+    .album-wall .stamp-slot.focal-stamp:after{left:88%!important;top:54%!important}
+    .album-wall .stamp-slot:nth-child(10n+4),.album-wall .stamp-slot:nth-child(10n+6),.album-wall .stamp-slot:nth-child(10n+9){opacity:.5}
+    .album-wall .stamp-slot:nth-child(10n+5),.album-wall .stamp-slot:nth-child(10n+10){opacity:.7}
+    @media(max-width:900px){.album-wall{height:7200px!important;min-height:7200px!important}.album-wall .stamp-slot{width:var(--wall-w-mobile)!important;height:var(--wall-h-mobile)!important}.album-wall .stamp-slot.focal-stamp:after{display:none}}
+
+    /* V13 · approved archive wall + luminous scene journey
+       This is the single final contract for the two pages below. */
+
+    /* ARCHIVE — a spatial wall of real stamp silhouettes, without tissue props. */
+    body[data-view="album"] .album-page{
+      min-height:100vh!important;
+      background:linear-gradient(90deg,rgba(7,7,6,.68),rgba(24,20,16,.18) 48%,rgba(7,7,6,.66))!important;
+      backdrop-filter:blur(2px) saturate(.78)!important;
+    }
+    body[data-view="album"] .album-head{
+      grid-template-columns:minmax(500px,1.02fr) minmax(540px,.98fr)!important;
+      align-items:end!important;gap:22px!important;margin:24px 0 0!important;padding:0 24px!important;
+    }
+    body[data-view="album"] .album-head .page-title{
+      font-size:clamp(42px,3.75vw,58px)!important;line-height:.94!important;white-space:nowrap!important;
+    }
+    body[data-view="album"] .album-head .page-copy{margin-top:16px!important;max-width:590px!important}
+    body[data-view="album"] .album-tools{align-self:end!important;padding-bottom:2px!important}
+    .album-wall{
+      --wall-height:5820px;
+      position:relative!important;display:block!important;width:100%!important;
+      height:var(--wall-height)!important;min-height:var(--wall-height)!important;max-height:none!important;
+      margin:16px 0 0!important;padding:0!important;overflow:visible!important;
+      border:1px solid rgba(218,184,116,.16)!important;border-radius:3px!important;
+      perspective:none!important;perspective-origin:50% 240px!important;transform-style:preserve-3d!important;isolation:isolate!important;
+      background:
+        linear-gradient(180deg,rgba(9,8,7,.42),rgba(9,8,7,.66)),
+        var(--scene-image)!important;
+      background-size:cover!important;background-position:center top!important;background-attachment:fixed!important;
+      mask-image:none!important;
+    }
+    .album-wall:before{
+      content:""!important;position:absolute!important;z-index:0!important;inset:0!important;
+      background:
+        radial-gradient(ellipse at 50% 5%,rgba(231,201,143,.14),transparent 16%),
+        radial-gradient(ellipse at 18% 12%,rgba(237,221,191,.055),transparent 12%),
+        radial-gradient(ellipse at 82% 18%,rgba(237,221,191,.045),transparent 14%),
+        linear-gradient(90deg,rgba(3,3,3,.34),transparent 43%,rgba(3,3,3,.38))!important;
+      opacity:1!important;filter:none!important;pointer-events:none!important;
+    }
+    .album-wall:after{
+      content:"SCORRI · SCROLL"!important;position:absolute!important;z-index:30!important;
+      top:92px!important;right:16px!important;bottom:92px!important;width:1px!important;
+      padding-top:16px!important;background:linear-gradient(transparent,rgba(221,186,116,.7),transparent)!important;
+      color:#cdb17b!important;font:500 6px var(--sans)!important;letter-spacing:.22em!important;
+      writing-mode:vertical-rl!important;text-orientation:mixed!important;
+    }
+    .album-wall .stamp-slot{
+      position:absolute!important;left:var(--wall-x)!important;top:var(--wall-y)!important;
+      width:var(--wall-w)!important;height:var(--wall-h)!important;display:grid!important;place-items:center!important;
+      grid-column:auto!important;grid-row:auto!important;overflow:visible!important;contain:none!important;
+      content-visibility:visible!important;isolation:isolate!important;transform-style:preserve-3d!important;
+      transform:translate3d(-50%,-50%,var(--z,0px)) rotate(var(--rot,0deg)) scale(var(--depth-scale,1))!important;
+      filter:blur(var(--depth-blur,0px)) drop-shadow(0 18px 24px rgba(0,0,0,.24))!important;
+      opacity:var(--depth-opacity,.78)!important;
+      animation:archiveFloat calc(7.5s + var(--float,0s)) ease-in-out infinite alternate!important;
+      animation-delay:calc(var(--delay,0s) * -1)!important;
+      transition:filter .8s,opacity .8s,z-index 0s!important;
+    }
+    @keyframes archiveFloat{
+      0%{translate:-3px -5px}
+      52%{translate:2px 3px}
+      100%{translate:4px 7px}
+    }
+    .album-wall .stamp-slot:before,
+    .album-wall .stamp-slot:after{content:none!important;display:none!important}
+    .album-wall .stamp-card{
+      position:relative!important;z-index:2!important;width:100%!important;height:100%!important;
+      min-width:0!important;min-height:0!important;max-width:none!important;max-height:none!important;
+      padding:4px!important;border:0!important;background:rgba(224,211,186,.92)!important;
+      box-shadow:0 23px 48px rgba(0,0,0,.44),0 0 0 1px rgba(240,223,188,.12)!important;
+      filter:sepia(.12) saturate(.78)!important;opacity:1!important;overflow:hidden!important;
+      transition:transform .72s var(--ease),filter .72s,opacity .72s,box-shadow .72s!important;
+    }
+    .album-wall .stamp-card img{
+      width:100%!important;height:100%!important;display:block!important;object-fit:cover!important;
+      filter:grayscale(0) sepia(.04) saturate(.88) brightness(.92)!important;opacity:1!important;
+      transition:filter .9s,opacity .9s!important;
+    }
+    .album-wall .stamp-caption{display:none!important}
+    .album-wall .stamp-card.locked{
+      opacity:.88!important;background:rgba(210,202,184,.38)!important;
+      filter:grayscale(1) sepia(.2) brightness(.78) contrast(.94)!important;
+      box-shadow:0 20px 42px rgba(0,0,0,.38),inset 0 0 24px rgba(233,220,195,.12)!important;
+    }
+    .album-wall .stamp-card.locked img{
+      filter:grayscale(1) sepia(.18) blur(.5px) brightness(.78) contrast(.92)!important;
+      opacity:.82!important;
+    }
+    .album-wall .stamp-card.locked:after{
+      content:""!important;display:block!important;position:absolute!important;inset:0!important;
+      background:linear-gradient(115deg,rgba(229,218,197,.12),rgba(13,12,10,.2))!important;
+      pointer-events:none!important;
+    }
+    .album-wall .stamp-slot:hover{z-index:40!important;filter:none!important;opacity:1!important}
+    .album-wall .stamp-card:not(.locked):hover{
+      transform:translateZ(90px) scale(1.14) rotate(0)!important;
+      filter:sepia(0) saturate(1) brightness(1.02)!important;
+      box-shadow:0 34px 72px rgba(0,0,0,.5),0 0 28px rgba(225,190,122,.14)!important;
+    }
+    .album-wall .stamp-slot.focal-stamp{z-index:15!important;filter:none!important;opacity:1!important}
+    .album-wall .stamp-slot.focal-stamp .stamp-card{width:100%!important;height:100%!important;max-width:none!important;max-height:none!important}
+    .album-wall.demo .stamp-slot{filter:none!important;opacity:1!important}
+    .album-wall.demo .stamp-card.locked{filter:none!important;opacity:1!important}
+    .album-wall.demo .stamp-card.locked img{filter:sepia(.06) saturate(.92) brightness(.96)!important;opacity:1!important}
+
+    /* The Camera Oscura unlock: monochrome becomes colour under a warm scan of light. */
+    .album-wall .stamp-card.color-reveal img,
+    #stampPreview .preview-card.stamp-awakening #previewStampImage{
+      animation:none!important;
+      filter:grayscale(1) sepia(.2) saturate(.45) brightness(.58) contrast(.9)!important;
+      opacity:.72!important;
+      transition:filter .42s cubic-bezier(.2,.72,.17,1),opacity .42s ease!important;
+    }
+    .album-wall .stamp-card.color-reveal.stamp-st1 img,
+    #stampPreview .preview-card.stamp-awakening.stamp-st1 #previewStampImage{
+      filter:grayscale(.82) sepia(.18) saturate(.58) brightness(.7) contrast(.94)!important;opacity:.83!important;
+    }
+    .album-wall .stamp-card.color-reveal.stamp-st2 img,
+    #stampPreview .preview-card.stamp-awakening.stamp-st2 #previewStampImage{
+      filter:grayscale(.35) sepia(.1) saturate(.8) brightness(.88) contrast(.98)!important;opacity:.95!important;
+    }
+    .album-wall .stamp-card.color-reveal.stamp-st3 img,
+    #stampPreview .preview-card.stamp-awakening.stamp-st3 #previewStampImage{
+      filter:grayscale(0) sepia(.02) saturate(.98) brightness(1) contrast(1)!important;opacity:1!important;
+    }
+    .album-wall .stamp-card.color-reveal:before,
+    #stampPreview .preview-card.stamp-awakening .preview-image:after{
+      content:""!important;display:block!important;position:absolute!important;z-index:8!important;
+      left:-18%!important;right:auto!important;top:0!important;bottom:0!important;width:8%!important;height:auto!important;
+      border-radius:0!important;transform:skewX(-5deg)!important;
+      background:linear-gradient(90deg,transparent,rgba(255,225,166,.22),#f2c97d,rgba(255,225,166,.2),transparent)!important;
+      box-shadow:0 0 22px rgba(243,194,107,.88),0 0 54px rgba(230,167,72,.42)!important;
+      animation:stampScan 1.55s cubic-bezier(.2,.72,.17,1) both!important;pointer-events:none!important;
+    }
+    @keyframes stampScan{0%{left:-18%;opacity:0}12%{opacity:1}86%{opacity:1}100%{left:112%;opacity:0}}
+    #stampPreview .preview-image{position:relative;overflow:hidden}
+
+    /* SCENES — the approved single luminous wave, with staggered breathing cards. */
+    .scenes-page{
+      height:calc(100svh - 118px)!important;min-height:650px!important;max-height:920px!important;
+      grid-template-rows:auto auto minmax(330px,1fr) 68px!important;gap:8px!important;
+      overflow:hidden!important;padding:clamp(20px,2.45vw,36px)!important;
+      background:linear-gradient(120deg,rgba(8,7,6,.45),rgba(30,24,18,.08) 53%,rgba(8,7,6,.4))!important;
+      backdrop-filter:blur(1.5px) saturate(.84)!important;
+    }
+    body[data-view="scenes"] .scenes-page{display:grid!important}
+    .scenes-page .scene-header{
+      display:grid!important;grid-template-columns:minmax(420px,.82fr) minmax(590px,1.18fr)!important;
+      gap:18px!important;align-items:start!important;
+    }
+    .scenes-page .scene-heading{max-width:610px!important}
+    .scenes-page .scene-heading .page-title{
+      font-size:clamp(43px,3.9vw,62px)!important;line-height:.96!important;font-weight:300!important;
+      letter-spacing:-.052em!important;white-space:nowrap!important;
+    }
+    .scenes-page .scene-header-tools{
+      position:relative!important;display:grid!important;grid-template-columns:174px minmax(402px,1fr) 60px!important;
+      grid-template-rows:62px!important;gap:9px!important;width:100%!important;min-width:0!important;
+      align-items:stretch!important;justify-self:end!important;
+    }
+    .scenes-page .world-clocks{
+      grid-column:1!important;grid-row:1!important;display:grid!important;grid-template-columns:1fr 1px 1fr!important;
+      min-width:0!important;min-height:62px!important;margin:0!important;padding:8px 12px!important;
+      border:1px solid rgba(223,188,119,.28)!important;border-radius:24px!important;
+      background:linear-gradient(135deg,rgba(11,10,8,.36),rgba(255,255,255,.035))!important;
+      backdrop-filter:blur(17px)!important;
+    }
+    .scenes-page .world-clocks div{text-align:center!important}.scenes-page .world-clocks b{font:200 21px var(--serif)!important}
+    .scenes-page .scene-visual-panel{
+      position:static!important;grid-column:2!important;grid-row:1!important;display:grid!important;
+      grid-template-columns:38px 94px minmax(98px,1fr) 116px!important;grid-template-rows:1fr!important;
+      align-items:center!important;gap:8px!important;width:auto!important;height:62px!important;padding:7px 9px!important;
+      border:1px solid rgba(223,188,119,.28)!important;border-radius:24px!important;
+      background:linear-gradient(105deg,rgba(12,11,9,.33),rgba(38,29,20,.22))!important;
+      box-shadow:none!important;backdrop-filter:blur(17px)!important;opacity:1!important;pointer-events:auto!important;transform:none!important;
+    }
+    .scenes-page .scene-preview-dot{width:36px!important;height:36px!important}
+    .scenes-page .scene-quality{min-width:0!important}.scenes-page .scene-quality button{padding:6px 7px!important;white-space:nowrap!important}
+    .scenes-page .scene-visual-panel label{grid-column:3!important;grid-row:1!important;grid-template-columns:auto minmax(58px,1fr)!important;min-width:0!important}
+    .scenes-page .custom-wallpaper{
+      grid-column:4!important;grid-row:1!important;width:100%!important;height:38px!important;margin:0!important;
+      padding:0 8px!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;
+    }
+    .scenes-page .scene-visual-button{
+      grid-column:3!important;grid-row:1!important;width:60px!important;height:62px!important;margin:0!important;padding:0 5px!important;
+      border:1px solid rgba(223,188,119,.34)!important;border-radius:50%!important;
+      background:radial-gradient(circle,rgba(222,185,113,.09),rgba(11,10,8,.32))!important;
+      display:flex!important;flex-direction:column!important;justify-content:center!important;gap:7px!important;
+    }
+    .scenes-page .scene-basis{margin:4px 0 2px!important;padding-left:2px!important}
+    .scenes-page .scene-gallery{
+      position:relative!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;
+      overflow:hidden!important;border:0!important;border-radius:28px!important;
+      background:linear-gradient(180deg,rgba(8,7,6,.02),rgba(8,7,6,.18))!important;
+      backdrop-filter:none!important;isolation:isolate!important;
+    }
+    .scenes-page .scene-gallery:before,.scenes-page .scene-gallery:after{display:none!important}
+    .scenes-page .scene-curve{
+      position:absolute!important;z-index:2!important;inset:0!important;width:100%!important;height:100%!important;
+      min-width:0!important;opacity:1!important;overflow:visible!important;pointer-events:none!important;
+    }
+    .scenes-page .scene-curve path{fill:none!important;stroke-linecap:round!important;vector-effect:non-scaling-stroke!important}
+    .scenes-page .scene-curve path:first-child{
+      stroke:rgba(238,204,137,.13)!important;stroke-width:10!important;filter:blur(5px)!important;
+      animation:sceneWaveGlow 5.8s ease-in-out infinite!important;
+    }
+    .scenes-page .scene-curve path:last-child{
+      stroke:url(#sceneLine)!important;stroke-width:1.65!important;stroke-dasharray:160 18 32 12!important;
+      filter:drop-shadow(0 0 5px rgba(235,197,123,.8)) drop-shadow(0 0 14px rgba(221,171,84,.36))!important;
+      animation:sceneWaveTravel 8s linear infinite,sceneWaveGlow 5.8s ease-in-out infinite!important;
+    }
+    @keyframes sceneWaveTravel{to{stroke-dashoffset:-222}}
+    @keyframes sceneWaveGlow{50%{opacity:.58;filter:drop-shadow(0 0 10px rgba(238,200,128,.5))}}
+    .scenes-page .scene-track{
+      position:absolute!important;z-index:4!important;inset:0!important;display:block!important;min-width:0!important;
+      padding:0!important;overflow:visible!important;
+    }
+    .scenes-page .scene-card{
+      --card-w:146px;--card-rot:0deg;
+      position:absolute!important;right:auto!important;bottom:auto!important;flex:none!important;width:var(--card-w)!important;
+      margin:0!important;padding:6px 6px 11px!important;border:1px solid rgba(231,207,164,.18)!important;
+      border-radius:18px!important;background:linear-gradient(150deg,rgba(14,12,10,.42),rgba(255,255,255,.038))!important;
+      color:#f1e8da!important;text-align:left!important;opacity:.6!important;filter:saturate(.72) brightness(.8)!important;
+      transform:translate(-50%,-50%) rotate(var(--card-rot))!important;transform-origin:center bottom!important;
+      box-shadow:0 18px 38px rgba(0,0,0,.28)!important;backdrop-filter:blur(5px)!important;
+      animation:sceneCardBreath calc(5.6s + var(--i)*.27s) ease-in-out infinite!important;
+      animation-delay:calc(var(--i)*-.73s)!important;
+      transition:opacity .65s,filter .65s,transform .7s var(--ease),box-shadow .7s,border-color .7s!important;
+    }
+    @keyframes sceneCardBreath{50%{box-shadow:0 23px 47px rgba(0,0,0,.36),0 0 22px rgba(224,183,104,.075)}}
+    .scenes-page .scene-card:nth-child(1){--card-w:144px;--card-rot:-2.8deg;left:7.5%!important;top:56%!important}
+    .scenes-page .scene-card:nth-child(2){--card-w:132px;--card-rot:2deg;left:22.5%!important;top:48%!important}
+    .scenes-page .scene-card:nth-child(3){--card-w:166px;--card-rot:-1.2deg;left:38.5%!important;top:40%!important}
+    .scenes-page .scene-card:nth-child(4){--card-w:142px;--card-rot:1.6deg;left:54.5%!important;top:52%!important}
+    .scenes-page .scene-card:nth-child(5){--card-w:132px;--card-rot:-1.5deg;left:68.5%!important;top:46%!important}
+    .scenes-page .scene-card:nth-child(6){--card-w:136px;--card-rot:1.8deg;left:81.5%!important;top:53%!important}
+    .scenes-page .scene-card:nth-child(7){--card-w:126px;--card-rot:-1.7deg;left:93%!important;top:45%!important}
+    .scenes-page .scene-card:before{
+      content:""!important;position:absolute!important;left:50%!important;top:auto!important;bottom:-15px!important;
+      width:7px!important;height:7px!important;border-radius:50%!important;transform:translateX(-50%)!important;
+      background:#d9b66f!important;box-shadow:0 0 0 7px rgba(221,181,104,.09),0 0 18px rgba(235,195,119,.28)!important;
+      animation:sceneNodeBreath calc(2.8s + var(--i)*.19s) ease-in-out infinite!important;
+    }
+    @keyframes sceneNodeBreath{50%{background:#f0cf8b;box-shadow:0 0 0 15px rgba(225,183,105,0),0 0 27px rgba(236,196,116,.58)}}
+    .scenes-page .scene-card img{width:100%!important;height:132px!important;border-radius:13px!important;filter:brightness(.62) saturate(.72)!important}
+    .scenes-page .scene-card small{margin:8px 3px 2px!important;color:#aaa093!important;font-size:6.5px!important}.scenes-page .scene-card b{font:italic 300 18px var(--serif)!important}
+    .scenes-page .scene-card:hover{z-index:8!important;opacity:.82!important;filter:saturate(.9) brightness(.92)!important;transform:translate(-50%,-54%) rotate(0) scale(1.05)!important}
+    .scenes-page .scene-card.on{
+      z-index:10!important;opacity:1!important;filter:none!important;border-color:rgba(239,203,133,.86)!important;
+      background:linear-gradient(150deg,rgba(22,18,13,.57),rgba(255,255,255,.055))!important;
+      transform:translate(-50%,-70%) rotate(0) scale(1.14)!important;
+      box-shadow:0 31px 76px rgba(0,0,0,.5),0 0 0 4px rgba(231,190,111,.08),0 0 32px rgba(224,173,83,.14)!important;
+    }
+    body[data-view="scenes"] .scenes-page .scene-card.on{
+      transform:translate(-50%,-70%) rotate(0) scale(1.14)!important;
+    }
+    .scenes-page .scene-card.on img{filter:brightness(.95) saturate(.95)!important}.scenes-page .pocket-watch.watch-orbit{display:none!important}
+
+    .scene-journey-footer{
+      display:grid;grid-template-columns:minmax(330px,1fr) 66px minmax(410px,1.25fr);align-items:center;gap:18px;
+      min-height:68px;margin-top:0;padding:7px 13px;border:1px solid rgba(220,185,116,.21);border-radius:28px;
+      background:linear-gradient(100deg,rgba(10,9,7,.36),rgba(41,31,21,.18),rgba(10,9,7,.35));backdrop-filter:blur(14px);
+    }
+    .scene-footer-progress,.scene-footer-next{display:flex;align-items:center;gap:12px;min-width:0}.scene-footer-progress>i{font:italic 24px var(--serif);color:#d4b573}
+    .scene-footer-copy{display:grid;gap:2px;white-space:nowrap}.scene-footer-copy small{color:#9d9384;font-size:6px;letter-spacing:.16em}.scene-footer-copy b{color:#d9c6a3;font:300 12px var(--serif)}
+    .scene-progress-dots{display:flex;flex:1;align-items:center;gap:0}.scene-progress-dots i{position:relative;flex:1;height:1px;background:rgba(255,255,255,.12)}.scene-progress-dots i:after{content:"";position:absolute;right:-2px;top:-2px;width:5px;height:5px;border-radius:50%;background:#675f54}.scene-progress-dots i.done{background:linear-gradient(90deg,#8da594,#e3bd72)}.scene-progress-dots i.done:after{background:#e3bd72;box-shadow:0 0 10px rgba(232,191,111,.52)}
+    .scene-footer-compass{display:grid;place-items:center;width:58px;height:58px;border:1px solid rgba(224,190,122,.5);border-radius:50%;background:radial-gradient(circle,rgba(224,187,112,.09),transparent 68%);color:#dec087;font:300 26px var(--serif);animation:compassBreathe 4.8s ease-in-out infinite}@keyframes compassBreathe{50%{box-shadow:0 0 24px rgba(226,181,96,.16);transform:rotate(8deg)}}
+    .scene-footer-next{justify-content:flex-end}.scene-footer-next img{width:48px;height:38px;border-radius:9px;object-fit:cover;filter:brightness(.75)}.scene-mini-windows{display:flex;gap:5px;margin-left:8px}.scene-mini-windows i{width:14px;height:22px;border:1px solid rgba(218,184,115,.28);border-radius:8px 8px 2px 2px;background:rgba(7,7,6,.32)}.scene-mini-windows i.lit{background:radial-gradient(ellipse,#f1c06a 8%,rgba(223,146,54,.38) 46%,rgba(7,7,6,.2) 72%);box-shadow:0 0 12px rgba(233,173,73,.22)}
+
+    @media(max-width:1180px){
+      body[data-view="album"] .album-head{grid-template-columns:1fr!important}body[data-view="album"] .album-head .page-title{white-space:normal!important}
+      .scenes-page .scene-header{grid-template-columns:1fr!important}.scenes-page .scene-header-tools{justify-self:start!important;width:100%!important}
+      .scenes-page .scene-gallery{overflow-x:auto!important}.scenes-page .scene-track,.scenes-page .scene-curve{min-width:1080px!important;width:1080px!important}
+      .scene-journey-footer{grid-template-columns:1fr 56px 1fr}
+    }
+    @media(max-width:760px){
+      .album-wall{--wall-height:7800px}.album-wall .stamp-slot{width:var(--wall-w-mobile)!important;height:var(--wall-h-mobile)!important}
+      .scenes-page .scene-header-tools{grid-template-columns:1fr 58px!important;grid-template-rows:64px auto!important}.scenes-page .world-clocks{grid-column:1!important}.scenes-page .scene-visual-button{grid-column:2!important;width:58px!important;height:58px!important}.scenes-page .scene-visual-panel{grid-column:1/3!important;grid-row:2!important;height:auto!important;min-height:62px!important;grid-template-columns:35px 1fr!important}.scenes-page .scene-visual-panel label,.scenes-page .custom-wallpaper{grid-column:1/3!important}
+      .scene-journey-footer{grid-template-columns:1fr 48px}.scene-footer-next{grid-column:1/3}.scene-footer-compass{width:46px;height:46px}.scene-mini-windows{margin-left:auto}
+    }
+  </style>
+</head>
+<body data-view="home">
+  <div class="backdrop on" id="backdropA"></div>
+  <div class="backdrop" id="backdropB"></div>
+
+  <main class="app">
+    <header class="topbar">
+      <div class="brand-area">
+        <button class="home-button" id="homeBtn" type="button" aria-label="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5v8.2a1.3 1.3 0 0 1-1.3 1.3H5.3A1.3 1.3 0 0 1 4 18.7Z"/><path d="M9.2 20v-6h5.6v6"/></svg>
+        </button>
+        <button class="library-button" id="libraryBtn" type="button"><span data-i18n="library"></span></button>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-button" data-view="player" type="button"><span data-i18n="navPlayer"></span></button>
+        <button class="nav-button" data-view="progress" type="button"><span data-i18n="navProgress"></span></button>
+        <button class="nav-button" data-view="time" type="button"><span data-i18n="navTime"></span></button>
+        <button class="nav-button" data-view="scenes" type="button"><span data-i18n="navScenes"></span></button>
+        <button class="nav-button" data-view="album" type="button"><span data-i18n="navAlbum"></span></button>
+        <button class="nav-button" data-view="journey" type="button"><span data-i18n="navMap"></span></button>
+        <button class="nav-button" data-view="culture" type="button"><span data-i18n="navCulture"></span></button>
+      </nav>
+      <div class="top-actions">
+        <div class="language-switch" id="languageSwitch" aria-label="Language">
+          <button type="button" data-lang="it">IT</button>
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="bi">IT+EN</button>
+        </div>
+        <button class="add-button" id="addBtn" type="button" aria-label="Import media">＋</button>
+      </div>
+    </header>
+    <input id="fileInput" type="file" accept="audio/*,video/*" hidden>
+
+    <section class="view home-view open" id="homeView">
+      <div class="home-content">
+        <div class="home-greeting" aria-live="polite"><span id="homeGreeting"></span><small id="homeGreetingTime"></small></div>
+        <div class="ripple-ritual" aria-label="Import audio or video">
+          <div class="ripple-motto" data-i18n="homeMotto"></div>
+          <div class="ripple-field" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          <button class="ripple-import" id="importBtn" type="button" aria-label="Import audio or video"><span>＋</span></button>
+          <span class="ripple-caption" data-i18n="importMedia"></span>
+        </div>
+        <div class="home-scene-note"><i></i><span id="homeSceneName"></span></div>
+      </div>
+      <span class="film-credit" data-i18n="filmCredit"></span>
+    </section>
+
+    <section class="view glass-page player-page" id="playerView">
+      <header class="media-head">
+        <div>
+          <span class="micro" id="mediaKind">AUDIO</span>
+          <div class="media-title-row">
+            <h1 class="media-title" id="mediaTitle"></h1>
+            <button class="rename-mini" id="renameCurrentBtn" type="button" aria-label="Rename">✎</button>
+          </div>
+        </div>
+        <span class="media-duration" id="mediaDuration">00:00</span>
+      </header>
+      <div class="player-shell">
+        <div class="player-main">
+          <div class="stage" id="stage">
+            <div class="audio-cover" id="audioCover">
+              <div class="audio-phone">
+                <div class="vinyl-stage">
+                  <div class="lace-ribbon one"></div><div class="lace-ribbon two"></div>
+                  <div class="vinyl-disc"><span class="vinyl-art"></span><i></i><b>GL</b></div>
+                  <div class="tone-arm"></div>
+                </div>
+                <div class="vinyl-copy"><span data-i18n="audioListening"></span><strong id="audioNowTitle"></strong></div>
+              </div>
+            </div>
+            <div class="caption-mask" id="captionMask"><span data-i18n="subtitlesHidden"></span></div>
+            <div class="stage-tools">
+              <button class="tool" id="maskBtn" type="button"><span data-i18n="mask"></span></button>
+              <button class="tool" id="theaterBtn" type="button"><span data-i18n="theater"></span></button>
+            </div>
+            <div class="mask-panel" id="maskPanel">
+              <label><span data-i18n="width"></span><input id="maskWidth" type="range" min="30" max="100" value="92"></label>
+              <label><span data-i18n="height"></span><input id="maskHeight" type="range" min="8" max="55" value="22"></label>
+              <label><span data-i18n="level"></span><input id="maskLevel" type="range" min="0" max="70" value="4"></label>
+            </div>
+            <button class="stage-center" id="centerBtn" type="button" aria-label="Play">▶</button>
+          </div>
+          <section class="timeline-block">
+            <div class="timeline-time"><span id="currentTime">00:00</span><span id="totalTime">00:00</span></div>
+            <div class="timeline">
+              <i class="timeline-base"></i><i class="timeline-selection" id="selection"></i>
+              <input id="seek" type="range" min="0" max="1" step=".01" value="0" aria-label="Timeline">
+              <span class="gelato-cursor" id="gelatoCursor"><i></i><b></b></span>
+            </div>
+            <div class="trim-range">
+              <input id="startRange" type="range" min="0" max="1" step=".1" value="0" aria-label="Clip start">
+              <input id="endRange" type="range" min="0" max="1" step=".1" value="1" aria-label="Clip end">
+            </div>
+            <div class="segment-row">
+              <div class="segment-side"><label>A <input class="time-entry" id="clipAInput" value="00:00.0" inputmode="decimal"></label><span id="aTime" hidden>00:00.0</span><button class="nudge" data-nudge="a-" type="button">−</button><button class="nudge" data-nudge="a+" type="button">＋</button></div>
+              <nav class="transport" aria-label="Playback"><button id="backBtn" type="button">−3</button><button class="play" id="playBtn" type="button">▶</button><button id="forwardBtn" type="button">+3</button></nav>
+              <div class="segment-side"><label>B <input class="time-entry" id="clipBInput" value="00:00.0" inputmode="decimal"></label><span id="bTime" hidden>00:00.0</span><button class="nudge" data-nudge="b-" type="button">−</button><button class="nudge" data-nudge="b+" type="button">＋</button></div>
+            </div>
+            <span class="segment-length" id="segmentLength">0.0 SEC</span>
+          </section>
+          <section class="audio-workbench" id="audioWorkbench">
+            <header><div><span class="micro" data-i18n="dictationKicker"></span><h3 data-i18n="dictationTitle"></h3></div><button id="toggleSourceBtn" type="button"><span data-i18n="showSource"></span></button></header>
+            <div class="transcript-grid">
+              <div class="source-pane" id="sourcePane"><label data-i18n="sourceText"></label><textarea id="sourceText" spellcheck="false"></textarea><div class="transcript-actions"><button id="importTranscriptBtn" type="button"><span data-i18n="importText"></span></button><input id="transcriptInput" type="file" accept=".txt,.srt,.vtt,text/plain" hidden></div></div>
+              <div class="dictation-pane"><label data-i18n="yourDictation"></label><textarea id="dictationText" spellcheck="false"></textarea><button id="checkDictationBtn" type="button"><span data-i18n="checkDictation"></span></button><div class="dictation-result" id="dictationResult"></div></div>
+            </div>
+          </section>
+        </div>
+        <aside class="player-side">
+          <button class="mind-clear-button" id="mindClearBtn" type="button"><i>✉</i><span><b data-i18n="clearMind"></b><small data-i18n="clearMindNote"></small></span></button>
+          <section class="control-row">
+            <label><small data-i18n="speed"></small><select id="speed"><option value=".5">.5×</option><option value=".75">.75×</option><option value=".85">.85×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label>
+            <div><small data-i18n="repeat"></small><div class="loop-buttons" id="loopButtons"><button data-loop="1" type="button">1</button><button data-loop="3" type="button">3</button><button data-loop="5" class="on" type="button">5</button><button data-loop="10" type="button">10</button><button data-loop="0" type="button">∞</button></div></div>
+            <div class="loop-count"><small data-i18n="completedLoops"></small><b id="loopNow">0</b> / <span id="loopAll">5</span></div>
+          </section>
+          <div class="study-mode"><button class="on" id="freeMode" type="button"><span data-i18n="freeMode"></span></button><button id="learnMode" type="button"><span data-i18n="learnMode"></span></button></div>
+          <section class="learning-panel" id="learningPanel">
+            <div class="step-dots" id="stepDots"></div><h3 id="stepTitle"></h3><div class="learning-input" id="learningInput"></div>
+            <div class="learn-actions"><button id="previousStep" type="button"><span data-i18n="back"></span></button><button class="primary" id="nextStep" type="button"></button></div>
+          </section>
+          <button class="save-clip" id="saveClip" type="button"><span data-i18n="saveClip"></span></button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view glass-page progress-page page-pad" id="progressView">
+      <header class="record-head">
+        <div><span class="micro" data-i18n="progressKicker"></span><h2 class="page-title" data-i18n="progressTitle"></h2><p class="page-copy" data-i18n="progressCopy"></p></div>
+        <div class="record-head-side"><div class="record-range-label" id="recordRangeLabel"></div><button class="record-resume" id="recordResume" type="button"><i>↗</i><span><small id="recordResumeKind"></small><b id="recordResumeTitle"></b><em id="recordResumeMeta"></em></span></button></div>
+      </header>
+      <div class="record-filter-bar">
+        <div class="record-filter-group"><small data-i18n="mediaType"></small><div class="record-pills" id="mediaRecordFilter"><button class="on" data-media-record="all" type="button"><span data-i18n="allMedia"></span></button><button data-media-record="video" type="button"><span data-i18n="videoOnly"></span></button><button data-media-record="audio" type="button"><span data-i18n="audioOnly"></span></button></div></div>
+        <div class="record-filter-group"><small data-i18n="dateRange"></small><div class="record-pills" id="rangeRecordFilter"><button data-range-record="day" type="button"><span data-i18n="daily"></span></button><button class="on" data-range-record="week" type="button"><span data-i18n="weekly"></span></button><button data-range-record="month" type="button"><span data-i18n="monthly"></span></button><button data-range-record="custom" type="button"><span data-i18n="custom"></span></button></div></div>
+        <div class="custom-dates" id="customDates"><input id="recordStartDate" type="date"><i>→</i><input id="recordEndDate" type="date"></div>
+      </div>
+      <div class="record-layout">
+        <article class="record-chart-card">
+          <div class="record-chart-top"><span data-i18n="activeMinutes"></span><strong id="recordTotal">0 min</strong></div>
+          <svg class="record-chart" id="recordChart" viewBox="0 0 1000 430" preserveAspectRatio="none" role="img">
+            <defs><linearGradient id="recordGradient" x1="0" x2="1"><stop stop-color="#91aaa1"/><stop offset=".52" stop-color="#eed29d"/><stop offset="1" stop-color="#c7796c"/></linearGradient><linearGradient id="recordAreaGradient" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#e4c48c" stop-opacity=".2"/><stop offset="1" stop-color="#e4c48c" stop-opacity="0"/></linearGradient></defs>
+            <g class="record-grid"><path d="M64 70H960M64 160H960M64 250H960M64 340H960"/></g>
+            <path class="record-area" id="recordArea" d=""/>
+            <path class="record-line-shadow" id="recordLineShadow" d=""/>
+            <path class="record-line" id="recordLine" d=""/>
+            <g id="recordDots"></g><g class="record-axis" id="recordAxis"></g>
+          </svg>
+          <div class="record-empty" id="recordEmpty"><span data-i18n="noRecords"></span></div>
+        </article>
+        <aside class="record-summary">
+          <article><span data-i18n="studySessions"></span><strong id="recordSessions">0</strong><small data-i18n="studySessionsNote"></small></article>
+          <article><span data-i18n="activeDays"></span><strong id="recordDays">0</strong><small data-i18n="activeDaysNote"></small></article>
+          <article><span data-i18n="listeningBalance"></span><div class="balance-ring" id="balanceRing"><i></i><b id="balanceText">—</b></div><small id="balanceNote"></small></article>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view glass-page time-page page-pad" id="timeView">
+      <span class="micro" data-i18n="timeKicker"></span>
+      <h2 class="page-title" data-i18n="timeTitle"></h2>
+      <div class="time-layout">
+        <div class="time-dial">
+          <svg viewBox="0 0 400 400" aria-hidden="true">
+            <defs><linearGradient id="todayWave" x1="0" x2="1"><stop stop-color="#668779" stop-opacity=".2"/><stop offset=".52" stop-color="#91b39e"/><stop offset="1" stop-color="#d8e0d7" stop-opacity=".25"/></linearGradient><linearGradient id="sessionWave" x1="0" x2="1"><stop stop-color="#ece5d6" stop-opacity=".18"/><stop offset=".5" stop-color="#f3eee2"/><stop offset="1" stop-color="#cdbb9e" stop-opacity=".25"/></linearGradient><linearGradient id="rewardWave" x1="0" x2="1"><stop stop-color="#9e4c43" stop-opacity=".2"/><stop offset=".5" stop-color="#c9796e"/><stop offset="1" stop-color="#e2b2a9" stop-opacity=".25"/></linearGradient></defs>
+            <circle class="dial-track" cx="200" cy="200" r="174"/>
+            <circle class="dial-track" cx="200" cy="200" r="146"/>
+            <circle class="dial-track" cx="200" cy="200" r="118"/>
+            <circle class="dial-arc today" id="todayArc" cx="200" cy="200" r="174"/>
+            <circle class="dial-arc session" id="sessionArc" cx="200" cy="200" r="146"/>
+            <circle class="dial-arc reward" id="rewardArc" cx="200" cy="200" r="118"/>
+          </svg>
+          <i class="roman" style="--angle:0deg">XII</i><i class="roman" style="--angle:90deg">III</i><i class="roman" style="--angle:180deg">VI</i><i class="roman" style="--angle:270deg">IX</i>
+          <div class="dial-center"><span data-i18n="activeListening"></span><strong id="studyTime">00:00</strong><em id="timeOfDay"></em></div>
+        </div>
+        <article class="time-journal">
+          <h3 class="time-quote" id="timeQuote"></h3>
+          <div class="time-stat"><div><label data-i18n="today"></label><p data-i18n="todayNote"></p></div><strong id="todayTime">00:00</strong></div>
+          <div class="time-stat"><div><label data-i18n="session"></label><p data-i18n="sessionNote"></p></div><strong id="sessionTime">00:00</strong></div>
+          <div class="time-stat"><div><label data-i18n="nextStamp"></label><p data-i18n="nextStampNote"></p></div><strong id="stampCountdown">10:00</strong></div>
+          <div class="time-reward" id="timeReward"></div>
+        </article>
+      </div>
+      <section class="window-rewards">
+        <header><span data-it="PALAZZO DEL TEMPO" data-en="PALACE OF TIME"></span><b id="windowFloor">PIANO I</b></header>
+        <div class="window-row" id="windowRow"></div>
+        <div class="palazzo-reveal" id="palazzoReveal"><i></i><div><small data-it="DOPO LE CINQUE FINESTRE" data-en="AFTER FIVE WINDOWS"></small><strong data-it="UN NUOVO PIANO SI APRE" data-en="A NEW FLOOR OPENS"></strong></div></div>
+      </section>
+    </section>
+
+    <section class="view glass-page scenes-page" id="scenesView">
+      <header class="scene-header">
+        <div class="scene-heading">
+          <span class="micro" data-i18n="scenesKicker"></span>
+          <h2 class="page-title" id="sceneTitle"></h2>
+          <p class="page-copy" data-i18n="scenesCopy"></p>
+        </div>
+        <div class="scene-header-tools">
+          <div class="world-clocks"><div><small data-i18n="romeNow"></small><b id="romeTime">--:--</b></div><i></i><div><small data-i18n="localNow"></small><b id="localTime">--:--</b></div></div>
+          <button class="scene-visual-button" id="sceneVisualBtn" type="button"><span data-it="ATMOSFERA" data-en="ATMOSPHERE"></span><i></i></button>
+          <div class="scene-visual-panel" id="sceneVisualPanel"><i class="scene-preview-dot" id="scenePreviewDot"></i><div class="scene-quality"><button data-scene-quality="crisp" data-it="NITIDO" data-en="CRISP" type="button"></button><button data-scene-quality="soft" data-it="SOFFUSO" data-en="SOFT" type="button"></button></div><label><span data-it="SFOCATURA" data-en="BLUR"></span><input id="sceneBlur" type="range" min="0" max="20" value="3"></label><button class="custom-wallpaper" id="customWallpaperBtn" data-it="＋ FOTO PERSONALE" data-en="＋ YOUR PHOTO" type="button"></button><input id="customWallpaperInput" type="file" accept="image/*" hidden></div>
+        </div>
+      </header>
+      <div class="scene-basis">
+        <span data-i18n="backgroundClock"></span>
+        <div id="timeBasisButtons"><button class="on" data-time-basis="Europe/Rome" type="button">ROMA</button><button data-time-basis="Asia/Shanghai" type="button"><span data-i18n="beijing"></span></button><button data-time-basis="Asia/Bangkok" type="button"><span data-i18n="chiangMai"></span></button><button data-time-basis="custom" type="button"><span data-i18n="custom"></span></button></div>
+        <input id="customSceneTime" type="time" value="18:30">
+      </div>
+      <div class="scene-gallery" id="sceneGallery">
+        <svg class="scene-curve" viewBox="0 0 1320 620" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="sceneLine" x1="0" x2="1"><stop stop-color="#bda46f"/><stop offset=".46" stop-color="#f0cc83"/><stop offset="1" stop-color="#ba8659"/></linearGradient></defs>
+          <path d="M24 358 C116 300 190 394 282 348 C370 304 434 278 516 326 C603 377 652 405 732 354 C818 299 888 320 966 359 C1054 402 1140 302 1296 344"/>
+          <path id="sceneTimePath" d="M24 358 C116 300 190 394 282 348 C370 304 434 278 516 326 C603 377 652 405 732 354 C818 299 888 320 966 359 C1054 402 1140 302 1296 344"/>
+        </svg>
+        <button class="pocket-watch watch-orbit" id="pocketWatch" type="button" aria-label="Time settings">
+          <i class="watch-crown"></i><i class="watch-loop"></i>
+          <span class="watch-face"><em class="roman-mark r12">XII</em><em class="roman-mark r3">III</em><em class="roman-mark r6">VI</em><em class="roman-mark r9">IX</em><i class="watch-hand hour" id="watchHour"></i><i class="watch-hand minute" id="watchMinute"></i><i class="watch-pin"></i><span class="watch-digital" id="sceneTime"></span></span>
+        </button>
+        <div class="scene-track" id="sceneTrack"></div>
+      </div>
+      <footer class="scene-journey-footer">
+        <div class="scene-footer-progress"><i aria-hidden="true">▱</i><span class="scene-footer-copy"><small data-it="IL TUO PERCORSO" data-en="YOUR JOURNEY"></small><b id="sceneJourneyCount">1 / 7 SCENARI</b></span><div class="scene-progress-dots" id="sceneJourneyDots"></div></div>
+        <button class="scene-footer-compass" id="sceneNextButton" type="button" aria-label="Next scene">✦</button>
+        <div class="scene-footer-next"><span class="scene-footer-copy"><small data-it="PROSSIMA SCENA" data-en="NEXT SCENE"></small><b id="sceneNextName"></b></span><img id="sceneNextThumb" alt=""><div class="scene-mini-windows" id="sceneMiniWindows"><i></i><i></i><i></i><i></i><i></i></div></div>
+      </footer>
+    </section>
+
+    <section class="view glass-page album-page page-pad" id="albumView">
+      <nav class="album-collection-bar" aria-label="Stamp collection">
+        <div class="collection-mark" aria-hidden="true">▱</div>
+        <button class="album-tab active" type="button" data-it="ALBUM" data-en="ALBUM"></button>
+        <button class="album-tab" type="button" data-it="ESPLORA" data-en="EXPLORE"></button>
+        <button class="album-tab" type="button" data-it="APPUNTI" data-en="NOTES"></button>
+        <button class="album-exit" id="albumExitBtn" type="button"><span data-it="ESCI DALLA COLLEZIONE" data-en="EXIT COLLECTION"></span><i>×</i></button>
+      </nav>
+      <header class="album-head">
+        <div><span class="micro" data-i18n="albumKicker"></span><h2 class="page-title" data-i18n="albumTitle"></h2><p class="page-copy" data-i18n="albumCopy"></p></div>
+        <div class="album-tools"><label class="stamp-style-control"><span data-it="STILE" data-en="STYLE"></span><select id="stampStyle"><option value="darkroom" data-it="CAMERA OSCURA" data-en="DARKROOM"></option><option value="fog" data-it="NEBBIA D’ARCHIVIO" data-en="ARCHIVE MIST"></option></select></label><button class="sample-stamp" id="sampleStampBtn" type="button"><i>◌</i><span data-i18n="sampleStamp"></span></button><button class="sample-stamp" id="fullWallBtn" type="button"><i>✦</i><span data-i18n="fullWallPreview"></span></button><button class="sample-stamp wall-preview-close" id="closeWallPreview" type="button">× <span data-it="CHIUDI" data-en="CLOSE"></span></button><button class="choose-stamp-button" id="chooseStampBtn" type="button"><span data-i18n="chooseMemory"></span><b id="choiceCount">0</b></button><span class="album-info" id="albumProgress">0 / 110</span></div>
+      </header>
+      <div class="album-wall" id="stampWall"></div>
+      <div class="wall-preview-label" id="wallPreviewLabel"><span data-i18n="previewOnly"></span></div>
+    </section>
+
+    <section class="view glass-page page-pad" id="journeyView">
+      <span class="micro" data-i18n="mapKicker"></span><h2 class="page-title" data-i18n="mapTitle"></h2>
+      <div class="journey-layout">
+        <div class="map-wrap" id="mapWrap"><svg class="italy-map" id="italyMap" viewBox="0 0 390 520" role="img" aria-label="Map of Italy"><text x="195" y="260" text-anchor="middle" fill="#ddd4c6" font-size="11">···</text></svg></div>
+        <article class="map-info"><button class="lamp" id="mapLamp" type="button"><i></i><span id="lampLabel"></span></button><span class="micro" id="cityRegion"></span><h3 id="cityTitle"></h3><p id="cityCopy"></p><div class="city-effect" id="cityEffect"></div><div class="journey-meter"><div><i id="journeyFill"></i></div><small id="journeyText"></small></div></article>
+      </div>
+    </section>
+
+    <section class="view glass-page page-pad" id="cultureView">
+      <header class="culture-head"><div><span class="micro" data-i18n="cultureKicker"></span><h2 class="page-title" data-i18n="cultureTitle"></h2></div><div class="guide-greeting" id="guideGreeting"></div></header>
+      <div class="culture-cats" id="cultureCats"><button class="on" data-cat="all" type="button"></button><button data-cat="city" type="button"></button><button data-cat="art" type="button"></button><button data-cat="garden" type="button"></button><button data-cat="gelato" type="button"></button><button data-cat="life" type="button"></button></div>
+      <div class="culture-path" id="culturePath"></div>
+    </section>
+  </main>
+
+  <span class="source-credit" data-i18n="sourceCredit"></span>
+
+  <aside class="drawer" id="drawer">
+    <header><span class="micro" data-i18n="library"></span><button class="drawer-close" id="closeDrawer" type="button">×</button></header>
+    <h2 data-i18n="myMedia"></h2><div id="libraryItems"></div>
+  </aside>
+  <button class="scrim" id="scrim" type="button" aria-label="Close"></button>
+
+  <div class="modal" id="renameModal">
+    <article class="rename-card">
+      <header><span class="micro" data-i18n="renameKicker"></span><button class="modal-close" id="renameClose" type="button">×</button></header>
+      <div class="media-ticket" id="originalFileName"></div>
+      <label for="renameInput" data-i18n="displayName"></label>
+      <input id="renameInput" maxlength="80" autocomplete="off">
+      <div class="modal-actions"><button id="renameCancel" type="button"><span data-i18n="cancel"></span></button><button class="primary" id="renameConfirm" type="button"><span data-i18n="saveName"></span></button></div>
+    </article>
+  </div>
+
+  <div class="modal" id="sceneModeModal">
+    <article class="scene-mode-card">
+      <header><span class="micro">TEMPO · TIME</span><button class="modal-close" id="sceneModeClose" type="button">×</button></header>
+      <h3 id="sceneModeTitle"></h3><p id="sceneModeCopy"></p>
+      <div class="modal-actions"><button id="sceneKeepChoice" type="button"></button><button class="primary" id="sceneFollowChoice" type="button"></button></div>
+    </article>
+  </div>
+
+  <div class="modal" id="stampPreview">
+    <article class="preview-card">
+      <div class="preview-image"><img id="previewStampImage" alt=""></div>
+      <div class="preview-copy"><button class="modal-close" id="previewClose" type="button">×</button><span class="micro" id="previewYear"></span><h3 id="previewTitle"></h3><div class="preview-meta" id="previewMeta"></div><p id="previewDescription"></p><div class="stamp-learning-actions"><button class="immersive-button" id="openImmersive" type="button"><span data-i18n="inspectStamp"></span></button><button class="word-study-button" id="stampWordsBtn" type="button"><span data-i18n="studyWords"></span></button></div><div class="stamp-words" id="stampWords"></div></div>
+    </article>
+  </div>
+
+  <div class="modal" id="stampChoiceModal">
+    <article class="choice-card"><header><div><span class="micro" data-i18n="memoryChoiceKicker"></span><h2 data-i18n="memoryChoiceTitle"></h2></div><button class="modal-close" id="stampChoiceClose" type="button">×</button></header><p data-i18n="memoryChoiceCopy"></p><div class="stamp-choices" id="stampChoices"></div><small data-i18n="memoryChoiceNote"></small></article>
+  </div>
+
+  <div class="immersive" id="stampImmersive">
+    <button class="immersive-close" id="immersiveClose" type="button">×</button>
+    <div class="immersive-stage" id="immersiveStage"><img id="immersiveImage" alt=""><div class="magnifier" id="magnifier"></div></div>
+    <p class="immersive-note" data-i18n="magnifierHint"></p>
+  </div>
+
+  <div class="focus-ritual" id="focusRitual">
+    <button class="focus-close" id="focusClose" type="button">×</button>
+    <section class="focus-write" id="focusWrite">
+      <div class="focus-envelope"><i></i></div><span class="micro" data-i18n="mindRitualKicker"></span><h2 data-i18n="mindRitualTitle"></h2><p data-i18n="mindRitualCopy"></p>
+      <div class="focus-timer" id="focusTimer">03:00</div><label class="focus-requirement" id="focusRequirement" for="mindText"></label><textarea id="mindText" maxlength="6000" spellcheck="false"></textarea>
+      <div class="focus-actions"><button id="focusFinish" type="button"><span data-i18n="letItGo"></span></button></div>
+    </section>
+    <section class="focus-release" id="focusRelease"><div class="particle-field" id="particleField"></div><h2 id="releaseLine"></h2><p data-i18n="releaseCopy"></p><div class="breath-orbit"><i></i><span data-i18n="breathe"></span></div><button id="readyButton" type="button"><span data-i18n="readyQuestion"></span></button></section>
+    <section class="focus-countdown" id="focusCountdown"><small data-i18n="oneBreath"></small><strong id="countdownNumber">3</strong></section>
+  </div>
+
+  <div class="modal" id="cultureDialog">
+    <article class="dialog-card"><header><span class="micro" id="dialogCity"></span><button class="modal-close" id="closeCulture" type="button">×</button></header><h2 id="dialogTitle"></h2><div class="bubble" id="dialogGuide"></div><div class="bubble you" id="dialogYou"></div><div class="word-pills" id="dialogWords"></div><button class="dialog-done" id="dialogDone" type="button"><span data-i18n="understood"></span></button></article>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script>
+  (() => {
+    'use strict';
+    const $ = (selector, root = document) => root.querySelector(selector);
+    const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+
+    const I18N = {
+      it: {
+        library:'LIBRERIA', navPlayer:'PLAYER', navProgress:'PROGRESSO', navTime:'TEMPO',
+        navScenes:'SCENARI', navAlbum:'ALBUM', navMap:'MAPPA', navCulture:'CULTURA',
+        homeMotto:'ascolta · ripeti · ricorda', importMedia:'AUDIO O VIDEO',
+        subtitlesHidden:'SOTTOTITOLI NASCOSTI', mask:'MASCHERA', theater:'CINEMA',
+        width:'LARGHEZZA', height:'ALTEZZA', level:'LIVELLO', speed:'VELOCITÀ',
+        repeat:'RIPETI', freeMode:'ASCOLTO LIBERO', learnMode:'IMPARA LA FRASE',
+        back:'INDIETRO', saveClip:'♡  SALVA IL FRAMMENTO',
+        progressKicker:'IL TUO ARCHIVIO', progressTitle:'Il ritmo del tuo studio',
+        progressCopy:'Scegli prima audio o video, poi il periodo. La linea racconta i minuti che hai davvero ascoltato, giorno per giorno.',
+        memoryRoute:'TRACCIA DI APPRENDIMENTO', currentPhase:'FASE ATTUALE',
+        currentPhaseNote:'questa frase, adesso', repetitions:'RIPETIZIONI',
+        repetitionsNote:'ritorni nel frammento', nextRitualNote:'il prossimo gesto utile',
+        timeKicker:'TEMPO DI STUDIO', timeTitle:'Il tempo diventa viaggio',
+        activeListening:'ASCOLTO ATTIVO', today:'OGGI', todayNote:'tempo realmente ascoltato',
+        session:'SESSIONE', sessionNote:'in questo file', nextStamp:'PROSSIMO FRANCOBOLLO',
+        nextStampNote:'un premio ogni 10 minuti', scenesKicker:'UN GIORNO IN ITALIA',
+        scenesCopy:'Questa scena diventa lo sfondo di tutto il tuo spazio. Puoi seguire l’ora di Roma, Pechino, Chiang Mai o scegliere un momento tuo.',
+        albumKicker:'COLLEZIONE DI STUDIO', albumTitle:'Album dei francobolli',
+        albumCopy:'Ogni dieci minuti puoi scegliere un francobollo tra tre ricordi velati. L’archivio cresce nello spazio, tra carta, luce e memoria.',
+        sampleStamp:'VEDI L’ESEMPIO', myJourney:'Il mio viaggio', italyArchive:'Italia · Archivio',
+        mapKicker:'L’ITALIA CHE SI ACCENDE', mapTitle:'La mappa del tuo viaggio',
+        cultureKicker:'UNA GUIDA, NON UN LIBRO', cultureTitle:'Piccole storie d’Italia',
+        myMedia:'I miei ascolti', renameKicker:'UN NUOVO ASCOLTO', displayName:'COME VUOI CHIAMARLO?',
+        cancel:'ANNULLA', saveName:'SALVA IL NOME', inspectStamp:'OSSERVA CON LA LENTE',
+        magnifierHint:'Muovi la lente sul francobollo. Il resto della stanza rimane in ombra, come in un piccolo archivio.',
+        understood:'HO CAPITO · FATTO', all:'TUTTO', city:'CITTÀ', art:'ARTE',
+        garden:'GIARDINI', gelato:'GELATO', life:'VITA',
+        noMedia:'Nessun file salvato.', remove:'RIMUOVI', edit:'RINOMINA',
+        importFirst:'Importa prima un audio o un video.', invalidMedia:'Scegli un file audio o video compatibile.',
+        savedLocal:'Salvato su questo dispositivo.', storageError:'Spazio locale insufficiente.',
+        nameRequired:'Scrivi un nome breve.', clipSaved:'Frammento salvato.',
+        sessionComplete:'Sessione completata.', lightOn:'LUCE ACCESA', lightOff:'LUCE SPENTA',
+        albumPages:'PAGINE', sourceArchive:'ARCHIVIO PUBBLICO', studyToUnlock:'DI STUDIO',
+        stampLoading:'Archivio in caricamento',
+        stampGeneric:'Questo è un francobollo storico italiano conservato nell’archivio di Wikimedia Commons. Guarda il ritratto, il valore e il timbro: sono piccoli indizi del suo tempo.',
+        mediaVideo:'FILM', mediaAudio:'AUDIO', next:'AVANTI →', complete:'COMPLETA',
+        originalFile:'FILE ORIGINALE', page:'PAGINA',
+        audioListening:'ASCOLTO SU VINILE', dictationKicker:'LABORATORIO AUDIO', dictationTitle:'Ascolta, scrivi, confronta',
+        showSource:'MOSTRA / NASCONDI ORIGINALE', sourceText:'TESTO ORIGINALE', importText:'IMPORTA .TXT / .SRT', yourDictation:'LA TUA DETTATURA', checkDictation:'CONTROLLA',
+        clearMind:'SVUOTA LA MENTE', clearMindNote:'tre minuti privati prima di iniziare', completedLoops:'CICLI',
+        mediaType:'TIPO DI ASCOLTO', allMedia:'TUTTI', videoOnly:'VIDEO', audioOnly:'AUDIO', dateRange:'PERIODO', daily:'OGGI', weekly:'SETTIMANA', monthly:'MESE', custom:'PERSONALE', manual:'SCELTA LIBERA',
+        activeMinutes:'MINUTI ATTIVI', studySessions:'SESSIONI', studySessionsNote:'avvii di ascolto nel periodo', activeDays:'GIORNI ATTIVI', activeDaysNote:'giorni con almeno un ascolto', listeningBalance:'EQUILIBRIO', noRecords:'Nessun ascolto in questo periodo. La prima linea comincia quando premi play.',
+        romeNow:'ROMA ORA', localNow:'LA TUA ORA', backgroundClock:'LO SFONDO SEGUE',
+        beijing:'PECHINO', chiangMai:'CHIANG MAI',
+        fullWallPreview:'PARETE COMPLETA', chooseMemory:'SCEGLI UN RICORDO', previewOnly:'ANTEPRIMA · I PROGRESSI NON CAMBIANO',
+        studyWords:'PAROLE DA RACCOGLIERE', memoryChoiceKicker:'UN NUOVO RICORDO', memoryChoiceTitle:'Quale vuoi portare con te?', memoryChoiceCopy:'Hai guadagnato una scelta con il tuo tempo di ascolto. Le immagini restano velate finché non ne scegli una.', memoryChoiceNote:'Non è un’estrazione: scegli tu. Una scelta usa dieci minuti già studiati.',
+        mindRitualKicker:'SPAZIO PRIVATO · NON VIENE SALVATO', mindRitualTitle:'Lascia qui il rumore', mindRitualCopy:'Scrivi senza ordine tutto ciò che occupa la mente. Puoi finire prima: quando chiudi questo spazio, il testo scompare davvero.', letItGo:'LASCIA ANDARE', releaseCopy:'Hai fatto spazio. Non serve essere perfetti: serve soltanto cominciare.', breathe:'respira', readyQuestion:'CI SEI?', oneBreath:'UN RESPIRO · POI SI COMINCIA',
+        filmCredit:'UNA SCENA · UN RESPIRO · GELATO LOOP',
+        sourceCredit:'SCENE ORIGINALI · GELATO LOOP　MAPPA · ISTAT / OPENPOLIS　FRANCOBOLLI STORICI · WIKIMEDIA COMMONS'
+      },
+      en: {
+        library:'LIBRARY', navPlayer:'PLAYER', navProgress:'PROGRESS', navTime:'TIME',
+        navScenes:'SCENES', navAlbum:'ALBUM', navMap:'MAP', navCulture:'CULTURE',
+        homeMotto:'listen · repeat · remember', importMedia:'AUDIO OR VIDEO',
+        subtitlesHidden:'SUBTITLES HIDDEN', mask:'MASK', theater:'THEATER',
+        width:'WIDTH', height:'HEIGHT', level:'LEVEL', speed:'SPEED',
+        repeat:'REPEAT', freeMode:'FREE LISTENING', learnMode:'LEARN THE PHRASE',
+        back:'BACK', saveClip:'♡  SAVE THE CLIP',
+        progressKicker:'YOUR ARCHIVE', progressTitle:'The rhythm of your study',
+        progressCopy:'Choose audio or video first, then the period. The line shows the minutes you actually listened, day by day.',
+        memoryRoute:'LEARNING TRACE', currentPhase:'CURRENT PHASE',
+        currentPhaseNote:'this phrase, right now', repetitions:'REPETITIONS',
+        repetitionsNote:'returns to this clip', nextRitualNote:'the next useful gesture',
+        timeKicker:'STUDY TIME', timeTitle:'Time becomes a journey',
+        activeListening:'ACTIVE LISTENING', today:'TODAY', todayNote:'time actually listened',
+        session:'SESSION', sessionNote:'in this file', nextStamp:'NEXT STAMP',
+        nextStampNote:'one reward every 10 minutes', scenesKicker:'ONE DAY IN ITALY',
+        scenesCopy:'This scene becomes the background of your whole space. Follow Rome, Beijing, Chiang Mai, or choose your own moment.',
+        albumKicker:'STUDY COLLECTION', albumTitle:'The stamp album',
+        albumCopy:'Every ten minutes, choose one stamp from three veiled memories. The archive grows through space, paper, light, and memory.',
+        sampleStamp:'VIEW THE EXAMPLE', myJourney:'My journey', italyArchive:'Italy · Archive',
+        mapKicker:'ITALY LIGHTS UP', mapTitle:'The map of your journey',
+        cultureKicker:'A GUIDE, NOT A TEXTBOOK', cultureTitle:'Little stories of Italy',
+        myMedia:'My listening', renameKicker:'A NEW LISTENING', displayName:'WHAT WOULD YOU LIKE TO CALL IT?',
+        cancel:'CANCEL', saveName:'SAVE THE NAME', inspectStamp:'INSPECT WITH THE LENS',
+        magnifierHint:'Move the lens over the stamp. The rest of the room stays dim, like a small archive.',
+        understood:'I UNDERSTAND · DONE', all:'ALL', city:'CITIES', art:'ART',
+        garden:'GARDENS', gelato:'GELATO', life:'LIFE',
+        noMedia:'No saved files.', remove:'REMOVE', edit:'RENAME',
+        importFirst:'Import an audio or video first.', invalidMedia:'Choose a compatible audio or video file.',
+        savedLocal:'Saved on this device.', storageError:'Not enough local storage.',
+        nameRequired:'Write a short name.', clipSaved:'Clip saved.',
+        sessionComplete:'Session complete.', lightOn:'LIGHT ON', lightOff:'LIGHT OFF',
+        albumPages:'PAGES', sourceArchive:'PUBLIC ARCHIVE', studyToUnlock:'OF STUDY',
+        stampLoading:'Archive loading',
+        stampGeneric:'This is a historic Italian stamp preserved in the Wikimedia Commons archive. Look at the portrait, value and postmark: they are small clues from its time.',
+        mediaVideo:'FILM', mediaAudio:'AUDIO', next:'NEXT →', complete:'COMPLETE',
+        originalFile:'ORIGINAL FILE', page:'PAGE',
+        audioListening:'VINYL LISTENING', dictationKicker:'AUDIO WORKSHOP', dictationTitle:'Listen, write, compare',
+        showSource:'SHOW / HIDE SOURCE', sourceText:'SOURCE TEXT', importText:'IMPORT .TXT / .SRT', yourDictation:'YOUR DICTATION', checkDictation:'CHECK',
+        clearMind:'CLEAR THE MIND', clearMindNote:'three private minutes before you begin', completedLoops:'LOOPS',
+        mediaType:'LISTENING TYPE', allMedia:'ALL', videoOnly:'VIDEO', audioOnly:'AUDIO', dateRange:'PERIOD', daily:'TODAY', weekly:'WEEK', monthly:'MONTH', custom:'CUSTOM', manual:'FREE CHOICE',
+        activeMinutes:'ACTIVE MINUTES', studySessions:'SESSIONS', studySessionsNote:'listening starts in this period', activeDays:'ACTIVE DAYS', activeDaysNote:'days with at least one listen', listeningBalance:'BALANCE', noRecords:'No listening in this period. Your first line begins when you press play.',
+        romeNow:'ROME NOW', localNow:'YOUR TIME', backgroundClock:'BACKGROUND FOLLOWS',
+        beijing:'BEIJING', chiangMai:'CHIANG MAI',
+        fullWallPreview:'COMPLETE WALL', chooseMemory:'CHOOSE A MEMORY', previewOnly:'PREVIEW · YOUR PROGRESS DOES NOT CHANGE',
+        studyWords:'WORDS TO COLLECT', memoryChoiceKicker:'A NEW MEMORY', memoryChoiceTitle:'Which one will you carry?', memoryChoiceCopy:'Your listening time earned one choice. The images stay veiled until you select one.', memoryChoiceNote:'This is not a draw: you choose. One choice uses ten minutes already studied.',
+        mindRitualKicker:'PRIVATE SPACE · NEVER SAVED', mindRitualTitle:'Leave the noise here', mindRitualCopy:'Write everything taking up space in your mind, without organising it. You may finish early: when this space closes, the text truly disappears.', letItGo:'LET IT GO', releaseCopy:'You made space. You do not need perfection; you only need to begin.', breathe:'breathe', readyQuestion:'READY?', oneBreath:'ONE BREATH · THEN BEGIN',
+        filmCredit:'ONE SCENE · ONE BREATH · GELATO LOOP',
+        sourceCredit:'ORIGINAL SCENES · GELATO LOOP　MAP · ISTAT / OPENPOLIS　HISTORIC STAMPS · WIKIMEDIA COMMONS'
+      }
+    };
+
+    let lang = localStorage.getItem('gelato-language-v6') || 'bi';
+    if (!['it','en','bi'].includes(lang)) lang = 'it';
+    const textFor = (it, en) => lang === 'en' ? en : (lang === 'bi' ? it + ' / ' + en : it);
+    const tr = key => lang === 'en' ? I18N.en[key] : I18N.it[key];
+    function localized(el, it, en) {
+      if (!el) return;
+      el.replaceChildren();
+      if (lang === 'bi') {
+        const first = document.createElement('span');
+        const second = document.createElement('span');
+        first.className = 'i18n-it';
+        second.className = 'i18n-en';
+        first.textContent = it;
+        second.textContent = en;
+        el.append(first, second);
+      } else {
+        el.textContent = lang === 'en' ? en : it;
+      }
+    }
+    function localizedKey(el, key) { localized(el, I18N.it[key], I18N.en[key]); }
+
+    let currentView = 'home';
+    let backdropIndex = 0;
+    function setBackdrop(url, position) {
+      position = position || 'center';
+      const next = 1 - backdropIndex;
+      const layer = next ? $('#backdropB') : $('#backdropA');
+      const old = backdropIndex ? $('#backdropB') : $('#backdropA');
+      layer.style.backgroundImage = 'url("' + url + '")';
+      layer.style.backgroundPosition = position;
+      layer.classList.add('on');
+      old.classList.remove('on');
+      backdropIndex = next;
+    }
+
+    const scenes = [
+      {hours:[0,4],city:'Bologna',it:'Notte silenziosa',en:'Quiet night',time:'00—04',img:'assets/bcbd66ed24132c49.webp',pos:'center',accent:'#c5a76f',accent2:'#738f8f'},
+      {hours:[5,7],city:'Firenze',it:'Alba',en:'Dawn',time:'05—07',img:'assets/38fed28023c757b2.webp',pos:'center',accent:'#dbab87',accent2:'#91a69a'},
+      {hours:[8,10],city:'Roma',it:'Mattina',en:'Morning',time:'08—10',img:'assets/60d9687d6192df0d.webp',pos:'center',accent:'#d8bd86',accent2:'#8da28e'},
+      {hours:[11,13],city:'Amalfi',it:'Mezzogiorno',en:'Noon',time:'11—13',img:'assets/c2f58305b5261c82.webp',pos:'center',accent:'#c7b679',accent2:'#76999e'},
+      {hours:[14,17],city:'Roma',it:'Pomeriggio',en:'Afternoon',time:'14—17',img:'assets/d549a7e605f8b615.webp',pos:'center',accent:'#d6aa6f',accent2:'#839a7d'},
+      {hours:[18,20],city:'Venezia',it:'Tramonto',en:'Sunset',time:'18—20',img:'assets/91ff2edf256de07b.webp',pos:'center',accent:'#d08170',accent2:'#758c98'},
+      {hours:[21,23],city:'Bologna',it:'Sera',en:'Evening',time:'21—23',img:'assets/cb13aa6a176a5764.webp',pos:'center',accent:'#c99d68',accent2:'#776f63'}
+    ];
+    let timeBasis = localStorage.getItem('gelato-time-basis-v7') || 'Europe/Rome';
+    let selectedClockBasis = localStorage.getItem('gelato-clock-basis-v8') || (timeBasis === 'manual' ? 'Europe/Rome' : timeBasis);
+    let pendingTimeBasis = null;
+    let sceneIndex = Number(localStorage.getItem('gelato-scene-v7'));
+    let sceneQuality = localStorage.getItem('gelato-scene-quality-v9') || 'crisp';
+    let sceneBlur = Math.max(0,Math.min(18,Number(localStorage.getItem('gelato-scene-blur-v9') || 4)));
+    let customSceneImage = localStorage.getItem('gelato-custom-wallpaper-v9') || '';
+    if (!Number.isInteger(sceneIndex) || sceneIndex < 0 || sceneIndex >= scenes.length) sceneIndex = scenes.findIndex(scene => {
+      const hour = new Date().getHours();
+      return hour >= scene.hours[0] && hour <= scene.hours[1];
+    });
+    if (sceneIndex < 0) sceneIndex = 0;
+
+    function zonedParts(timeZone,date) {
+      const parts = new Intl.DateTimeFormat('en-GB',{timeZone:timeZone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(date || new Date());
+      return {hour:Number(parts.find(part => part.type === 'hour').value),minute:Number(parts.find(part => part.type === 'minute').value)};
+    }
+    function partsForBasis(basis) {
+      if (basis === 'custom') {
+        const value = ($('#customSceneTime') && $('#customSceneTime').value) || '18:30';
+        const bits = value.split(':').map(Number);
+        return {hour:bits[0] || 0,minute:bits[1] || 0};
+      }
+      try { return zonedParts(basis); } catch (error) { return zonedParts('Europe/Rome'); }
+    }
+    function basisParts() {
+      return partsForBasis(timeBasis === 'manual' ? selectedClockBasis : timeBasis);
+    }
+    function sceneForHour(hour) {
+      const found = scenes.findIndex(scene => hour >= scene.hours[0] && hour <= scene.hours[1]);
+      return found < 0 ? 0 : found;
+    }
+    function applySceneTheme() {
+      const scene = scenes[sceneIndex];
+      const image = customSceneImage || scene.img;
+      document.documentElement.style.setProperty('--scene-accent',scene.accent);
+      document.documentElement.style.setProperty('--scene-accent-2',scene.accent2);
+      document.documentElement.style.setProperty('--scene-line','color-mix(in srgb,' + scene.accent + ' 38%,rgba(255,255,255,.16))');
+      document.documentElement.style.setProperty('--scene-image','url("' + image + '")');
+      document.documentElement.style.setProperty('--wall-blur',(sceneQuality === 'soft' ? Math.max(8,sceneBlur) : sceneBlur) + 'px');
+      document.documentElement.style.setProperty('--wall-clarity',sceneQuality === 'soft' ? '.78' : '.94');
+      setBackdrop(image,customSceneImage ? 'center' : scene.pos);
+      if ($('#scenePreviewDot')) $('#scenePreviewDot').style.backgroundImage = 'url("' + image + '")';
+      if ($('#sceneBlur')) $('#sceneBlur').value = String(sceneBlur);
+      $$('.scene-quality button').forEach(button => button.classList.toggle('on',button.dataset.sceneQuality === sceneQuality));
+      localized($('#homeSceneName'),scene.city + ' · ' + scene.it,scene.city + ' · ' + scene.en);
+    }
+    function storeCustomWallpaper(file) {
+      if (!file || !file.type.startsWith('image/')) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        const source = new Image();
+        source.onload = () => {
+          const scale = Math.min(1,1600/source.width,1100/source.height);
+          const canvas = document.createElement('canvas');
+          canvas.width = Math.max(1,Math.round(source.width*scale));
+          canvas.height = Math.max(1,Math.round(source.height*scale));
+          canvas.getContext('2d').drawImage(source,0,0,canvas.width,canvas.height);
+          customSceneImage = canvas.toDataURL('image/jpeg',.78);
+          try { localStorage.setItem('gelato-custom-wallpaper-v9',customSceneImage); } catch (error) { showToast(textFor('L’immagine è troppo grande per essere ricordata.','The image is too large to remember.')); }
+          applySceneTheme();
+        };
+        source.src = String(reader.result);
+      };
+      reader.readAsDataURL(file);
+    }
+
+    let media = null;
+    let current = null;
+    let objectUrl = '';
+    let pendingFile = null;
+    let renameTarget = null;
+    let duration = 0;
+    let clipA = 0;
+    let clipB = 0;
+    let loops = 5;
+    let loopIndex = 0;
+    let repetitions = 0;
+    let learningStep = 0;
+    let learningModeActive = false;
+    let focusRequired = false;
+    let timer = null;
+    let sessionSeconds = 0;
+    let studySeconds = Number(localStorage.getItem('gelato-study') || 0);
+    const localDateKey = date => {
+      const value = date || new Date();
+      return value.getFullYear() + '-' + String(value.getMonth()+1).padStart(2,'0') + '-' + String(value.getDate()).padStart(2,'0');
+    };
+    const todayKey = localDateKey(new Date());
+    let dayRecord;
+    try { dayRecord = JSON.parse(localStorage.getItem('gelato-study-day') || 'null'); } catch (error) { dayRecord = null; }
+    let todaySeconds = dayRecord && dayRecord.date === todayKey ? Number(dayRecord.seconds || 0) : (dayRecord ? 0 : studySeconds);
+    let studyLog = [];
+    try { studyLog = JSON.parse(localStorage.getItem('gelato-study-log-v7') || '[]'); } catch (error) { studyLog = []; }
+    let activeLogRow = null;
+    let recordMediaFilter = 'all';
+    let recordRange = 'week';
+
+    const learningSteps = [
+      {it:'Ascolta il contesto',en:'Listen to the context',stageIt:'ASCOLTA',stageEn:'LISTEN'},
+      {it:'Ascolta soltanto',en:'Listen only',stageIt:'ASCOLTA',stageEn:'LISTEN'},
+      {it:'Comprendi la frase',en:'Understand the phrase',stageIt:'COMPRENDI',stageEn:'UNDERSTAND'},
+      {it:'Ripeti ad alta voce',en:'Repeat aloud',stageIt:'RIPETI',stageEn:'REPEAT'},
+      {it:'Ricorda senza audio',en:'Remember without audio',stageIt:'RICORDA',stageEn:'REMEMBER'},
+      {it:'Controllo naturale',en:'Natural check',stageIt:'STABILE',stageEn:'STABLE'}
+    ];
+    const curveMilestones = [
+      {step:0,x:'7%',y:'78%',ly:'84%',it:'Ascolta',en:'Listen'},
+      {step:1,x:'31%',y:'66%',ly:'72%',it:'Riascolta',en:'Replay'},
+      {step:3,x:'55%',y:'49%',ly:'55%',it:'Ripeti',en:'Repeat'},
+      {step:4,x:'80%',y:'27%',ly:'33%',it:'Ricorda',en:'Remember'},
+      {step:5,x:'95%',y:'10%',ly:'16%',it:'Stabile',en:'Stable'}
+    ];
+
+    function formatTime(value, decimal) {
+      value = Number.isFinite(value) ? Math.max(0,value) : 0;
+      const minutes = Math.floor(value/60);
+      const seconds = value%60;
+      const tail = decimal ? seconds.toFixed(1).padStart(4,'0') : String(Math.floor(seconds)).padStart(2,'0');
+      return String(minutes).padStart(2,'0') + ':' + tail;
+    }
+    function formatLong(value) {
+      value = Math.max(0,Math.floor(value));
+      const hours = Math.floor(value/3600);
+      const minutes = Math.ceil((value%3600)/60);
+      return hours ? hours + 'h ' + minutes + 'm' : minutes + ' min';
+    }
+    function parseTimeInput(value) {
+      const text = String(value || '').trim().replace(',', '.');
+      if (!text) return NaN;
+      const parts = text.split(':').map(Number);
+      if (parts.some(part => !Number.isFinite(part))) return NaN;
+      if (parts.length === 1) return parts[0];
+      if (parts.length === 2) return parts[0]*60+parts[1];
+      return parts[0]*3600+parts[1]*60+parts[2];
+    }
+    function showToast(message) {
+      const el = $('#toast');
+      el.textContent = message;
+      el.style.display = 'block';
+      clearTimeout(el._hide);
+      el._hide = setTimeout(() => { el.style.display = 'none'; },2600);
+    }
+    function switchView(view, silent) {
+      if (view === 'player' && !current) {
+        if (!silent) showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+        view = 'home';
+      }
+      currentView = view;
+      document.body.dataset.view = view;
+      if (view !== 'scenes') $('#sceneVisualPanel').classList.remove('open');
+      $$('.view').forEach(el => el.classList.toggle('open',el.id === view + 'View'));
+      $$('.nav-button').forEach(el => el.classList.toggle('on',el.dataset.view === view));
+      applySceneTheme();
+      if (view === 'progress') renderProgress();
+      if (view === 'time') renderTime();
+      if (view === 'scenes') renderScenes();
+      if (view === 'album') renderAlbum(true);
+      if (view === 'journey') renderJourney();
+      if (view === 'culture') renderCulture();
+      // The album is intentionally a long, scrollable archive. Always return to
+      // the beginning when changing rooms so the next page never appears empty.
+      window.scrollTo({top:0,left:0,behavior:'auto'});
+    }
+
+    function openDb() {
+      return new Promise((resolve,reject) => {
+        const request = indexedDB.open('gelato-player-v2',1);
+        request.onupgradeneeded = () => {
+          if (!request.result.objectStoreNames.contains('media')) request.result.createObjectStore('media',{keyPath:'id'});
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function saveMedia(row) {
+      const db = await openDb();
+      return new Promise((resolve,reject) => {
+        const request = db.transaction('media','readwrite').objectStore('media').put(row);
+        request.onsuccess = resolve;
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function getAllMedia() {
+      const db = await openDb();
+      return new Promise((resolve,reject) => {
+        const request = db.transaction('media').objectStore('media').getAll();
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+    }
+    async function removeMedia(id) {
+      const db = await openDb();
+      await new Promise((resolve,reject) => {
+        const request = db.transaction('media','readwrite').objectStore('media').delete(id);
+        request.onsuccess = resolve;
+        request.onerror = () => reject(request.error);
+      });
+      if (current && current.id === id) {
+        current = null;
+        if (media) { media.pause(); media.remove(); }
+        media = null;
+        switchView('home',true);
+      }
+      renderLibrary();
+    }
+    function cleanFileName(name) {
+      return name.replace(/\.[^.]+$/,'').replace(/[._]+/g,' ').replace(/\s+/g,' ').trim().slice(0,80);
+    }
+    function mediaSupported(file) {
+      return file.type.startsWith('audio/') || file.type.startsWith('video/') || /\.(mp3|m4a|wav|aac|ogg|flac|mp4|m4v|mov|webm)$/i.test(file.name);
+    }
+    function openRenameForFile(file) {
+      pendingFile = file;
+      renameTarget = null;
+      $('#originalFileName').textContent = file.name;
+      $('#renameInput').value = cleanFileName(file.name) || textFor('Senza titolo','Untitled');
+      $('#renameModal').classList.add('open');
+      setTimeout(() => { $('#renameInput').focus(); $('#renameInput').select(); },250);
+    }
+    function openRenameForRow(row) {
+      pendingFile = null;
+      renameTarget = row;
+      $('#originalFileName').textContent = row.originalName || row.name;
+      $('#renameInput').value = cleanFileName(row.name);
+      $('#renameModal').classList.add('open');
+      setTimeout(() => { $('#renameInput').focus(); $('#renameInput').select(); },250);
+    }
+    function closeRename(reset) {
+      $('#renameModal').classList.remove('open');
+      if (reset !== false) {
+        pendingFile = null;
+        renameTarget = null;
+        $('#fileInput').value = '';
+      }
+    }
+    async function confirmRename() {
+      const name = $('#renameInput').value.trim().replace(/\s+/g,' ').slice(0,80);
+      if (!name) return showToast(textFor(I18N.it.nameRequired,I18N.en.nameRequired));
+      if (pendingFile) {
+        const file = pendingFile;
+        const row = {
+          id:crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + '-' + String(Math.random()),
+          name:name,
+          originalName:file.name,
+          type:file.type || (/video/i.test(file.name) ? 'video/*' : 'audio/*'),
+          blob:file,
+          savedAt:Date.now()
+        };
+        try {
+          await saveMedia(row);
+          showToast(textFor(I18N.it.savedLocal,I18N.en.savedLocal));
+        } catch (error) {
+          showToast(textFor(I18N.it.storageError,I18N.en.storageError));
+        }
+        closeRename();
+        openMedia(row,true);
+      } else if (renameTarget) {
+        renameTarget.name = name;
+        try { await saveMedia(renameTarget); } catch (error) {}
+        if (current && current.id === renameTarget.id) {
+          current.name = name;
+          $('#mediaTitle').textContent = name;
+        }
+        closeRename();
+        renderLibrary();
+      }
+    }
+    async function renderLibrary() {
+      let rows = [];
+      try { rows = await getAllMedia(); } catch (error) {}
+      const wrap = $('#libraryItems');
+      wrap.replaceChildren();
+      if (!rows.length) {
+        const empty = document.createElement('p');
+        empty.className = 'empty-library';
+        localizedKey(empty,'noMedia');
+        wrap.append(empty);
+        return;
+      }
+      rows.sort((a,b) => b.savedAt-a.savedAt).forEach(row => {
+        const item = document.createElement('div');
+        item.className = 'library-item';
+        const isVideo = (row.type && row.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(row.originalName || '');
+        const listening = studyLog.filter(entry => entry.mediaId === row.id).reduce((total,entry) => total + Number(entry.seconds || 0),0);
+        const latest = studyLog.filter(entry => entry.mediaId === row.id).sort((a,b) => Number(b.startedAt || 0)-Number(a.startedAt || 0))[0];
+        const date = new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT',{day:'2-digit',month:'short',year:'numeric'}).format(new Date((latest && latest.startedAt) || row.savedAt || Date.now()));
+        const kind = document.createElement('span');
+        kind.className = 'library-kind';
+        kind.textContent = isVideo ? '▷' : '♪';
+        const open = document.createElement('button');
+        open.className = 'library-open';
+        const title = document.createElement('strong');
+        title.textContent = cleanFileName(row.name);
+        const meta = document.createElement('small');
+        const typeLabel = document.createElement('span');
+        localized(typeLabel,isVideo ? 'VIDEO' : 'AUDIO',isVideo ? 'VIDEO' : 'AUDIO');
+        const dot = document.createElement('i');
+        const dateLabel = document.createElement('span');
+        dateLabel.textContent = date;
+        const listenLabel = document.createElement('span');
+        localized(listenLabel,listening ? formatLong(listening) + ' ascoltati' : 'non ancora ascoltato',listening ? formatLong(listening) + ' listened' : 'not listened yet');
+        meta.append(typeLabel,dot,dateLabel,listenLabel);
+        const line = document.createElement('span');
+        line.className = 'library-listen-line';
+        line.style.setProperty('--listened',Math.min(100,listening/1800*100) + '%');
+        line.innerHTML = '<b></b>';
+        open.append(title,meta,line);
+        open.onclick = () => { openMedia(row); closeDrawer(); };
+        const edit = document.createElement('button');
+        edit.className = 'library-edit';
+        edit.textContent = '✎';
+        edit.title = tr('edit');
+        edit.onclick = () => openRenameForRow(row);
+        const remove = document.createElement('button');
+        remove.className = 'library-remove';
+        remove.textContent = '×';
+        remove.title = tr('remove');
+        remove.onclick = () => removeMedia(row.id);
+        const resume = document.createElement('button');
+        resume.className = 'library-resume';
+        resume.textContent = '↗';
+        resume.setAttribute('aria-label',textFor('Apri il file','Open file'));
+        resume.onclick = () => { openMedia(row); closeDrawer(); };
+        const actions = document.createElement('div');
+        actions.className = 'library-actions';
+        actions.append(resume,edit,remove);
+        item.append(kind,open,actions);
+        wrap.append(item);
+      });
+    }
+    function openDrawer() {
+      $('#drawer').classList.add('open');
+      $('#scrim').classList.add('open');
+      renderLibrary();
+    }
+    function closeDrawer() {
+      $('#drawer').classList.remove('open');
+      $('#scrim').classList.remove('open');
+    }
+
+    function openMedia(row,requireFocus) {
+      current = row;
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+      objectUrl = URL.createObjectURL(row.blob);
+      if (media) {
+        media.pause();
+        media.remove();
+      }
+      const isVideo = (row.type && row.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(row.originalName || '');
+      media = document.createElement(isVideo ? 'video' : 'audio');
+      media.src = objectUrl;
+      media.playsInline = true;
+      media.preload = 'metadata';
+      media.dataset.paused = 'true';
+      $('#stage').prepend(media);
+      $('#playerView').classList.toggle('audio-mode',!isVideo);
+      $('#playerView').classList.toggle('video-mode',isVideo);
+      $('#audioCover').hidden = isVideo;
+      $('#maskBtn').hidden = !isVideo;
+      $('#captionMask').classList.remove('on');
+      $('#maskPanel').classList.remove('open');
+      $('#mediaTitle').textContent = cleanFileName(row.name);
+      $('#audioNowTitle').textContent = cleanFileName(row.name);
+      $('#mindClearBtn').classList.add('ready');
+      focusRequired = Boolean(requireFocus);
+      $('#focusRitual').classList.toggle('required',focusRequired);
+      $('#sourceText').value = row.transcript || '';
+      $('#sourcePane').classList.add('concealed');
+      $('#dictationText').value = '';
+      $('#dictationResult').replaceChildren();
+      sessionSeconds = 0;
+      localized($('#mediaKind'),isVideo ? I18N.it.mediaVideo : I18N.it.mediaAudio,isVideo ? I18N.en.mediaVideo : I18N.en.mediaAudio);
+      media.addEventListener('loadedmetadata',() => {
+        duration = Number.isFinite(media.duration) ? media.duration : 0;
+        clipA = 0;
+        clipB = Math.min(8,duration);
+        ['#seek','#startRange','#endRange'].forEach(selector => { $(selector).max = duration || 1; });
+        $('#endRange').value = clipB;
+        updateTimeline();
+      });
+      media.addEventListener('timeupdate',handleTimeUpdate);
+      media.addEventListener('play',() => { delete media.dataset.paused; updatePlayIcons(); startStudyTimer(); });
+      media.addEventListener('pause',() => { media.dataset.paused = 'true'; updatePlayIcons(); stopStudyTimer(); });
+      media.addEventListener('error',() => showToast(textFor('Questo formato non può essere riprodotto dal browser.','This format cannot be played by the browser.')));
+      closeDrawer();
+      switchView('player',true);
+      if (focusRequired) setTimeout(openFocusRitual,360);
+    }
+    function updatePlayIcons() {
+      const playing = media && !media.paused;
+      $('#playBtn').textContent = playing ? 'Ⅱ' : '▶';
+      $('#centerBtn').textContent = playing ? 'Ⅱ' : '▶';
+    }
+    function togglePlay() {
+      if (!media) return showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+      if (focusRequired) return openFocusRitual();
+      if (media.paused) {
+        if (learningModeActive && (media.currentTime < clipA || media.currentTime >= clipB)) media.currentTime = clipA;
+        media.play().catch(() => {});
+      } else {
+        media.pause();
+      }
+    }
+    function seekTo(value) {
+      if (!media) return;
+      media.currentTime = Math.max(0,Math.min(duration,value));
+      $('#currentTime').textContent = formatTime(media.currentTime);
+    }
+    function updateTimeline() {
+      const gap = Math.min(.1,duration || .1);
+      clipA = Math.max(0,Math.min(clipA,Math.max(0,duration-gap)));
+      clipB = Math.max(clipA+gap,Math.min(clipB,duration || gap));
+      $('#aTime').textContent = formatTime(clipA,true);
+      $('#bTime').textContent = formatTime(clipB,true);
+      $('#clipAInput').value = formatTime(clipA,true);
+      $('#clipBInput').value = formatTime(clipB,true);
+      $('#segmentLength').textContent = Math.max(0,clipB-clipA).toFixed(1) + ' SEC';
+      $('#startRange').value = clipA;
+      $('#endRange').value = clipB;
+      $('#selection').style.left = (duration ? clipA/duration*100 : 0) + '%';
+      $('#selection').style.width = (duration ? (clipB-clipA)/duration*100 : 0) + '%';
+      $('#mediaDuration').textContent = formatTime(duration);
+      $('#totalTime').textContent = formatTime(duration);
+    }
+    function handleTimeUpdate() {
+      if (!media) return;
+      const time = media.currentTime;
+      $('#currentTime').textContent = formatTime(time);
+      $('#seek').value = time;
+      $('#gelatoCursor').style.left = (duration ? time/duration*100 : 0) + '%';
+      if (learningModeActive && clipB > clipA && time >= clipB) {
+        loopIndex++;
+        repetitions++;
+        $('#loopNow').textContent = loopIndex;
+        if (loops && loopIndex >= loops) {
+          media.pause();
+          media.currentTime = clipA;
+          loopIndex = 0;
+        } else {
+          media.currentTime = clipA;
+          media.play().catch(() => {});
+        }
+        renderProgress();
+      }
+    }
+    function nudge(code) {
+      if (code === 'a-') clipA -= .1;
+      if (code === 'a+') clipA += .1;
+      if (code === 'b-') clipB -= .1;
+      if (code === 'b+') clipB += .1;
+      updateTimeline();
+    }
+    function startStudyTimer() {
+      if (timer) return;
+      if (!activeLogRow) {
+        const isVideo = current && ((current.type && current.type.startsWith('video')) || /\.(mp4|m4v|mov|webm)$/i.test(current.originalName || ''));
+        activeLogRow = {id:String(Date.now()) + '-' + String(Math.random()).slice(2,7),date:localDateKey(new Date()),startedAt:Date.now(),type:isVideo ? 'video' : 'audio',mediaId:current ? current.id : '',name:current ? current.name : '',seconds:0};
+        studyLog.push(activeLogRow);
+      }
+      timer = setInterval(() => {
+        studySeconds++;
+        todaySeconds++;
+        sessionSeconds++;
+        activeLogRow.seconds++;
+        localStorage.setItem('gelato-study',studySeconds);
+        localStorage.setItem('gelato-study-day',JSON.stringify({date:todayKey,seconds:todaySeconds}));
+        if (activeLogRow.seconds%5 === 0) localStorage.setItem('gelato-study-log-v7',JSON.stringify(studyLog.slice(-600)));
+        renderStudy();
+      },1000);
+    }
+    function stopStudyTimer() {
+      clearInterval(timer);
+      timer = null;
+      if (activeLogRow) localStorage.setItem('gelato-study-log-v7',JSON.stringify(studyLog.slice(-600)));
+      activeLogRow = null;
+    }
+    function renderStudy() {
+      renderTime();
+      renderAlbum(false);
+      if (currentView === 'journey') renderJourney();
+      if (currentView === 'culture') renderCulture();
+      if (currentView === 'progress') renderProgress();
+    }
+
+    function setClipFromInput(side,input) {
+      const value = parseTimeInput(input.value);
+      if (!Number.isFinite(value)) {
+        input.classList.add('invalid');
+        return updateTimeline();
+      }
+      input.classList.remove('invalid');
+      const previousLength = Math.max(.1,clipB-clipA);
+      if (side === 'a') {
+        clipA = Math.max(0,Math.min(value,Math.max(0,(duration || value+.1)-.1)));
+        if (clipA >= clipB) clipB = Math.min(duration || clipA+previousLength,clipA+previousLength);
+        if (clipB <= clipA) clipA = Math.max(0,clipB-.1);
+      } else {
+        clipB = Math.max(.1,Math.min(value,duration || value));
+        if (clipB <= clipA) clipA = Math.max(0,clipB-previousLength);
+        if (clipB <= clipA) clipB = Math.min(duration || clipA+.1,clipA+.1);
+      }
+      if (media) media.currentTime = side === 'a' ? clipA : Math.min(media.currentTime,clipB);
+      updateTimeline();
+    }
+    function tidyTranscript(value) {
+      return String(value || '')
+        .replace(/^WEBVTT[^\n]*\n/i,'')
+        .replace(/^\d+\s*$/gm,'')
+        .replace(/^\s*\d{1,2}:\d{2}(?::\d{2})?[,.]\d{3}\s*-->.*$/gm,'')
+        .replace(/<[^>]+>/g,'')
+        .replace(/\n{3,}/g,'\n\n')
+        .trim();
+    }
+    function normalizedWords(value) {
+      return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('it')
+        .replace(/[^a-z0-9àèéìòù'’]+/gi,' ').trim().split(/\s+/).filter(Boolean);
+    }
+    function checkDictation() {
+      const source = normalizedWords($('#sourceText').value);
+      const answer = normalizedWords($('#dictationText').value);
+      const result = $('#dictationResult');
+      result.replaceChildren();
+      if (!source.length) {
+        localized(result,'Aggiungi prima il testo originale.','Add the source text first.');
+        return;
+      }
+      const width = Math.max(source.length,answer.length,1);
+      let same = 0;
+      for (let index=0;index<Math.min(source.length,answer.length);index++) if (source[index] === answer[index]) same++;
+      const score = Math.max(0,Math.round(same/width*100));
+      const strong = document.createElement('strong');
+      strong.textContent = score + '%';
+      const copy = document.createElement('span');
+      localized(copy,score >= 85 ? ' Molto vicino. Riascolta soltanto i piccoli vuoti.' : ' Confronta con calma: ogni parola trovata conta.',score >= 85 ? ' Very close. Replay only the small gaps.' : ' Compare calmly: every word you found counts.');
+      result.append(strong,copy);
+    }
+    let focusTimerId = null;
+    let focusCountdownId = null;
+    let focusRemaining = 180;
+    function closeFocusRitual(force) {
+      if (focusRequired && !force) {
+        showToast(textFor('Scrivi almeno una riga prima di iniziare.','Write at least one line before you begin.'));
+        $('#mindText').focus();
+        return;
+      }
+      clearInterval(focusTimerId);
+      clearInterval(focusCountdownId);
+      focusTimerId = null;
+      focusCountdownId = null;
+      $('#mindText').value = '';
+      $('#focusRitual').classList.remove('open');
+      $('#focusRitual').classList.remove('required');
+      $('#focusWrite').style.display = '';
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.remove('open');
+      $('#particleField').replaceChildren();
+    }
+    function openFocusRitual() {
+      if (!current) return showToast(textFor(I18N.it.importFirst,I18N.en.importFirst));
+      if (media && !media.paused) media.pause();
+      clearInterval(focusTimerId);
+      clearInterval(focusCountdownId);
+      focusRemaining = 180;
+      $('#focusTimer').textContent = '03:00';
+      $('#mindText').value = '';
+      $('#focusWrite').style.display = '';
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.remove('open');
+      $('#particleField').replaceChildren();
+      $('#focusRitual').classList.add('open');
+      $('#focusRitual').classList.toggle('required',focusRequired);
+      localized($('#focusRequirement'),focusRequired ? 'SCRIVI ALMENO UNA RIGA · QUESTO PASSAGGIO PROTEGGE IL TUO TEMPO' : 'SCRIVI LIBERAMENTE · QUESTO TESTO NON VIENE SALVATO',focusRequired ? 'WRITE AT LEAST ONE LINE · THIS STEP PROTECTS YOUR STUDY TIME' : 'WRITE FREELY · THIS TEXT IS NOT SAVED');
+      setTimeout(() => $('#mindText').focus(),80);
+      focusTimerId = setInterval(() => {
+        focusRemaining = Math.max(0,focusRemaining-1);
+        $('#focusTimer').textContent = formatTime(focusRemaining);
+        if (!focusRemaining) finishFocusRitual();
+      },1000);
+    }
+    function finishFocusRitual() {
+      if (!$('#focusRitual').classList.contains('open') || $('#focusRelease').classList.contains('open')) return;
+      if (!$('#mindText').value.trim()) {
+        showToast(textFor('Prima lascia qui almeno una riga.','First, leave at least one line here.'));
+        $('#mindText').focus();
+        return;
+      }
+      clearInterval(focusTimerId);
+      focusTimerId = null;
+      $('#mindText').value = '';
+      $('#focusWrite').style.display = 'none';
+      $('#focusRelease').classList.add('open');
+      localized($('#releaseLine'),'Fai spazio. Respira. Ora comincia.','Make space. Breathe. Begin.');
+      const field = $('#particleField');
+      field.replaceChildren();
+      for (let index=0;index<54;index++) {
+        const particle = document.createElement('i');
+        particle.className = 'thought-particle';
+        const angle = Math.PI*2*index/54 + (index%5)*.13;
+        const distance = 120+(index%9)*34;
+        particle.style.setProperty('--px',Math.cos(angle)*distance + 'px');
+        particle.style.setProperty('--py',Math.sin(angle)*distance + 'px');
+        particle.style.animationDelay = (index%8)*.035 + 's';
+        field.append(particle);
+      }
+    }
+    function beginFocusCountdown() {
+      clearInterval(focusCountdownId);
+      $('#focusRelease').classList.remove('open');
+      $('#focusCountdown').classList.add('open');
+      let number = 3;
+      $('#countdownNumber').textContent = String(number);
+      focusCountdownId = setInterval(() => {
+        number--;
+        if (number > 0) {
+          $('#countdownNumber').textContent = String(number);
+          $('#countdownNumber').style.animation = 'none';
+          requestAnimationFrame(() => { $('#countdownNumber').style.animation = ''; });
+          return;
+        }
+        clearInterval(focusCountdownId);
+        focusCountdownId = null;
+        focusRequired = false;
+        closeFocusRitual(true);
+        if (media) {
+          if (learningModeActive && (media.currentTime < clipA || media.currentTime >= clipB)) media.currentTime = clipA;
+          media.play().catch(() => $('#playBtn').focus());
+        }
+      },1000);
+    }
+
+    function renderLearning() {
+      $('#stepDots').innerHTML = learningSteps.map((step,index) => '<i class="' + (index <= learningStep ? 'on' : '') + '"></i>').join('');
+      const step = learningSteps[learningStep];
+      localized($('#stepTitle'),step.it,step.en);
+      const input = $('#learningInput');
+      input.replaceChildren();
+      if (learningStep === 2) {
+        const original = document.createElement('input');
+        const meaning = document.createElement('input');
+        original.placeholder = textFor('Testo originale (opzionale)','Original text (optional)');
+        meaning.placeholder = textFor('Significato o nota (opzionale)','Meaning or note (optional)');
+        input.append(original,meaning);
+      } else if (learningStep === 4) {
+        const memory = document.createElement('input');
+        memory.placeholder = textFor('Scrivi la frase a memoria…','Write the phrase from memory…');
+        input.append(memory);
+      }
+      localized($('#nextStep'),learningStep === 5 ? I18N.it.complete : I18N.it.next,learningStep === 5 ? I18N.en.complete : I18N.en.next);
+      renderProgress();
+    }
+    function recordBounds() {
+      const now = new Date();
+      const start = new Date(now);start.setHours(0,0,0,0);
+      const end = new Date(now);end.setHours(23,59,59,999);
+      if (recordRange === 'day') return {start:start,end:end,hourly:true};
+      if (recordRange === 'week') { start.setDate(start.getDate()-6); return {start:start,end:end}; }
+      if (recordRange === 'month') { start.setDate(1); return {start:start,end:end}; }
+      const from = $('#recordStartDate').value ? new Date($('#recordStartDate').value + 'T00:00:00') : start;
+      const to = $('#recordEndDate').value ? new Date($('#recordEndDate').value + 'T23:59:59') : end;
+      return {start:from,end:to};
+    }
+    function shortDate(date) {
+      return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'it-IT',{day:'2-digit',month:'short'}).format(date).replace('.','');
+    }
+    function renderProgress() {
+      if (!$('#recordChart')) return;
+      const bounds = recordBounds();
+      const startKey = localDateKey(bounds.start);
+      const endKey = localDateKey(bounds.end);
+      const rows = studyLog.filter(row => (recordMediaFilter === 'all' || row.type === recordMediaFilter) && row.date >= startKey && row.date <= endKey);
+      if (!studyLog.length && studySeconds > 0 && recordMediaFilter === 'all' && todayKey >= startKey && todayKey <= endKey) rows.push({id:'legacy',date:todayKey,startedAt:Date.now(),type:'legacy',seconds:studySeconds});
+      const buckets = [];
+      if (bounds.hourly) {
+        for (let hour=0;hour<24;hour+=4) buckets.push({key:String(hour),label:String(hour).padStart(2,'0') + ':00',seconds:0});
+        rows.forEach(row => { const hour = new Date(row.startedAt || Date.now()).getHours(); buckets[Math.min(5,Math.floor(hour/4))].seconds += Number(row.seconds || 0); });
+      } else {
+        const cursor = new Date(bounds.start);cursor.setHours(0,0,0,0);
+        let guard = 0;
+        while (cursor <= bounds.end && guard < 370) {
+          buckets.push({key:localDateKey(cursor),label:shortDate(cursor),seconds:0});
+          cursor.setDate(cursor.getDate()+1);guard++;
+        }
+        const byKey = new Map(buckets.map(bucket => [bucket.key,bucket]));
+        rows.forEach(row => { if (byKey.has(row.date)) byKey.get(row.date).seconds += Number(row.seconds || 0); });
+      }
+      const total = rows.reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const latest = rows.slice().sort((a,b) => Number(b.startedAt || 0)-Number(a.startedAt || 0))[0];
+      const resume = $('#recordResume');
+      resume.classList.toggle('available',Boolean(latest && latest.mediaId));
+      localized($('#recordResumeKind'),latest ? (latest.type === 'video' ? 'ULTIMO FILM' : 'ULTIMO ASCOLTO') : 'NESSUN ASCOLTO',latest ? (latest.type === 'video' ? 'LAST FILM' : 'LAST LISTENING') : 'NO LISTENING');
+      $('#recordResumeTitle').textContent = latest ? (latest.name || textFor('Senza titolo','Untitled')).replace(/\.[^/.]+$/,'') : textFor('Il prossimo viaggio','Your next journey');
+      $('#recordResumeMeta').textContent = latest ? shortDate(new Date(latest.startedAt || Date.now())) + ' · ' + formatLong(latest.seconds || 0) : textFor('Importa un file per iniziare','Import a file to begin');
+      resume.onclick = async () => {
+        if (!latest || !latest.mediaId) return;
+        const saved = (await getAllMedia()).find(item => item.id === latest.mediaId);
+        if (saved) openMedia(saved,false); else showToast(textFor('Questo file non è più nella libreria locale.','This file is no longer in the local library.'));
+      };
+      $('#recordTotal').textContent = formatLong(total);
+      $('#recordSessions').textContent = String(rows.length);
+      $('#recordDays').textContent = String(new Set(rows.filter(row => row.seconds > 0).map(row => row.date)).size);
+      const rangeIt = bounds.hourly ? 'OGGI · ' + shortDate(bounds.start) : shortDate(bounds.start) + ' — ' + shortDate(bounds.end);
+      const rangeEn = bounds.hourly ? 'TODAY · ' + shortDate(bounds.start) : shortDate(bounds.start) + ' — ' + shortDate(bounds.end);
+      localized($('#recordRangeLabel'),rangeIt,rangeEn);
+
+      const videoSeconds = rows.filter(row => row.type === 'video').reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const audioSeconds = rows.filter(row => row.type === 'audio').reduce((sum,row) => sum+Number(row.seconds || 0),0);
+      const known = videoSeconds+audioSeconds;
+      const videoShare = known ? Math.round(videoSeconds/known*100) : 0;
+      $('#balanceText').textContent = known ? 'V ' + videoShare + '%' : '—';
+      $('#balanceRing').style.background = known ? 'conic-gradient(var(--scene-accent) 0 ' + videoShare + '%,var(--scene-accent-2) ' + videoShare + '% 100%)' : 'transparent';
+      localized($('#balanceNote'),known ? 'Video ' + videoShare + '% · Audio ' + (100-videoShare) + '%' : 'Ancora nessun confronto',known ? 'Video ' + videoShare + '% · Audio ' + (100-videoShare) + '%' : 'No comparison yet');
+
+      const line = $('#recordLine');
+      const shadow = $('#recordLineShadow');
+      const area = $('#recordArea');
+      const dots = $('#recordDots');
+      const axis = $('#recordAxis');
+      dots.replaceChildren();axis.replaceChildren();
+      const max = Math.max(60,...buckets.map(bucket => bucket.seconds));
+      const span = Math.max(1,buckets.length-1);
+      const points = buckets.map((bucket,index) => ({x:64+896*(index/span),y:340-270*(bucket.seconds/max),value:bucket.seconds,label:bucket.label}));
+      let path = '';
+      points.forEach((point,index) => {
+        if (!index) path = 'M' + point.x.toFixed(1) + ' ' + point.y.toFixed(1);
+        else {
+          const previous = points[index-1];
+          const middle = (previous.x+point.x)/2;
+          path += ' C' + middle.toFixed(1) + ' ' + previous.y.toFixed(1) + ' ' + middle.toFixed(1) + ' ' + point.y.toFixed(1) + ' ' + point.x.toFixed(1) + ' ' + point.y.toFixed(1);
+        }
+      });
+      line.setAttribute('d',total ? path : '');shadow.setAttribute('d',total ? path : '');
+      area.setAttribute('d',total && points.length ? path + ' L' + points[points.length-1].x + ' 365 L' + points[0].x + ' 365 Z' : '');
+      const namespace = 'http://www.w3.org/2000/svg';
+      points.forEach((point,index) => {
+        if (point.value > 0) {
+          const halo = document.createElementNS(namespace,'circle');halo.setAttribute('class','record-dot-halo');halo.setAttribute('cx',point.x);halo.setAttribute('cy',point.y);halo.setAttribute('r','8');
+          const dot = document.createElementNS(namespace,'circle');dot.setAttribute('class','record-dot');dot.setAttribute('cx',point.x);dot.setAttribute('cy',point.y);dot.setAttribute('r','4');
+          const title = document.createElementNS(namespace,'title');title.textContent = point.label + ' · ' + formatLong(point.value);dot.append(title);dots.append(halo,dot);
+        }
+        const step = Math.max(1,Math.ceil(points.length/7));
+        if (index%step === 0 || index === points.length-1) { const text = document.createElementNS(namespace,'text');text.setAttribute('x',point.x);text.setAttribute('y','389');text.setAttribute('text-anchor','middle');text.textContent = point.label;axis.append(text); }
+      });
+      $('#recordEmpty').classList.toggle('open',!total);
+    }
+
+    function setArc(el,radius,fraction) {
+      const circumference = 2*Math.PI*radius;
+      el.style.strokeDasharray = circumference;
+      el.style.strokeDashoffset = circumference*(1-Math.max(0,Math.min(1,fraction)));
+    }
+    function dayPart() {
+      const hour = basisParts().hour;
+      if (hour < 5) return {it:'notte quieta',en:'quiet night'};
+      if (hour < 12) return {it:'mattina chiara',en:'clear morning'};
+      if (hour < 18) return {it:'pomeriggio lento',en:'slow afternoon'};
+      return {it:'sera dorata',en:'golden evening'};
+    }
+    function timeQuote() {
+      const hour = basisParts().hour;
+      if (hour < 5) return {it:'Anche una città addormentata conserva una voce.',en:'Even a sleeping city keeps a voice.'};
+      if (hour < 12) return {it:'Una frase alla volta, come luce sulle persiane.',en:'One phrase at a time, like light on the shutters.'};
+      if (hour < 18) return {it:'Il tempo ascoltato non corre: si deposita.',en:'Listening time does not rush: it settles.'};
+      return {it:'La sera raccoglie le parole che hai ripetuto.',en:'Evening gathers the words you repeated.'};
+    }
+    function renderTime() {
+      const remainder = studySeconds%600 === 0 ? 600 : 600-studySeconds%600;
+      $('#studyTime').textContent = formatTime(studySeconds);
+      $('#todayTime').textContent = formatTime(todaySeconds);
+      $('#sessionTime').textContent = formatTime(sessionSeconds);
+      $('#stampCountdown').textContent = formatTime(remainder);
+      const part = dayPart();
+      const quote = timeQuote();
+      localized($('#timeOfDay'),part.it,part.en);
+      localized($('#timeQuote'),quote.it,quote.en);
+      const collected = unlockedStamps.length;
+      const choices = availableStampChoices();
+      const itReward = 'Hai raccolto ' + collected + ' ' + (collected === 1 ? 'francobollo' : 'francobolli') + (choices ? ' e hai ' + choices + ' scelta pronta.' : '. Ancora ' + formatLong(remainder) + ' per scegliere un nuovo ricordo.');
+      const enReward = 'You have collected ' + collected + ' ' + (collected === 1 ? 'stamp' : 'stamps') + (choices ? ' and have ' + choices + ' choice ready.' : '. In ' + formatLong(remainder) + ', you can choose a new memory.');
+      localized($('#timeReward'),itReward,enReward);
+      setArc($('#todayArc'),174,(todaySeconds%(60*60))/(60*60));
+      setArc($('#sessionArc'),146,(sessionSeconds%(30*60))/(30*60));
+      setArc($('#rewardArc'),118,(studySeconds%600)/600);
+      renderWindowRewards();
+    }
+    function renderWindowRewards() {
+      const row = $('#windowRow');
+      if (!row) return;
+      const cities = [
+        ['A','Roma','FINESTRA SERLIANA','CLASSICAL ARCH'],
+        ['B','Venezia','BIFORA GOTICA','GOTHIC BIFORA'],
+        ['C','Firenze','BIFORA RINASCIMENTALE','RENAISSANCE BIFORA'],
+        ['D','Bologna','FINESTRA CON SCURI','WOODEN SHUTTERS'],
+        ['E','Sicilia','FINESTRA BAROCCA','BAROQUE BALCONY']
+      ];
+      const completed = Math.floor(studySeconds/1800);
+      const floor = completed && completed%5 === 0 ? completed/5 : Math.floor(completed/5)+1;
+      const lit = completed === 0 ? 0 : (completed%5 === 0 ? 5 : completed%5);
+      row.replaceChildren();
+      cities.forEach((city,index) => {
+        const window = document.createElement('article');
+        window.className = 'study-window w' + (index+1) + (index < lit ? ' unlocked' : '');
+        const state = index < lit ? textFor('SBLOCCATA · ILLUMINATA','UNLOCKED · LIT') : (index+1)*30 + ' MIN';
+        window.innerHTML = '<span class="window-kicker">' + city[0] + ' · ' + city[1].toUpperCase() + '</span><b>' + city[1] + '</b><em>' + textFor(city[2],city[3]) + '</em><div class="window-light" aria-hidden="true"></div><small>' + state + '</small>';
+        row.append(window);
+      });
+      localized($('#windowFloor'),'PIANO ' + floor + ' · PALAZZO DEL TEMPO','FLOOR ' + floor + ' · PALACE OF TIME');
+      $('#palazzoReveal').classList.toggle('open',completed >= 5);
+    }
+
+    function applyScene(index,scroll,fromClock) {
+      sceneIndex = Math.max(0,Math.min(scenes.length-1,Number(index) || 0));
+      if (!fromClock) {
+        timeBasis = 'manual';
+        localStorage.setItem('gelato-time-basis-v7',timeBasis);
+      }
+      localStorage.setItem('gelato-scene-v7',String(sceneIndex));
+      const scene = scenes[sceneIndex];
+      applySceneTheme();
+      localized($('#sceneTitle'),scene.city + ' · ' + scene.it,scene.city + ' · ' + scene.en);
+      $$('.scene-card').forEach((card,cardIndex) => card.classList.toggle('on',cardIndex === sceneIndex));
+      $$('#timeBasisButtons button').forEach(button => button.classList.toggle('on',button.dataset.timeBasis === selectedClockBasis));
+      $('#customSceneTime').classList.toggle('open',selectedClockBasis === 'custom');
+      if (scroll !== false) {
+        const active = $('.scene-card[data-scene="' + sceneIndex + '"]');
+        if (active) active.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+      }
+      positionPocketWatch(basisParts());
+      renderSceneJourneyFooter();
+    }
+    function renderScenes() {
+      const track = $('#sceneTrack');
+      track.replaceChildren();
+      scenes.forEach((scene,index) => {
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'scene-card ' + (index === sceneIndex ? 'on' : '');
+        card.dataset.scene = index;
+        card.style.setProperty('--i',index);
+        const image = document.createElement('img');
+        image.src = scene.img;
+        image.alt = scene.city;
+        image.loading = 'lazy';
+        const time = document.createElement('small');
+        time.textContent = scene.time;
+        const city = document.createElement('b');
+        city.textContent = scene.city;
+        const period = document.createElement('small');
+        localized(period,scene.it,scene.en);
+        card.append(image,time,city,period);
+        card.onclick = () => {
+          customSceneImage = '';
+          localStorage.removeItem('gelato-custom-wallpaper-v9');
+          applyScene(index,true,false);
+        };
+        track.append(card);
+      });
+      applyScene(sceneIndex,false,timeBasis !== 'manual');
+    }
+    function renderSceneJourneyFooter() {
+      const count = $('#sceneJourneyCount');
+      const dots = $('#sceneJourneyDots');
+      const nextName = $('#sceneNextName');
+      const nextThumb = $('#sceneNextThumb');
+      if (!count || !dots || !nextName || !nextThumb) return;
+      const nextIndex = (sceneIndex + 1) % scenes.length;
+      const nextScene = scenes[nextIndex];
+      count.textContent = (sceneIndex + 1) + ' / ' + scenes.length + ' ' + textFor('SCENARI','SCENES');
+      dots.replaceChildren();
+      scenes.forEach((scene,index) => {
+        const dot = document.createElement('i');
+        if (index <= sceneIndex) dot.classList.add('done');
+        dots.append(dot);
+      });
+      nextName.textContent = String(nextIndex + 1).padStart(2,'0') + ' · ' + nextScene.city + ' · ' + textFor(nextScene.it,nextScene.en);
+      nextThumb.src = nextScene.img;
+      nextThumb.alt = nextScene.city;
+      $$('#sceneMiniWindows i').forEach((window,index) => window.classList.toggle('lit',index < Math.min(5,Math.floor(studySeconds/1800))));
+    }
+    function openSceneModePrompt(basis) {
+      pendingTimeBasis = basis;
+      const names = {'Europe/Rome':['l’ora italiana','Italian time'],'Asia/Shanghai':['l’ora di Pechino','Beijing time'],'Asia/Bangkok':['l’ora di Chiang Mai','Chiang Mai time'],custom:['l’ora scelta da te','your chosen time']};
+      const name = names[basis] || names['Europe/Rome'];
+      localized($('#sceneModeTitle'),'Come deve vivere lo sfondo?','How should the background move?');
+      localized($('#sceneModeCopy'),'Hai scelto ' + name[0] + '. Vuoi far cambiare automaticamente il paesaggio oppure tenere la scena che hai scelto a mano?','You chose ' + name[1] + '. Should the landscape change automatically, or keep the scene you selected by hand?');
+      localized($('#sceneKeepChoice'),'TIENI QUESTA SCENA','KEEP THIS SCENE');
+      localized($('#sceneFollowChoice'),'SEGUI QUEST’ORA','FOLLOW THIS CLOCK');
+      $('#sceneModeModal').classList.add('open');
+    }
+    function positionPocketWatch(parts) {
+      const watch = $('#pocketWatch');
+      if (!watch) return;
+      watch.style.left = '50%';
+      watch.style.top = '50%';
+    }
+    function updateClock() {
+      const now = new Date();
+      const parts = basisParts();
+      const hours = parts.hour%12;
+      const minutes = parts.minute;
+      const rome = zonedParts('Europe/Rome',now);
+      const local = {hour:now.getHours(),minute:now.getMinutes()};
+      const two = value => String(value).padStart(2,'0');
+      $('#watchHour').style.transform = 'rotate(' + (hours*30+minutes*.5) + 'deg)';
+      $('#watchMinute').style.transform = 'rotate(' + (minutes*6) + 'deg)';
+      $('#sceneTime').textContent = two(parts.hour) + ':' + two(minutes);
+      $('#romeTime').textContent = two(rome.hour) + ':' + two(rome.minute);
+      $('#localTime').textContent = two(local.hour) + ':' + two(local.minute);
+      updateHomeGreeting(rome.hour,rome.minute);
+      positionPocketWatch(parts);
+      if (timeBasis !== 'manual') {
+        const automatic = sceneForHour(parts.hour);
+        if (automatic !== sceneIndex) applyScene(automatic,false,true);
+      }
+      if (currentView === 'culture') renderGreeting();
+    }
+    function updateHomeGreeting(hour,minute) {
+      const greeting = hour < 5 ? ['Buonanotte','Una piccola pausa nella notte'] : hour < 12 ? ['Buongiorno','Cominciamo con calma'] : hour < 18 ? ['Buon pomeriggio','Una frase alla volta'] : hour < 23 ? ['Buonasera','Lascia fuori il rumore'] : ['Buonanotte','Ancora un ascolto, poi riposo'];
+      localized($('#homeGreeting'),greeting[0],hour < 5 || hour >= 23 ? 'Good night' : hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening');
+      const two = value => String(value).padStart(2,'0');
+      localized($('#homeGreetingTime'),two(hour) + ':' + two(minute) + ' · ' + greeting[1],two(hour) + ':' + two(minute) + ' · Rome time');
+    }
+
+    const curatedStamps = [
+      {year:'1863',title:'Vittorio Emanuele II',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Vittorio_Emanuele_II_-_1863.jpg',it:'Questo francobollo mostra Vittorio Emanuele II, il primo re d’Italia. Fu emesso nel 1863 e valeva cinque centesimi.',en:'This stamp shows Victor Emmanuel II, the first king of Italy. It was issued in 1863 and was worth five cents.'},
+      {year:'1901',title:'Aquila di Savoia',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1901_MiNr0075_pm_B002.jpg',it:'Un’aquila appare dentro una cornice di fiori. Il francobollo appartiene alla prima serie del regno di Vittorio Emanuele III.',en:'An eagle appears inside a floral frame. The stamp belongs to the first series from the reign of Victor Emmanuel III.'},
+      {year:'1930',title:'Italia turrita',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1930_MiNr0331_pm_B002.jpg',it:'La figura femminile rappresenta l’Italia. La corona con le torri è un simbolo antico del Paese.',en:'The female figure represents Italy. Her crown with towers is an old symbol of the country.'},
+      {year:'1931',title:'Amerigo Vespucci',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1931_MiNr0370_pm_B002.jpg',it:'Qui vediamo la nave Amerigo Vespucci. Il francobollo ricorda i cinquant’anni dell’Accademia Navale di Livorno.',en:'Here we see the Amerigo Vespucci ship. The stamp marks fifty years of the Naval Academy in Livorno.'},
+      {year:'1932',title:'Garibaldi e Nino Bixio',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1932_MiNr0393_pm_B002.jpg',it:'Il francobollo ricorda Giuseppe Garibaldi e Nino Bixio e una parte della storia dell’unità d’Italia.',en:'The stamp remembers Giuseppe Garibaldi and Nino Bixio and part of the story of Italian unification.'},
+      {year:'1932',title:'Ugo Foscolo',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Serie_società_pro-DanteAlighieri_-_francobolli_del_Regno_d%27Italia_-_1932_-_Ugo_foscolo.jpg',it:'Ugo Foscolo era un poeta e scrittore italiano. Scriveva di memoria, patria e vita umana.',en:'Ugo Foscolo was an Italian poet and writer. He wrote about memory, homeland and human life.'},
+      {year:'1935',title:'Leonardo da Vinci',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1935_MiNr0531_pm_B002.jpg',it:'Leonardo appare sotto un cielo con aeroplani. L’immagine collega le sue idee sul volo alla tecnologia moderna.',en:'Leonardo appears below a sky with aeroplanes. The image links his ideas about flight with modern technology.'},
+      {year:'1937',title:'Gaspare Spontini',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1937_MiNr0591_pm_B002.jpg',it:'Gaspare Spontini era un compositore italiano. Questo francobollo appartiene a una serie dedicata a italiani famosi.',en:'Gaspare Spontini was an Italian composer. This stamp belongs to a series about famous Italians.'},
+      {year:'1945',title:'Dante Alighieri',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1945_MiNr0721_mt_B002a.jpg',it:'Dante Alighieri è uno dei poeti italiani più famosi. La sua opera ha avuto un ruolo importante nella lingua italiana.',en:'Dante Alighieri is one of Italy’s most famous poets. His work played an important role in the Italian language.'},
+      {year:'1945',title:'Galileo Galilei',img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/ITA_1945_MiNr0722_mt_B002.jpg',it:'Galileo osservava il cielo e studiava la natura. Il francobollo lo presenta come uno dei grandi italiani.',en:'Galileo observed the sky and studied nature. The stamp presents him as one of the great Italians.'}
+    ];
+    const TOTAL_STAMPS = 110;
+    const stampShapes = ['portrait','landscape','square','tall','portrait','landscape','square','portrait','tall'];
+    const stamps = curatedStamps.slice();
+    while (stamps.length < TOTAL_STAMPS) {
+      const number = stamps.length+1;
+      stamps.push({
+        year:'—',
+        title:'Archivio ' + String(number).padStart(3,'0'),
+        img:null,
+        it:I18N.it.stampGeneric,
+        en:I18N.en.stampGeneric,
+        loading:true
+      });
+    }
+    let unlockedStamps = [];
+    try { unlockedStamps = JSON.parse(localStorage.getItem('gelato-unlocked-stamps-v7') || '[]'); } catch (error) { unlockedStamps = []; }
+    unlockedStamps = Array.from(new Set(unlockedStamps.map(Number).filter(index => Number.isInteger(index) && index >= 0 && index < TOTAL_STAMPS)));
+    let currentStampIndex = 0;
+    let wallPreviewTimer = null;
+    const commonsCategories = [
+      'Category:Stamps_of_the_Kingdom_of_Italy',
+      'Category:Overprints_on_stamps_of_Italy',
+      'Category:Postage_due_stamps_of_Italy',
+      'Category:Express_and_special_delivery_stamps_of_Italy',
+      'Category:Airmail_stamps_of_Italy',
+      'Category:Parcel_stamps_of_Italy'
+    ];
+    function stampPlaceholder(index) {
+      const hue = [94,35,185,12][index%4];
+      const svg =
+        '<svg xmlns="http://www.w3.org/2000/svg" width="360" height="430" viewBox="0 0 360 430">' +
+        '<rect width="360" height="430" fill="hsl(' + hue + ' 18% 76%)"/>' +
+        '<rect x="22" y="22" width="316" height="386" rx="2" fill="none" stroke="hsl(' + hue + ' 23% 35%)" stroke-width="3"/>' +
+        '<ellipse cx="180" cy="178" rx="82" ry="104" fill="none" stroke="hsl(' + hue + ' 22% 42%)" stroke-width="4"/>' +
+        '<path d="M94 302h172M112 324h136" stroke="hsl(' + hue + ' 22% 42%)" stroke-width="3"/>' +
+        '<text x="180" y="365" text-anchor="middle" font-family="serif" font-size="24" fill="hsl(' + hue + ' 25% 32%)">ITALIA · ' +
+        String(index+1).padStart(3,'0') + '</text></svg>';
+      return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+    }
+    async function loadStampArchive() {
+      const seen = new Set();
+      curatedStamps.forEach(stamp => seen.add(decodeURIComponent(stamp.img).toLowerCase()));
+      const titles = [];
+      for (const category of commonsCategories) {
+        if (titles.length >= 100) break;
+        try {
+          const url = new URL('https://commons.wikimedia.org/w/api.php');
+          url.search = new URLSearchParams({
+            action:'query',list:'categorymembers',cmtitle:category,cmtype:'file',
+            cmlimit:'100',format:'json',origin:'*'
+          }).toString();
+          const data = await fetch(url).then(response => response.ok ? response.json() : Promise.reject(new Error('archive')));
+          const members = data.query && data.query.categorymembers ? data.query.categorymembers : [];
+          for (const item of members) {
+            const file = item.title.replace(/^File:/,'');
+            if (!/\.(jpe?g|png|webp|tiff?)$/i.test(file)) continue;
+            const fileYear = file.match(/\b(18\d{2}|19\d{2}|20\d{2})\b/);
+            if (!fileYear || Number(fileYear[0]) > 1945) continue;
+            const key = file.toLowerCase();
+            if (seen.has(key) || /cover|postcard|forger|booklet/i.test(file)) continue;
+            seen.add(key);
+            titles.push({file:file,category:category});
+            if (titles.length >= 100) break;
+          }
+        } catch (error) {}
+      }
+      titles.slice(0,100).forEach((entry,itemIndex) => {
+        const index = 10+itemIndex;
+        if (index >= TOTAL_STAMPS) return;
+        const clean = entry.file
+          .replace(/\.[^.]+$/,'')
+          .replace(/[_-]+/g,' ')
+          .replace(/\b(?:MiNr|B00\d|pm|mt)\b/gi,' ')
+          .replace(/\s+/g,' ')
+          .trim();
+        const yearMatch = clean.match(/\b(18|19|20)\d{2}\b/);
+        stamps[index] = {
+          year:yearMatch ? yearMatch[0] : '—',
+          title:clean.slice(0,70) || 'Archivio ' + String(index+1),
+          img:'https://commons.wikimedia.org/wiki/Special:Redirect/file/' + encodeURIComponent(entry.file).replace(/%2F/g,'/'),
+          it:I18N.it.stampGeneric,
+          en:I18N.en.stampGeneric,
+          source:entry.category.replace('Category:','').replace(/_/g,' '),
+          loading:false
+        };
+      });
+      renderAlbum(true);
+    }
+    function earnedStampChoices() {
+      return Math.min(TOTAL_STAMPS,Math.floor(studySeconds/600));
+    }
+    function availableStampChoices() {
+      return Math.max(0,earnedStampChoices()-unlockedStamps.length);
+    }
+    function stampSize(index) {
+      const shape = stampShapes[index%stampShapes.length];
+      if (shape === 'landscape') return [82,58];
+      if (shape === 'square') return [66,66];
+      if (shape === 'tall') return [54,82];
+      return [61,78];
+    }
+    function stampButton(stamp,index) {
+      const slot = document.createElement('article');
+      slot.className = 'stamp-slot';
+      const unlocked = unlockedStamps.includes(index);
+      const size = stampSize(index);
+      const shape = stampShapes[index%stampShapes.length];
+      const position = index%10;
+      const band = Math.floor(index/10);
+      const layout = [
+        {x:50,y:246,w:164,h:188,z:92,scale:1.05,blur:0,opacity:1,rot:-1},
+        {x:12,y:220,w:108,h:132,z:34,scale:1,blur:.08,opacity:.88,rot:-4},
+        {x:87,y:210,w:118,h:140,z:42,scale:1.02,blur:0,opacity:.9,rot:4},
+        {x:25,y:72,w:76,h:96,z:-42,scale:.86,blur:.7,opacity:.62,rot:-7},
+        {x:51,y:64,w:96,h:110,z:-30,scale:.92,blur:.42,opacity:.72,rot:6},
+        {x:79,y:82,w:72,h:90,z:-54,scale:.8,blur:.82,opacity:.57,rot:8},
+        {x:26,y:404,w:92,h:110,z:-10,scale:.94,blur:.26,opacity:.76,rot:5},
+        {x:64,y:392,w:104,h:126,z:22,scale:.99,blur:.1,opacity:.84,rot:-5},
+        {x:8,y:426,w:70,h:88,z:-50,scale:.82,blur:.74,opacity:.58,rot:7},
+        {x:92,y:414,w:78,h:96,z:-36,scale:.87,blur:.52,opacity:.66,rot:-6}
+      ][position];
+      const mirrored = band%2 === 1;
+      if (position === 0) {
+        slot.classList.add('focal-stamp');
+        slot.dataset.callout = unlocked ? textFor('TOCCA IL FRANCOBOLLO','TOUCH THE STAMP') : textFor('RICORDO VELATO','VEILED MEMORY');
+      }
+      /* Each group of ten is one photographic room. The coordinates stay
+         deliberately irregular, but the focal stamp never becomes oversized. */
+      const wallX = mirrored ? 100-layout.x : layout.x;
+      const wallY = 32 + band * 520 + layout.y;
+      const shapeRatio = size[0] / size[1];
+      const wallH = layout.h;
+      const wallW = Math.max(layout.w*.78,Math.min(layout.w*1.24,wallH*shapeRatio));
+      slot.style.setProperty('--wall-x',wallX + '%');
+      slot.style.setProperty('--wall-y',wallY + 'px');
+      slot.style.setProperty('--wall-w',wallW + 'px');
+      slot.style.setProperty('--wall-h',wallH + 'px');
+      slot.style.setProperty('--wall-w-mobile',Math.round(wallW*.78) + 'px');
+      slot.style.setProperty('--wall-h-mobile',Math.round(wallH*.78) + 'px');
+      slot.style.setProperty('--sw',size[0] + 'px');
+      slot.style.setProperty('--sh',size[1] + 'px');
+      slot.style.setProperty('--dx',(((index*37)%13)-6) + 'px');
+      slot.style.setProperty('--dy',(((index*23)%15)-7) + 'px');
+      slot.style.setProperty('--rot',(mirrored ? -layout.rot : layout.rot) + 'deg');
+      slot.style.setProperty('--z',layout.z + 'px');
+      slot.style.setProperty('--depth-scale',layout.scale);
+      slot.style.setProperty('--depth-blur',layout.blur + 'px');
+      slot.style.setProperty('--depth-opacity',layout.opacity);
+      slot.style.setProperty('--float',((index*7)%4) + 's');
+      slot.style.setProperty('--delay',((index*11)%7) + 's');
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'stamp-card ' + stampShapes[index%stampShapes.length] + ' ' + (unlocked ? '' : 'locked') + ' ' + (stamp.loading ? 'loading' : '');
+      button.dataset.lock = '';
+      button.dataset.stampIndex = String(index);
+      const image = document.createElement('img');
+      image.src = stamp.img || stampPlaceholder(index);
+      image.alt = stamp.title;
+      image.loading = 'lazy';
+      image.onerror = () => {
+        image.onerror = null;
+        image.src = stampPlaceholder(index);
+      };
+      const caption = document.createElement('span');
+      caption.className = 'stamp-caption';
+      caption.textContent = stamp.year + ' · ' + stamp.title;
+      button.append(image);
+      button.onclick = () => {
+        if (!unlocked) {
+          if (availableStampChoices()) openStampChoices();
+          else {
+            const remaining = studySeconds%600 === 0 ? 600 : 600-studySeconds%600;
+            showToast(textFor('Ascolta ancora ' + formatLong(remaining) + ' per scegliere un nuovo ricordo.','Listen for ' + formatLong(remaining) + ' more to choose a new memory.'));
+          }
+          return;
+        }
+        replayStampColour(button);
+        openStampPreview(index);
+      };
+      slot.append(button,caption);
+      return slot;
+    }
+    function replayStampColour(button) {
+      if (!button) return;
+      ['color-reveal','color-live','stamp-st1','stamp-st2','stamp-st3'].forEach(name => button.classList.remove(name));
+      void button.offsetWidth;
+      button.classList.add('color-reveal');
+      (button._colourTimers || []).forEach(clearTimeout);
+      button._colourTimers = [
+        setTimeout(() => button.classList.add('stamp-st1'),260),
+        setTimeout(() => button.classList.add('stamp-st2'),640),
+        setTimeout(() => button.classList.add('stamp-st3'),1020),
+        setTimeout(() => ['color-reveal','color-live','stamp-st1','stamp-st2','stamp-st3'].forEach(name => button.classList.remove(name)),1600)
+      ];
+    }
+    let stampWallStyle = localStorage.getItem('gelato-stamp-style-v13') || 'darkroom';
+    if (!['darkroom','fog'].includes(stampWallStyle)) stampWallStyle = 'darkroom';
+    function renderAlbum(force) {
+      const signature = unlockedStamps.join(',') + '|' + stamps.filter(stamp => !stamp.loading).length + '|' + stampWallStyle;
+      $('#albumProgress').textContent = unlockedStamps.length + ' / ' + TOTAL_STAMPS;
+      $('#choiceCount').textContent = String(availableStampChoices());
+      $('#chooseStampBtn').disabled = availableStampChoices() < 1;
+      if (!force && renderAlbum.signature === signature) return;
+      renderAlbum.signature = signature;
+      const wall = $('#stampWall');
+      wall.className = 'album-wall style-' + stampWallStyle;
+      const chapters = Math.ceil(stamps.length/10);
+      wall.style.setProperty('--wall-height',Math.max(610,chapters*520 + 78) + 'px');
+      $('#stampStyle').value = stampWallStyle;
+      wall.replaceChildren();
+      stamps.forEach((stamp,index) => wall.append(stampButton(stamp,index)));
+    }
+    function choiceCandidates() {
+      const locked = stamps.map((stamp,index) => index).filter(index => !unlockedStamps.includes(index));
+      if (!locked.length) return [];
+      const start = (earnedStampChoices()*7 + unlockedStamps.length*11)%locked.length;
+      return [0,1,2].map(offset => locked[(start+offset*17)%locked.length]).filter((value,index,array) => array.indexOf(value) === index);
+    }
+    function openStampChoices() {
+      if (!availableStampChoices()) return;
+      const choices = $('#stampChoices');
+      choices.replaceChildren();
+      choiceCandidates().forEach((stampIndex,choiceIndex) => {
+        const stamp = stamps[stampIndex];
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'stamp-choice';
+        const image = document.createElement('img');
+        image.src = stamp.img || stampPlaceholder(stampIndex);
+        image.alt = '';
+        image.onerror = () => { image.onerror = null; image.src = stampPlaceholder(stampIndex); };
+        const label = document.createElement('b');
+        label.textContent = ['I','II','III'][choiceIndex] || String(choiceIndex+1);
+        const note = document.createElement('small');
+        localized(note,'RICORDO VELATO','VEILED MEMORY');
+        button.append(image,label,note);
+        button.onclick = () => unlockStamp(stampIndex);
+        choices.append(button);
+      });
+      $('#stampChoiceModal').classList.add('open');
+    }
+    function unlockStamp(index) {
+      if (!availableStampChoices() || unlockedStamps.includes(index)) return;
+      unlockedStamps.push(index);
+      localStorage.setItem('gelato-unlocked-stamps-v7',JSON.stringify(unlockedStamps));
+      $('#stampChoiceModal').classList.remove('open');
+      renderAlbum(true);
+      const card = $('.stamp-card[data-stamp-index="' + index + '"]');
+      if (card) card.scrollIntoView({behavior:'smooth',block:'center'});
+      setTimeout(() => {
+        replayStampColour(card);
+        openStampPreview(index,true);
+      },320);
+    }
+    function previewCompleteWall() {
+      const wall = $('#stampWall');
+      clearTimeout(wallPreviewTimer);
+      wall.classList.add('demo');
+      $('#albumView').classList.add('previewing');
+      $('#wallPreviewLabel').classList.add('open');
+      wallPreviewTimer = setTimeout(closeCompleteWallPreview,12000);
+    }
+    function closeCompleteWallPreview() {
+      clearTimeout(wallPreviewTimer);
+      $('#stampWall').classList.remove('demo');
+      $('#wallPreviewLabel').classList.remove('open');
+      $('#albumView').classList.remove('previewing');
+    }
+    function openStampPreview(index,force) {
+      const unlocked = unlockedStamps.includes(index);
+      if (!unlocked && !force) return;
+      currentStampIndex = index;
+      const stamp = stamps[index];
+      const source = stamp.img || stampPlaceholder(index);
+      $('#previewStampImage').src = source;
+      $('#previewStampImage').alt = stamp.title;
+      $('#previewYear').textContent = stamp.year;
+      $('#previewTitle').textContent = stamp.title;
+      localized($('#previewDescription'),'Guarda: ' + stamp.it + ' È un piccolo pezzo di storia che oggi possiamo leggere insieme.','Look: ' + stamp.en + ' It is a small piece of history we can read together today.');
+      const meta = $('#previewMeta');
+      meta.replaceChildren();
+      const archiveTag = document.createElement('span');
+      localizedKey(archiveTag,'sourceArchive');
+      meta.append(archiveTag);
+      ['WIKIMEDIA COMMONS','№ ' + String(index+1).padStart(3,'0')].forEach(value => {
+        const tag = document.createElement('span');
+        tag.textContent = value;
+        meta.append(tag);
+      });
+      renderStampWords(index);
+      $('#stampWords').classList.remove('open');
+      $('#stampPreview').classList.add('open');
+      const previewCard = $('#stampPreview .preview-card');
+      ['stamp-awakening','stamp-live','stamp-st1','stamp-st2','stamp-st3'].forEach(name => previewCard.classList.remove(name));
+      void previewCard.offsetWidth;
+      previewCard.classList.add('stamp-awakening');
+      (previewCard._awakeningTimers || []).forEach(clearTimeout);
+      previewCard._awakeningTimers = [
+        setTimeout(() => previewCard.classList.add('stamp-st1'),260),
+        setTimeout(() => previewCard.classList.add('stamp-st2'),640),
+        setTimeout(() => previewCard.classList.add('stamp-st3'),1020),
+        setTimeout(() => ['stamp-awakening','stamp-live','stamp-st1','stamp-st2','stamp-st3'].forEach(name => previewCard.classList.remove(name)),1600)
+      ];
+    }
+    function wordsForStamp(index) {
+      return [
+        {lemma:'francobollo',form:'il francobollo',syll:'fran-co-ból-lo',it:'piccola carta per la posta',en:'stamp',hint:'Pensa a una piccola finestra sulla busta.'},
+        {lemma:'guardare',form:'guarda',syll:'guar-dà-re',it:'usare gli occhi con attenzione',en:'to look',hint:'Guarda: è un invito molto comune.'},
+        {lemma:'mostrare',form:'mostra',syll:'mo-strà-re',it:'far vedere',en:'to show',hint:'Una mostra fa vedere opere.'},
+        {lemma:'storia',form:'la storia',syll:'stò-ria',it:'racconto del passato',en:'history / story',hint:'Storia può essere history o story.'},
+        {lemma:'italiano',form:'italiano',syll:'i-ta-lià-no',it:'dell’Italia',en:'Italian',hint:'Italia → italiano.'},
+        {lemma:'osservare',form:'osserva',syll:'os-ser-và-re',it:'guardare con calma',en:'to observe',hint:'È guardare più attentamente.'},
+        {lemma:'immagine',form:'l’immagine',syll:'im-mà-gi-ne',it:'figura o fotografia',en:'image',hint:'Immagina una immagine.'},
+        {lemma:'nome',form:'il nome',syll:'nó-me',it:'come si chiama qualcosa',en:'name',hint:'Come ti chiami? Il mio nome…'},
+        {lemma:'anno',form:'l’anno',syll:'àn-no',it:'dodici mesi',en:'year',hint:'Due enne: an-no.'},
+        {lemma:'valore',form:'il valore',syll:'va-ló-re',it:'quanto vale qualcosa',en:'value',hint:'Valere → valore.'}
+      ];
+    }
+    function speakItalian(text) {
+      if (!('speechSynthesis' in window)) return showToast(textFor('La voce non è disponibile su questo dispositivo.','Voice is not available on this device.'));
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'it-IT'; utterance.rate = .82;
+      const voice = speechSynthesis.getVoices().find(item => /^it(-|_)/i.test(item.lang));
+      if (voice) utterance.voice = voice;
+      speechSynthesis.speak(utterance);
+    }
+    function renderStampWords(index) {
+      const list = $('#stampWords');
+      list.replaceChildren();
+      const tools = document.createElement('header'); tools.className = 'word-tools';
+      const title = document.createElement('b'); title.textContent = textFor('10 PAROLE DA PORTARE CON TE','10 WORDS TO TAKE WITH YOU');
+      const memory = document.createElement('button'); memory.type = 'button'; memory.textContent = textFor('AIUTI MEMORIA','MEMORY HINTS');
+      memory.onclick = () => list.classList.toggle('show-hints'); tools.append(title,memory); list.append(tools);
+      wordsForStamp(index).forEach(word => {
+        const row = document.createElement('div');
+        row.className = 'word-row';
+        const left = document.createElement('b');
+        left.textContent = word.lemma + ' → ' + word.form + ' · ' + word.syll;
+        const right = document.createElement('span');
+        localized(right,word.it,word.en);
+        const play = document.createElement('button'); play.type='button'; play.className='word-audio'; play.textContent='▶'; play.onclick=()=>speakItalian(word.form);
+        const hint = document.createElement('small'); hint.className='word-hint'; hint.textContent=word.hint;
+        row.append(left,right,play,hint);
+        list.append(row);
+      });
+    }
+    function openImmersive() {
+      const stamp = stamps[currentStampIndex];
+      const source = stamp.img || stampPlaceholder(currentStampIndex);
+      $('#immersiveImage').src = source;
+      $('#immersiveImage').alt = stamp.title;
+      $('#magnifier').style.backgroundImage = 'url("' + source + '")';
+      $('#stampPreview').classList.remove('open');
+      $('#stampImmersive').classList.add('open');
+    }
+    function moveMagnifier(event) {
+      const image = $('#immersiveImage');
+      const lens = $('#magnifier');
+      const stage = $('#immersiveStage');
+      const imageRect = image.getBoundingClientRect();
+      const stageRect = stage.getBoundingClientRect();
+      const inside = event.clientX >= imageRect.left && event.clientX <= imageRect.right &&
+        event.clientY >= imageRect.top && event.clientY <= imageRect.bottom;
+      if (!inside) {
+        lens.style.display = 'none';
+        image.style.filter = 'drop-shadow(0 35px 38px rgba(0,0,0,.55)) brightness(.55)';
+        return;
+      }
+      lens.style.display = 'block';
+      image.style.filter = 'drop-shadow(0 35px 38px rgba(0,0,0,.55)) brightness(.7)';
+      const radius = lens.offsetWidth/2;
+      const x = event.clientX-imageRect.left;
+      const y = event.clientY-imageRect.top;
+      const zoom = 2.5;
+      lens.style.left = String(event.clientX-stageRect.left-radius) + 'px';
+      lens.style.top = String(event.clientY-stageRect.top-radius) + 'px';
+      lens.style.backgroundSize = String(imageRect.width*zoom) + 'px ' + String(imageRect.height*zoom) + 'px';
+      lens.style.backgroundPosition = String(radius-x*zoom) + 'px ' + String(radius-y*zoom) + 'px';
+    }
+
+    const cities = [
+      {name:'Roma',region:'Lazio',lat:41.9028,lon:12.4964,symbol:'⛲',effectIt:'Gocce di luce come una fontana.',effectEn:'Drops of light like a fountain.',it:'Roma è la tua prima luce. Ogni dieci minuti scegli un francobollo; ogni tre francobolli accendono una nuova città.',en:'Rome is your first light. Every ten minutes you choose a stamp; every three stamps light a new city.'},
+      {name:'Firenze',region:'Toscana',lat:43.7696,lon:11.2558,symbol:'✿',effectIt:'Petali di carta dal Rinascimento.',effectEn:'Paper petals from the Renaissance.',it:'Firenze si apre come un quaderno d’arte: una parola nuova diventa un piccolo disegno.',en:'Florence opens like an art notebook: a new word becomes a small drawing.'},
+      {name:'Venezia',region:'Veneto',lat:45.4408,lon:12.3155,symbol:'≈',effectIt:'Riflessi d’acqua tra i canali.',effectEn:'Water reflections between the canals.',it:'A Venezia la luce cammina sull’acqua. Ascolta il ritmo lento delle parole.',en:'In Venice, light walks on water. Listen to the slow rhythm of the words.'},
+      {name:'Bologna',region:'Emilia-Romagna',lat:44.4949,lon:11.3426,symbol:'⌒',effectIt:'Archi morbidi come i portici.',effectEn:'Soft arches like the porticoes.',it:'Bologna ti invita sotto i portici. Una frase breve può accompagnarti per tutta la strada.',en:'Bologna invites you under its porticoes. A short phrase can follow you along the whole street.'},
+      {name:'Milano',region:'Lombardia',lat:45.4642,lon:9.19,symbol:'◇',effectIt:'Linee luminose di design.',effectEn:'Bright lines of design.',it:'Milano unisce storia e design. Guarda le forme e impara parole precise.',en:'Milan joins history and design. Look at the shapes and learn precise words.'},
+      {name:'Napoli',region:'Campania',lat:40.8518,lon:14.2681,symbol:'☀',effectIt:'Un sole caldo sopra il golfo.',effectEn:'A warm sun over the gulf.',it:'Napoli parla con energia. Qui ascolti il suono vivo della città e del mare.',en:'Naples speaks with energy. Here you hear the lively sound of the city and sea.'},
+      {name:'Torino',region:'Piemonte',lat:45.0703,lon:7.6869,symbol:'◉',effectIt:'Un piccolo fotogramma di cinema.',effectEn:'A small cinema frame.',it:'Torino sembra elegante e calma. Accende una piccola scena di cinema.',en:'Turin feels elegant and calm. It lights a small cinema scene.'},
+      {name:'Bari',region:'Puglia',lat:41.1171,lon:16.8719,symbol:'〰',effectIt:'Onde chiare dell’Adriatico.',effectEn:'Clear waves of the Adriatic.',it:'Bari guarda il mare Adriatico. Impara una frase semplice per salutare sul lungomare.',en:'Bari looks over the Adriatic Sea. Learn a simple phrase for greeting someone by the sea.'},
+      {name:'Palermo',region:'Sicilia',lat:38.1157,lon:13.3615,symbol:'❋',effectIt:'Scintille color agrume.',effectEn:'Citrus-coloured sparks.',it:'Palermo mescola molte storie e molti colori. Ogni parola ha un profumo diverso.',en:'Palermo mixes many stories and colours. Every word has a different scent.'},
+      {name:'Cagliari',region:'Sardegna',lat:39.2238,lon:9.1217,symbol:'⌁',effectIt:'Una piuma rosa sul mare.',effectEn:'A pink feather over the sea.',it:'Cagliari chiude il primo viaggio. La Sardegna ti regala vento, mare e una nuova pagina.',en:'Cagliari closes the first journey. Sardinia gives you wind, sea and a new page.'}
+    ];
+    let activeCity = 0;
+    let mapLoaded = false;
+    function unlockedCityCount() {
+      return Math.min(cities.length,1+Math.floor(unlockedStamps.length/3));
+    }
+    function projectPoint(longitude,latitude) {
+      return [(longitude-6.1)/13.1*390,(47.35-latitude)/11.7*520];
+    }
+    function ringPath(ring) {
+      return ring.map((point,index) => {
+        const projected = projectPoint(point[0],point[1]);
+        return (index ? 'L' : 'M') + projected[0].toFixed(2) + ',' + projected[1].toFixed(2);
+      }).join('') + 'Z';
+    }
+    function topoArc(topology,index) {
+      const reverse = index < 0;
+      const arc = topology.arcs[reverse ? ~index : index];
+      let x = 0;
+      let y = 0;
+      const scale = topology.transform.scale;
+      const translate = topology.transform.translate;
+      const points = arc.map(delta => {
+        x += delta[0];
+        y += delta[1];
+        return [x*scale[0]+translate[0],y*scale[1]+translate[1]];
+      });
+      return reverse ? points.reverse() : points;
+    }
+    function topoRing(topology,ids) {
+      const output = [];
+      ids.forEach((id,index) => {
+        const arc = topoArc(topology,id);
+        if (index) arc.shift();
+        output.push.apply(output,arc);
+      });
+      return output;
+    }
+    function topoPath(topology,geometry) {
+      const polygons = geometry.type === 'Polygon' ? [geometry.arcs] : geometry.arcs;
+      return polygons.map(polygon => polygon.map(ring => ringPath(topoRing(topology,ring))).join('')).join('');
+    }
+    async function loadItalyMap() {
+      const svg = $('#italyMap');
+      try {
+        const response = await fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/refs/heads/master/topojson/limits_IT_regions.topo.json');
+        if (!response.ok) throw new Error('map');
+        const data = await response.json();
+        const features = data.objects.regions.geometries;
+        svg.innerHTML = features.map(feature =>
+          '<path class="region" data-region="' + feature.properties.reg_name + '" d="' + topoPath(data,feature) + '"></path>'
+        ).join('') +
+          '<text id="mapTyrrhenian" x="39" y="220" fill="#8fa9a7" opacity=".55" font-size="8">MAR TIRRENO</text>' +
+          '<text id="mapAdriatic" x="322" y="255" fill="#8fa9a7" opacity=".55" font-size="8" transform="rotate(67 322 255)">MARE ADRIATICO</text>';
+      } catch (error) {
+        svg.innerHTML = '<path class="region unlocked focus" data-region="Lazio" d="M210 34 C150 55 138 108 170 142 C131 173 155 229 207 247 C184 285 214 326 254 341 C235 378 264 428 303 473 C318 489 335 481 329 459 C315 414 294 378 303 337 C312 298 287 269 261 245 C296 199 275 154 241 127 C267 83 253 49 210 34 Z"></path><text id="mapOffline" x="200" y="520" text-anchor="middle" fill="#b8afa2" font-size="10">ITALIA · OFFLINE</text>';
+      }
+      mapLoaded = true;
+      renderMapLanguage();
+      renderJourney();
+    }
+    function renderMapLanguage() {
+      if ($('#mapTyrrhenian')) $('#mapTyrrhenian').textContent = textFor('MAR TIRRENO','TYRRHENIAN SEA');
+      if ($('#mapAdriatic')) $('#mapAdriatic').textContent = textFor('MARE ADRIATICO','ADRIATIC SEA');
+      if ($('#mapOffline')) $('#mapOffline').textContent = textFor('ITALIA · OFFLINE','ITALY · OFFLINE');
+    }
+    function renderCityPoints() {
+      const svg = $('#italyMap');
+      svg.querySelectorAll('.city-point').forEach(point => point.remove());
+      const unlocked = unlockedCityCount();
+      cities.forEach((city,index) => {
+        const projected = projectPoint(city.lon,city.lat);
+        const group = document.createElementNS('http://www.w3.org/2000/svg','g');
+        group.setAttribute('class','city-point ' + (index >= unlocked ? 'locked' : ''));
+        group.setAttribute('transform','translate(' + projected[0] + ' ' + projected[1] + ')');
+        group.innerHTML =
+          '<circle class="pulse" r="4"></circle><circle class="core" r="4"></circle>' +
+          '<text x="7" y="3">' + city.name + '</text>';
+        group.onclick = () => {
+          if (index >= unlocked) {
+            const remaining = 3-unlockedStamps.length%3;
+            showToast(textFor('Servono ancora ' + remaining + ' francobolli per accendere ' + city.name + '.',remaining + ' more stamps will light ' + city.name + '.'));
+            return;
+          }
+          activeCity = index;
+          renderJourney();
+        };
+        svg.append(group);
+      });
+    }
+    function renderJourney() {
+      if (!mapLoaded) return;
+      const unlocked = unlockedCityCount();
+      activeCity = Math.min(activeCity,unlocked-1);
+      const city = cities[activeCity];
+      $$('.region').forEach(region => {
+        const cityIndex = cities.findIndex(item => item.region === region.dataset.region);
+        region.classList.toggle('unlocked',cityIndex >= 0 && cityIndex < unlocked);
+        region.classList.toggle('focus',region.dataset.region === city.region);
+      });
+      renderCityPoints();
+      localized(
+        $('#cityRegion'),
+        city.region.toUpperCase() + ' · ' + (activeCity === 0 ? 'BENVENUTO' : 'CITTÀ ' + String(activeCity+1)),
+        city.region.toUpperCase() + ' · ' + (activeCity === 0 ? 'WELCOME' : 'CITY ' + String(activeCity+1))
+      );
+      $('#cityTitle').textContent = city.name;
+      localized($('#cityCopy'),city.it,city.en);
+      $('#cityEffect').dataset.symbol = city.symbol;
+      localized($('#cityEffect'),city.effectIt,city.effectEn);
+      $('#journeyFill').style.setProperty('--p',String(unlocked/cities.length*100) + '%');
+      localized($('#journeyText'),String(unlocked) + ' di ' + String(cities.length) + ' città illuminate',String(unlocked) + ' of ' + String(cities.length) + ' cities lit');
+      const off = $('#mapWrap').classList.contains('lights-off');
+      localized($('#lampLabel'),off ? I18N.it.lightOff : I18N.it.lightOn,off ? I18N.en.lightOff : I18N.en.lightOn);
+    }
+
+    const cultureItems = [
+      {city:0,cat:'art',title:'La Fontana di Trevi',titleEn:'The Trevi Fountain',img:scenes[4].img,it:'Guarda l’acqua! La fontana è grande e piena di statue. A Roma una piazza può diventare un teatro.',en:'Look at the water! The fountain is large and full of statues. In Rome, a square can become a theatre.',youIt:'È bellissima. L’acqua fa molto rumore?',youEn:'It is beautiful. Does the water make a lot of noise?',words:['la fontana','l’acqua','la piazza']},
+      {city:1,cat:'garden',title:'I Giardini di Boboli',titleEn:'The Boboli Gardens',img:scenes[1].img,it:'Camminiamo piano. Qui ci sono alberi, statue e piccoli sentieri. È un giardino storico di Firenze.',en:'Let us walk slowly. There are trees, statues and small paths here. It is a historic garden in Florence.',youIt:'Mi piace questo sentiero verde.',youEn:'I like this green path.',words:['il giardino','l’albero','il sentiero']},
+      {city:2,cat:'city',title:'L’acqua di Venezia',titleEn:'The water of Venice',img:scenes[5].img,it:'A Venezia molte strade sono canali. La barca piccola si chiama gondola.',en:'In Venice many streets are canals. The small boat is called a gondola.',youIt:'Andiamo in gondola?',youEn:'Shall we go in a gondola?',words:['il canale','la gondola','il ponte']},
+      {city:3,cat:'life',title:'Sotto i portici',titleEn:'Under the porticoes',img:scenes[0].img,it:'A Bologna puoi camminare sotto lunghi portici. Quando piove, sono molto utili.',en:'In Bologna you can walk under long porticoes. When it rains, they are very useful.',youIt:'Oggi piove, ma siamo al coperto.',youEn:'Today it is raining, but we are under cover.',words:['il portico','la pioggia','camminare']},
+      {city:4,cat:'gelato',title:'Un gusto curioso',titleEn:'A curious flavour',img:scenes[2].img,it:'In gelateria puoi chiedere: “Che gusto mi consiglia?” Prova due gusti, uno classico e uno nuovo.',en:'In a gelato shop you can ask: “Which flavour do you recommend?” Try two flavours, one classic and one new.',youIt:'Per me pistacchio e limone, grazie.',youEn:'Pistachio and lemon for me, thank you.',words:['il gusto','il cono','per me']},
+      {city:5,cat:'city',title:'Il golfo di Napoli',titleEn:'The Gulf of Naples',img:scenes[3].img,it:'Da Napoli vedi il mare e il Vesuvio. La città ha una voce forte e allegra.',en:'From Naples you see the sea and Vesuvius. The city has a strong and cheerful voice.',youIt:'Che bella vista sul mare!',youEn:'What a beautiful sea view!',words:['il golfo','il mare','la vista']},
+      {city:6,cat:'art',title:'Torino e il cinema',titleEn:'Turin and cinema',img:scenes[0].img,it:'Torino ha un museo del cinema dentro la Mole Antonelliana. Una città può raccontare storie con le immagini.',en:'Turin has a cinema museum inside the Mole Antonelliana. A city can tell stories with images.',youIt:'Mi piacciono i film italiani.',youEn:'I like Italian films.',words:['il cinema','il film','l’immagine']},
+      {city:7,cat:'life',title:'Buongiorno, Bari',titleEn:'Good morning, Bari',img:scenes[3].img,it:'Sul lungomare diciamo “Buongiorno!” e guardiamo le barche. Una parola semplice apre una conversazione.',en:'By the sea we say “Good morning!” and look at the boats. A simple word opens a conversation.',youIt:'Buongiorno! Come va oggi?',youEn:'Good morning! How are you today?',words:['buongiorno','come va?','la barca']},
+      {city:8,cat:'gelato',title:'Limone di Sicilia',titleEn:'Sicilian lemon',img:scenes[3].img,it:'In Sicilia trovi gusti freschi come limone e mandorla. Assaggia lentamente e descrivi il sapore.',en:'In Sicily you find fresh flavours such as lemon and almond. Taste slowly and describe the flavour.',youIt:'È fresco, dolce e un po’ aspro.',youEn:'It is fresh, sweet and a little sour.',words:['il limone','la mandorla','dolce']},
+      {city:9,cat:'city',title:'Il vento di Cagliari',titleEn:'The wind of Cagliari',img:scenes[5].img,it:'A Cagliari il vento arriva dal mare. Fermati, ascolta e scegli tre parole per il paesaggio.',en:'In Cagliari the wind comes from the sea. Stop, listen and choose three words for the landscape.',youIt:'Vedo il cielo, il mare e la luce.',youEn:'I see the sky, the sea and the light.',words:['il vento','il cielo','la luce']}
+    ];
+    let cultureFilter = 'all';
+    let activeCulture = null;
+    function greeting() {
+      const hour = basisParts().hour;
       if (hour < 5) return {it:'Buonanotte! Studiamo con calma, sotto le luci della città.',en:'Good night! Let us study calmly under the city lights.'};
       if (hour < 12) return {it:'Buongiorno! Oggi scegliamo una piccola storia e tre parole nuove.',en:'Good morning! Today we choose a small story and three new words.'};
       if (hour < 18) return {it:'Buon pomeriggio! Facciamo una piccola passeggiata insieme.',en:'Good afternoon! Let us take a small walk together.'};
@@ -292,6 +2658,7 @@ s().hour;
       updateClock();
     };
     $('#sceneVisualBtn').onclick = () => $('#sceneVisualPanel').classList.toggle('open');
+    $('#sceneNextButton').onclick = () => applyScene((sceneIndex + 1) % scenes.length,true,false);
     $$('.scene-quality button').forEach(button => button.onclick = () => {
       sceneQuality = button.dataset.sceneQuality;
       localStorage.setItem('gelato-scene-quality-v9',sceneQuality);
@@ -334,7 +2701,7 @@ s().hour;
     $('#closeWallPreview').onclick = closeCompleteWallPreview;
     $('#stampStyle').onchange = event => {
       stampWallStyle = event.target.value;
-      localStorage.setItem('gelato-stamp-style-v9',stampWallStyle);
+      localStorage.setItem('gelato-stamp-style-v13',stampWallStyle);
       renderAlbum(true);
     };
     $('#chooseStampBtn').onclick = openStampChoices;
